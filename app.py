@@ -48,13 +48,11 @@ if source == "injected":
 ev = load(RES / source / "evaluation.json")
 if ev:
     c = ev["confusion"]
-    m = st.columns(3) + st.columns(2)
+    m = st.columns(3)
     pct = lambda x: "n/a" if x is None else f"{x:.1%}"
     m[0].metric("AI error rate", pct(ev["ai_error_rate"]), help=f"{ev['ai_wrong']}/{ev['n_line_items']} line items wrong vs ground truth")
     m[1].metric("AI errors caught", c["TP"])
-    m[2].metric("False alarms", c["FP"], help="Checker flagged an item that was actually correct")
-    m[3].metric("Errors missed", c["FN"])
-    m[4].metric("Inconclusive", ev["inconclusive"]["total"],
+    m[2].metric("Inconclusive", ev["inconclusive"]["total"],
                 help=f"{ev['inconclusive']['on_wrong_items']} on wrong items, {ev['inconclusive']['on_right_items']} on right items")
     failed = [t["catalog"] for t in ev["totals"]["per_catalog"] if t.get("format_error") or t.get("ai_returned_items") == 0]
     if failed:
