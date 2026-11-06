@@ -1,0 +1,7656 @@
+{
+ "items": [
+  {
+   "index": 0,
+   "sku": "FKH-3424",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "FKH-3424",
+    "component_id": "C1",
+    "component": "carton",
+    "layers": [
+     {
+      "material": "Paper",
+      "form": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 350.0
+     }
+    ],
+    "category": "Paper/paperboard",
+    "weight_g": 2.0429
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "FAIL",
+     "expected": {
+      "nominal_g": 55.753,
+      "range_g": [
+       50.868,
+       60.906
+      ],
+      "suspected_confusion": "oz<->g (x28.35)"
+     },
+     "reported": 2.0429,
+     "explanation": "Reported value is ~28.3495x too low vs physics - matches a oz<->g (x28.35) unit confusion."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "FAIL",
+     "expected": {
+      "nominal_g": 55.753,
+      "range_g": [
+       50.868,
+       60.906
+      ]
+     },
+     "reported": 2.0429,
+     "explanation": "Reported 2.0429 g but the spec's dimensions x thickness x density give 50.9-60.9 g (nominal 55.8 g). Reported/nominal = 0.04x."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PAPER"
+     ],
+     "reported": [
+      "PAPER"
+     ],
+     "explanation": "AI layers cover all significant material families ['PAPER']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Paper/paperboard",
+     "reported": "Paper/paperboard",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Folding carton, 350 g/m2 SBS board; flat blank 382 x 417 mm.",
+   "parsed": {
+    "geometry": "sheet",
+    "dims_mm": {
+     "w": 382.0,
+     "h": 417.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PAPER",
+      "kind": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 350.0
+     }
+    ],
+    "mass_nominal_g": 55.7529,
+    "mass_range_g": [
+     50.867830902,
+     60.905583018
+    ],
+    "fractions": {
+     "PAPER": 1.0
+    },
+    "derived_category": "Paper/paperboard",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "FAIL"
+  },
+  {
+   "index": 1,
+   "sku": "FKH-3424",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "FKH-3424",
+    "component_id": "C2",
+    "component": "liner bag",
+    "layers": [
+     {
+      "material": "LLDPE",
+      "form": "film",
+      "thickness_um": 40.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "LLDPE",
+      "form": "film",
+      "thickness_um": 63.5,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Aluminum",
+      "form": "metallization",
+      "thickness_um": 0.03,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Adhesive",
+      "form": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 2.5
+     }
+    ],
+    "category": "PET flexible",
+    "weight_g": 20.465
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 20.943,
+      "range_g": [
+       17.857,
+       24.913
+      ]
+     },
+     "reported": 20.465,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 20.943,
+      "range_g": [
+       17.857,
+       24.913
+      ]
+     },
+     "reported": 20.465,
+     "explanation": "20.465 g is within the physical range 17.9-24.9 g (ratio to nominal 0.98)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PE"
+     ],
+     "reported": [
+      "ADHESIVE",
+      "METALLIZATION",
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "PASS",
+     "expected": [
+      "metallization"
+     ],
+     "reported": [
+      "metallization"
+     ],
+     "explanation": "Aluminium form (foil vs metallization) consistent with spec."
+    },
+    {
+     "rule": "category_validity",
+     "status": "FAIL",
+     "expected": "PE flexible",
+     "reported": "PET flexible",
+     "explanation": "From the spec's materials (mass fractions {'PE': '97.3%', 'METALLIZATION': '0.1%', 'ADHESIVE': '2.6%'}) the placeholder rules give 'PE flexible', not 'PET flexible'."
+    }
+   ],
+   "spec_text": "Bag-in-box liner, flat \u2014 Structure (out\u2192in): LLDPE 40 mic/metallised PE 2.5 mils. Solventless adhesive 2.5 g/m\u00b2 per interface. Dimensions per face (W x H) 299 x 358 mm.",
+   "parsed": {
+    "geometry": "flat_pouch",
+    "dims_mm": {
+     "w": 299.0,
+     "h": 358.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "LLDPE",
+      "kind": "film",
+      "thickness_um": 40.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "PE",
+      "kind": "film",
+      "thickness_um": 63.5,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ALUMINUM",
+      "kind": "metallization",
+      "thickness_um": 0.04,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ADHESIVE",
+      "kind": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 2.5
+     }
+    ],
+    "mass_nominal_g": 20.943409552,
+    "mass_range_g": [
+     17.856575892122237,
+     24.912796700656802
+    ],
+    "fractions": {
+     "PE": 0.9733409657766692,
+     "METALLIZATION": 0.0011039784110888498,
+     "ADHESIVE": 0.02555505581224189
+    },
+    "derived_category": "PE flexible",
+    "has_foil": false,
+    "has_metallization": true,
+    "uncertain": [],
+    "notes": [
+     "metallization thickness not stated; nominal 40 nm, range 10-100 nm",
+     "adhesive interfaces inferred from layer count: 1"
+    ]
+   },
+   "overall": "FAIL"
+  },
+  {
+   "index": 2,
+   "sku": "KVN-9907",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "KVN-9907",
+    "component_id": "C1",
+    "component": "flat pouch",
+    "layers": [
+     {
+      "material": "LLDPE",
+      "form": "film",
+      "thickness_um": 50.8,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Aluminum",
+      "form": "metallization",
+      "thickness_um": 0.045,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Adhesive",
+      "form": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 1.5
+     }
+    ],
+    "category": "PE flexible",
+    "weight_g": 1.669
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 2.621,
+      "range_g": [
+       2.243,
+       3.029
+      ]
+     },
+     "reported": 1.669,
+     "explanation": "Out of range, but not by a known unit-conversion factor."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "FAIL",
+     "expected": {
+      "nominal_g": 2.621,
+      "range_g": [
+       2.243,
+       3.029
+      ]
+     },
+     "reported": 1.669,
+     "explanation": "Reported 1.669 g but the spec's dimensions x thickness x density give 2.24-3.03 g (nominal 2.62 g). Reported/nominal = 0.64x."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PE"
+     ],
+     "reported": [
+      "ADHESIVE",
+      "METALLIZATION",
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "PASS",
+     "expected": [
+      "metallization"
+     ],
+     "reported": [
+      "metallization"
+     ],
+     "explanation": "Aluminium form (foil vs metallization) consistent with spec."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PE flexible",
+     "reported": "PE flexible",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "3-side-seal flat pouch \u2014 Layers: 30 \u00b5 LLDPE/2mil metallized LLDPE (OD 2.8); adhesive laminated, 1 x 1.5 gsm PU adhesive. Dimensions per face 81mm \u00d7 213mm.",
+   "parsed": {
+    "geometry": "flat_pouch",
+    "dims_mm": {
+     "w": 81.0,
+     "h": 213.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "LLDPE",
+      "kind": "film",
+      "thickness_um": 30.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "LLDPE",
+      "kind": "film",
+      "thickness_um": 50.8,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ALUMINUM",
+      "kind": "metallization",
+      "thickness_um": 0.04,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ADHESIVE",
+      "kind": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 1.5
+     }
+    ],
+    "mass_nominal_g": 2.6205236640000003,
+    "mass_range_g": [
+     2.2432401765496803,
+     3.0285275768640005
+    ],
+    "fractions": {
+     "PE": 0.9788265037395977,
+     "METALLIZATION": 0.0014221004951016543,
+     "ADHESIVE": 0.019751395765300748
+    },
+    "derived_category": "PE flexible",
+    "has_foil": false,
+    "has_metallization": true,
+    "uncertain": [],
+    "notes": [
+     "metallization thickness not stated; nominal 40 nm, range 10-100 nm"
+    ]
+   },
+   "overall": "FAIL"
+  },
+  {
+   "index": 3,
+   "sku": "CTL-5121",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "CTL-5121",
+    "component_id": "C1",
+    "component": "tray",
+    "layers": [
+     {
+      "material": "PS",
+      "form": "wall",
+      "thickness_um": 635.0,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "PS rigid",
+    "weight_g": 21.031
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "INCONCLUSIVE",
+     "expected": null,
+     "reported": 21.031,
+     "explanation": "Checker could not read the spec confidently (no wall thickness found)."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "INCONCLUSIVE",
+     "expected": null,
+     "reported": 21.031,
+     "explanation": "Checker could not read the spec confidently (no wall thickness found)."
+    },
+    {
+     "rule": "structure",
+     "status": "INCONCLUSIVE",
+     "expected": null,
+     "reported": [
+      "PS"
+     ],
+     "explanation": "Checker could not compute mass fractions from the spec: no wall thickness found"
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "INCONCLUSIVE",
+     "expected": null,
+     "reported": "PS rigid",
+     "explanation": "Category is a valid list value, but checker could not derive the expected category: no wall thickness found"
+    }
+   ],
+   "spec_text": "HIPS tray, HIPS, avg wall thickness 25, total surface 325 cm\u00b2. [thickness unit missing on supplier sheet]",
+   "parsed": {
+    "geometry": "surface",
+    "dims_mm": null,
+    "surface_cm2": 325.0,
+    "stated_weight_g": null,
+    "layers": [],
+    "mass_nominal_g": null,
+    "mass_range_g": null,
+    "fractions": null,
+    "derived_category": null,
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [
+     "no wall thickness found"
+    ],
+    "notes": []
+   },
+   "overall": "INCONCLUSIVE"
+  },
+  {
+   "index": 4,
+   "sku": "CTL-5121",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "CTL-5121",
+    "component_id": "C2",
+    "component": "film wrap",
+    "layers": [
+     {
+      "material": "PVC",
+      "form": "film",
+      "thickness_um": 12.0,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "PVC rigid",
+    "weight_g": 1.399
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.447,
+      "range_g": [
+       1.178,
+       1.74
+      ]
+     },
+     "reported": 1.399,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.447,
+      "range_g": [
+       1.178,
+       1.74
+      ]
+     },
+     "reported": 1.399,
+     "explanation": "1.399 g is within the physical range 1.18-1.74 g (ratio to nominal 0.97)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PVC"
+     ],
+     "reported": [
+      "PVC"
+     ],
+     "explanation": "AI layers cover all significant material families ['PVC']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PVC rigid",
+     "reported": "PVC rigid",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "PVC cling film wrap, gauge 12um; cut sheet 260mm \u00d7 336mm.",
+   "parsed": {
+    "geometry": "sheet",
+    "dims_mm": {
+     "w": 260.0,
+     "h": 336.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PVC",
+      "kind": "film",
+      "thickness_um": 12.0,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 1.4466815999999998,
+    "mass_range_g": [
+     1.17796363776,
+     1.73962204416
+    ],
+    "fractions": {
+     "PVC": 1.0
+    },
+    "derived_category": "PVC rigid",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": [
+     "material for 'gauge 12um' inferred from context as PVC"
+    ]
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 5,
+   "sku": "NHA-8429",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "NHA-8429",
+    "component_id": "C1",
+    "component": "tub",
+    "layers": [
+     {
+      "material": "PP",
+      "form": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "PP rigid",
+    "weight_g": 12.338
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 12.7,
+      "range_g": [
+       11.43,
+       13.97
+      ]
+     },
+     "reported": 12.338,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 12.7,
+      "range_g": [
+       11.43,
+       13.97
+      ]
+     },
+     "reported": 12.338,
+     "explanation": "12.338 g is within the physical range 11.4-14 g (ratio to nominal 0.97)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PP"
+     ],
+     "reported": [
+      "PP"
+     ],
+     "explanation": "AI layers cover all significant material families ['PP']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PP rigid",
+     "reported": "PP rigid",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Injection-moulded PP tub. Unit wt: 12.7 g.",
+   "parsed": {
+    "geometry": "stated",
+    "dims_mm": null,
+    "surface_cm2": null,
+    "stated_weight_g": 12.7,
+    "layers": [
+     {
+      "material": "PP",
+      "kind": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 12.7,
+    "mass_range_g": [
+     11.43,
+     13.97
+    ],
+    "fractions": {
+     "PP": 1.0
+    },
+    "derived_category": "PP rigid",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 6,
+   "sku": "NHA-8429",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "NHA-8429",
+    "component_id": "C2",
+    "component": "lidding",
+    "layers": [
+     {
+      "material": "Aluminum",
+      "form": "foil",
+      "thickness_um": 38.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Coating",
+      "form": "coating",
+      "thickness_um": null,
+      "grammage_gsm": 10.0
+     }
+    ],
+    "category": "Multi-material flexible laminate",
+    "weight_g": 0.972
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "INCONCLUSIVE",
+     "expected": null,
+     "reported": 0.972,
+     "explanation": "Checker could not read the spec confidently (number without a recognised unit in '10 heat-seal lacquer')."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "INCONCLUSIVE",
+     "expected": null,
+     "reported": 0.972,
+     "explanation": "Checker could not read the spec confidently (number without a recognised unit in '10 heat-seal lacquer')."
+    },
+    {
+     "rule": "structure",
+     "status": "INCONCLUSIVE",
+     "expected": null,
+     "reported": [
+      "ALUMINUM",
+      "COATING"
+     ],
+     "explanation": "Checker could not compute mass fractions from the spec: number without a recognised unit in '10 heat-seal lacquer'"
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "PASS",
+     "expected": [
+      "foil"
+     ],
+     "reported": [
+      "foil"
+     ],
+     "explanation": "Aluminium form (foil vs metallization) consistent with spec."
+    },
+    {
+     "rule": "category_validity",
+     "status": "INCONCLUSIVE",
+     "expected": null,
+     "reported": "Multi-material flexible laminate",
+     "explanation": "Category is a valid list value, but checker could not derive the expected category: number without a recognised unit in '10 heat-seal lacquer'"
+    }
+   ],
+   "spec_text": "Die-cut lid, 38 \u00b5 aluminium foil + 10 heat-seal lacquer; lid blank 4.5\" W x 3\" H. [thickness unit missing on supplier sheet]",
+   "parsed": {
+    "geometry": "sheet",
+    "dims_mm": {
+     "w": 114.3,
+     "h": 76.19999999999999,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "ALUMINUM",
+      "kind": "foil",
+      "thickness_um": 38.0,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": null,
+    "mass_range_g": null,
+    "fractions": null,
+    "derived_category": null,
+    "has_foil": true,
+    "has_metallization": false,
+    "uncertain": [
+     "number without a recognised unit in '10 heat-seal lacquer'"
+    ],
+    "notes": []
+   },
+   "overall": "INCONCLUSIVE"
+  },
+  {
+   "index": 7,
+   "sku": "ZZZ-4814",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "ZZZ-4814",
+    "component_id": "C2",
+    "component": "lidding",
+    "layers": [
+     {
+      "material": "Aluminum",
+      "form": "foil",
+      "thickness_um": 38.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Coating",
+      "form": "coating",
+      "thickness_um": null,
+      "grammage_gsm": 10.0
+     }
+    ],
+    "category": "Multi-material flexible laminate",
+    "weight_g": 0.972
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "FAIL",
+     "expected": "an SKU/component present in spec",
+     "reported": "ZZZ-4814/C2",
+     "explanation": "ZZZ-4814/C2 does not exist in the catalog (invented or mis-keyed item)."
+    }
+   ],
+   "overall": "FAIL"
+  },
+  {
+   "index": 8,
+   "sku": "NHA-8429",
+   "component_id": "C3",
+   "ai_item": {
+    "sku": "NHA-8429",
+    "component_id": "C3",
+    "component": "cap",
+    "layers": [
+     {
+      "material": "PP",
+      "form": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "PP rigid",
+    "weight_g": 13.148
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 13.6,
+      "range_g": [
+       12.24,
+       14.96
+      ]
+     },
+     "reported": 13.148,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 13.6,
+      "range_g": [
+       12.24,
+       14.96
+      ]
+     },
+     "reported": 13.148,
+     "explanation": "13.148 g is within the physical range 12.2-15 g (ratio to nominal 0.97)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PP"
+     ],
+     "reported": [
+      "PP"
+     ],
+     "explanation": "AI layers cover all significant material families ['PP']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PP rigid",
+     "reported": "PP rigid",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "PP dispensing pump (all-PP); part weight 13.6g.",
+   "parsed": {
+    "geometry": "stated",
+    "dims_mm": null,
+    "surface_cm2": null,
+    "stated_weight_g": 13.6,
+    "layers": [
+     {
+      "material": "PP",
+      "kind": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 13.6,
+    "mass_range_g": [
+     12.24,
+     14.96
+    ],
+    "fractions": {
+     "PP": 1.0
+    },
+    "derived_category": "PP rigid",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 9,
+   "sku": "HWJ-4078",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "HWJ-4078",
+    "component_id": "C1",
+    "component": "sachet",
+    "layers": [
+     {
+      "material": "Paper",
+      "form": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 60.0
+     },
+     {
+      "material": "LDPE",
+      "form": "coating",
+      "thickness_um": null,
+      "grammage_gsm": 25.0
+     },
+     {
+      "material": "Aluminum",
+      "form": "foil",
+      "thickness_um": 9.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Adhesive",
+      "form": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 2.2
+     }
+    ],
+    "category": "Paper-based multi-material",
+    "weight_g": 0.87
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.408,
+      "range_g": [
+       1.206,
+       1.624
+      ]
+     },
+     "reported": 0.87,
+     "explanation": "Out of range, but not by a known unit-conversion factor."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "FAIL",
+     "expected": {
+      "nominal_g": 1.408,
+      "range_g": [
+       1.206,
+       1.624
+      ]
+     },
+     "reported": 0.87,
+     "explanation": "Reported 0.87 g but the spec's dimensions x thickness x density give 1.21-1.62 g (nominal 1.41 g). Reported/nominal = 0.62x."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "ALUMINUM",
+      "PAPER",
+      "PE"
+     ],
+     "reported": [
+      "ADHESIVE",
+      "ALUMINUM",
+      "PAPER",
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['ALUMINUM', 'PAPER', 'PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "PASS",
+     "expected": [
+      "foil"
+     ],
+     "reported": [
+      "foil"
+     ],
+     "explanation": "Aluminium form (foil vs metallization) consistent with spec."
+    },
+    {
+     "rule": "category_validity",
+     "status": "FAIL",
+     "expected": "Multi-material flexible laminate",
+     "reported": "Paper-based multi-material",
+     "explanation": "From the spec's materials (mass fractions {'PAPER': '33.2%', 'PE': '52.1%', 'ALUMINUM': '13.5%', 'ADHESIVE': '1.2%'}) the placeholder rules give 'Multi-material flexible laminate', not 'Paper-based multi-material'."
+    }
+   ],
+   "spec_text": "Single-serve sachet. Face size 6 cm W x 6.5 cm H. Spec: 60g/m2 bleached kraft paper // 25g/m2 PE extrusion layer // 9 mic aluminium foil // 75 \u00b5m LLDPE; bonded with 2.2 gsm adhesive at each of the 1 interfaces.",
+   "parsed": {
+    "geometry": "flat_pouch",
+    "dims_mm": {
+     "w": 60.0,
+     "h": 65.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PAPER",
+      "kind": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 60.0
+     },
+     {
+      "material": "PE",
+      "kind": "coating",
+      "thickness_um": null,
+      "grammage_gsm": 25.0
+     },
+     {
+      "material": "ALUMINUM",
+      "kind": "foil",
+      "thickness_um": 9.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "LLDPE",
+      "kind": "film",
+      "thickness_um": 75.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ADHESIVE",
+      "kind": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 2.2
+     }
+    ],
+    "mass_nominal_g": 1.4079,
+    "mass_range_g": [
+     1.20570700068,
+     1.6241722894800001
+    ],
+    "fractions": {
+     "PAPER": 0.33240997229916897,
+     "PE": 0.5207756232686981,
+     "ALUMINUM": 0.13462603878116344,
+     "ADHESIVE": 0.012188365650969531
+    },
+    "derived_category": "Multi-material flexible laminate",
+    "has_foil": true,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "FAIL"
+  },
+  {
+   "index": 10,
+   "sku": "GBJ-2575",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "GBJ-2575",
+    "component_id": "C1",
+    "component": "tray",
+    "layers": [
+     {
+      "material": "PP",
+      "form": "wall",
+      "thickness_um": 500.0,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "PP rigid",
+    "weight_g": 21.486
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 21.041,
+      "range_g": [
+       17.986,
+       24.746
+      ]
+     },
+     "reported": 21.486,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 21.041,
+      "range_g": [
+       17.986,
+       24.746
+      ]
+     },
+     "reported": 21.486,
+     "explanation": "21.486 g is within the physical range 18-24.7 g (ratio to nominal 1.02)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PP"
+     ],
+     "reported": [
+      "PP"
+     ],
+     "explanation": "AI layers cover all significant material families ['PP']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PP rigid",
+     "reported": "PP rigid",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "PP thermoformed tub, PP, avg wall thickness 0.5 mm, total surface 465 cm\u00b2.",
+   "parsed": {
+    "geometry": "surface",
+    "dims_mm": null,
+    "surface_cm2": 465.0,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PP",
+      "kind": "wall",
+      "thickness_um": 500.0,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 21.04125,
+    "mass_range_g": [
+     17.986251149999998,
+     24.7456539
+    ],
+    "fractions": {
+     "PP": 1.0
+    },
+    "derived_category": "PP rigid",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 11,
+   "sku": "GBJ-2575",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "GBJ-2575",
+    "component_id": "C2",
+    "component": "film wrap",
+    "layers": [
+     {
+      "material": "PP",
+      "form": "film",
+      "thickness_um": 15.0,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "PP flexible",
+    "weight_g": 4.742
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 2.046,
+      "range_g": [
+       1.749,
+       2.406
+      ]
+     },
+     "reported": 4.742,
+     "explanation": "Out of range, but not by a known unit-conversion factor."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "FAIL",
+     "expected": {
+      "nominal_g": 2.046,
+      "range_g": [
+       1.749,
+       2.406
+      ]
+     },
+     "reported": 4.742,
+     "explanation": "Reported 4.742 g but the spec's dimensions x thickness x density give 1.75-2.41 g (nominal 2.05 g). Reported/nominal = 2.32x."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PP"
+     ],
+     "reported": [
+      "PP"
+     ],
+     "explanation": "AI layers cover all significant material families ['PP']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PP flexible",
+     "reported": "PP flexible",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Overwrap film, BOPP 15 mic; cut sheet 322mm \u00d7 468mm.",
+   "parsed": {
+    "geometry": "sheet",
+    "dims_mm": {
+     "w": 322.0,
+     "h": 468.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PP",
+      "kind": "film",
+      "thickness_um": 15.0,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 2.0456982,
+    "mass_range_g": [
+     1.7486813569679998,
+     2.4058522968480003
+    ],
+    "fractions": {
+     "PP": 1.0
+    },
+    "derived_category": "PP flexible",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "FAIL"
+  },
+  {
+   "index": 12,
+   "sku": "DTT-8468",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "DTT-8468",
+    "component_id": "C1",
+    "component": "flat pouch",
+    "layers": [
+     {
+      "material": "LLDPE",
+      "form": "film",
+      "thickness_um": 30.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "LLDPE",
+      "form": "film",
+      "thickness_um": 76.19999999999999,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Aluminum",
+      "form": "metallization",
+      "thickness_um": 0.045,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Adhesive",
+      "form": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 2.0
+     }
+    ],
+    "category": "PE flexible",
+    "weight_g": 4.15
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 4.074,
+      "range_g": [
+       3.474,
+       4.866
+      ]
+     },
+     "reported": 4.15,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 4.074,
+      "range_g": [
+       3.474,
+       4.866
+      ]
+     },
+     "reported": 4.15,
+     "explanation": "4.15 g is within the physical range 3.47-4.87 g (ratio to nominal 1.02)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PE"
+     ],
+     "reported": [
+      "ADHESIVE",
+      "METALLIZATION",
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "PASS",
+     "expected": [
+      "metallization"
+     ],
+     "reported": [
+      "metallization"
+     ],
+     "explanation": "Aluminium form (foil vs metallization) consistent with spec."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PE flexible",
+     "reported": "PE flexible",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Flat pouch. Face size 114 x 179 mm. Construction: 30 micron LLDPE/met-PE 3 mil; adhesive laminated, 1 x 2 gsm PU adhesive.",
+   "parsed": {
+    "geometry": "flat_pouch",
+    "dims_mm": {
+     "w": 114.0,
+     "h": 179.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "LLDPE",
+      "kind": "film",
+      "thickness_um": 30.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "PE",
+      "kind": "film",
+      "thickness_um": 76.19999999999999,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ALUMINUM",
+      "kind": "metallization",
+      "thickness_um": 0.04,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ADHESIVE",
+      "kind": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 2.0
+     }
+    ],
+    "mass_nominal_g": 4.073527344,
+    "mass_range_g": [
+     3.47430792431856,
+     4.866067675206721
+    ],
+    "fractions": {
+     "PE": 0.9788802949545145,
+     "METALLIZATION": 0.0010820342243417626,
+     "ADHESIVE": 0.020037670821143747
+    },
+    "derived_category": "PE flexible",
+    "has_foil": false,
+    "has_metallization": true,
+    "uncertain": [],
+    "notes": [
+     "metallization thickness not stated; nominal 40 nm, range 10-100 nm"
+    ]
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 13,
+   "sku": "EHB-9363",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "EHB-9363",
+    "component_id": "C1",
+    "component": "bottle",
+    "layers": [
+     {
+      "material": "HDPE",
+      "form": "wall",
+      "thickness_um": 762.0,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "HDPE rigid",
+    "weight_g": 49.753
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 51.231,
+      "range_g": [
+       43.633,
+       59.551
+      ]
+     },
+     "reported": 49.753,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 51.231,
+      "range_g": [
+       43.633,
+       59.551
+      ]
+     },
+     "reported": 49.753,
+     "explanation": "49.753 g is within the physical range 43.6-59.6 g (ratio to nominal 0.97)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PE"
+     ],
+     "reported": [
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "HDPE rigid",
+     "reported": "HDPE rigid",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "EBM HDPE bottle; surface area 704 cm\u00b2, average wall 30 mil HDPE.",
+   "parsed": {
+    "geometry": "surface",
+    "dims_mm": null,
+    "surface_cm2": 704.0,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "HDPE",
+      "kind": "wall",
+      "thickness_um": 762.0,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 51.230784,
+    "mass_range_g": [
+     43.632682587648006,
+     59.55145726464
+    ],
+    "fractions": {
+     "PE": 1.0
+    },
+    "derived_category": "HDPE rigid",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 14,
+   "sku": "EHB-9363",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "EHB-9363",
+    "component_id": "C2",
+    "component": "cap",
+    "layers": [
+     {
+      "material": "PP",
+      "form": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "PP rigid",
+    "weight_g": 13.045
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 13.041,
+      "range_g": [
+       11.737,
+       14.345
+      ]
+     },
+     "reported": 13.045,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 13.041,
+      "range_g": [
+       11.737,
+       14.345
+      ]
+     },
+     "reported": 13.045,
+     "explanation": "13.045 g is within the physical range 11.7-14.3 g (ratio to nominal 1.00)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PP"
+     ],
+     "reported": [
+      "PP"
+     ],
+     "explanation": "AI layers cover all significant material families ['PP']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PP rigid",
+     "reported": "PP rigid",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "PP dispensing pump (all-PP); part weight 0.46 oz.",
+   "parsed": {
+    "geometry": "stated",
+    "dims_mm": null,
+    "surface_cm2": null,
+    "stated_weight_g": 13.040780637500001,
+    "layers": [
+     {
+      "material": "PP",
+      "kind": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 13.040780637500001,
+    "mass_range_g": [
+     11.736702573750001,
+     14.344858701250002
+    ],
+    "fractions": {
+     "PP": 1.0
+    },
+    "derived_category": "PP rigid",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 15,
+   "sku": "CEC-4721",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "CEC-4721",
+    "component_id": "C1",
+    "component": "sachet",
+    "layers": [
+     {
+      "material": "Paper",
+      "form": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 80.0
+     },
+     {
+      "material": "LDPE",
+      "form": "coating",
+      "thickness_um": null,
+      "grammage_gsm": 25.0
+     },
+     {
+      "material": "Aluminum",
+      "form": "foil",
+      "thickness_um": 8.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "LLDPE",
+      "form": "film",
+      "thickness_um": 50.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Adhesive",
+      "form": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 1.8
+     }
+    ],
+    "category": "Multi-material flexible laminate",
+    "weight_g": 3.403
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 3.322,
+      "range_g": [
+       2.865,
+       3.809
+      ]
+     },
+     "reported": 3.403,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 3.322,
+      "range_g": [
+       2.865,
+       3.809
+      ]
+     },
+     "reported": 3.403,
+     "explanation": "3.403 g is within the physical range 2.87-3.81 g (ratio to nominal 1.02)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "ALUMINUM",
+      "PAPER",
+      "PE"
+     ],
+     "reported": [
+      "ADHESIVE",
+      "ALUMINUM",
+      "PAPER",
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['ALUMINUM', 'PAPER', 'PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "PASS",
+     "expected": [
+      "foil"
+     ],
+     "reported": [
+      "foil"
+     ],
+     "explanation": "Aluminium form (foil vs metallization) consistent with spec."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Multi-material flexible laminate",
+     "reported": "Multi-material flexible laminate",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Single-serve sachet \u2014 Spec: 80 g/m2 MG kraft // 25 gsm PE extrusion layer // Al foil 8 \u00b5 // LLDPE sealant 50 \u00b5; adhesive laminated, 1 x 1.8 gsm PU adhesive. Dimensions per face 89 mm W x 107 mm H.",
+   "parsed": {
+    "geometry": "flat_pouch",
+    "dims_mm": {
+     "w": 89.0,
+     "h": 107.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PAPER",
+      "kind": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 80.0
+     },
+     {
+      "material": "PE",
+      "kind": "coating",
+      "thickness_um": null,
+      "grammage_gsm": 25.0
+     },
+     {
+      "material": "ALUMINUM",
+      "kind": "foil",
+      "thickness_um": 8.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "LLDPE",
+      "kind": "film",
+      "thickness_um": 50.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ADHESIVE",
+      "kind": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 1.8
+     }
+    ],
+    "mass_nominal_g": 3.3216224000000003,
+    "mass_range_g": [
+     2.8652790439112,
+     3.8089868600232
+    ],
+    "fractions": {
+     "PAPER": 0.45871559633027525,
+     "PE": 0.40711009174311924,
+     "ALUMINUM": 0.1238532110091743,
+     "ADHESIVE": 0.010321100917431191
+    },
+    "derived_category": "Multi-material flexible laminate",
+    "has_foil": true,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 16,
+   "sku": "AVK-7611",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "AVK-7611",
+    "component_id": "C1",
+    "component": "can",
+    "layers": [
+     {
+      "material": "Aluminum",
+      "form": "wall",
+      "thickness_um": 100.0,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "Aluminum",
+    "weight_g": 8.198
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 8.143,
+      "range_g": [
+       7.013,
+       9.354
+      ]
+     },
+     "reported": 8.198,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 8.143,
+      "range_g": [
+       7.013,
+       9.354
+      ]
+     },
+     "reported": 8.198,
+     "explanation": "8.198 g is within the physical range 7.01-9.35 g (ratio to nominal 1.01)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "ALUMINUM"
+     ],
+     "reported": [
+      "ALUMINUM"
+     ],
+     "explanation": "AI layers cover all significant material families ['ALUMINUM']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "Rigid aluminium/other part; foil vs metallization not applicable."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Aluminum",
+     "reported": "Aluminum",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Aluminium beverage can (body + end), aluminium, avg wall thickness 0.1 mm, total surface 30160 mm\u00b2.",
+   "parsed": {
+    "geometry": "surface",
+    "dims_mm": null,
+    "surface_cm2": 301.6,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "ALUMINUM",
+      "kind": "wall",
+      "thickness_um": 100.0,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 8.1432,
+    "mass_range_g": [
+     7.0125872544,
+     9.353920118400001
+    ],
+    "fractions": {
+     "ALUMINUM": 1.0
+    },
+    "derived_category": "Aluminum",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 17,
+   "sku": "AVK-7611",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "AVK-7611",
+    "component_id": "C2",
+    "component": "label",
+    "layers": [
+     {
+      "material": "Paper",
+      "form": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 97.648552727661
+     }
+    ],
+    "category": "Paper/paperboard",
+    "weight_g": 1.276
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.257,
+      "range_g": [
+       1.147,
+       1.373
+      ]
+     },
+     "reported": 1.276,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.257,
+      "range_g": [
+       1.147,
+       1.373
+      ]
+     },
+     "reported": 1.276,
+     "explanation": "1.276 g is within the physical range 1.15-1.37 g (ratio to nominal 1.01)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PAPER"
+     ],
+     "reported": [
+      "PAPER"
+     ],
+     "explanation": "AI layers cover all significant material families ['PAPER']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Paper/paperboard",
+     "reported": "Paper/paperboard",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Wrap-around paper label, 60# (3000 ft\u00b2 ream) uncoated; label size 125 x 103 mm.",
+   "parsed": {
+    "geometry": "sheet",
+    "dims_mm": {
+     "w": 125.0,
+     "h": 103.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PAPER",
+      "kind": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 97.648552727661
+     }
+    ],
+    "mass_nominal_g": 1.2572251163686352,
+    "mass_range_g": [
+     1.1470670516724155,
+     1.3734178616234247
+    ],
+    "fractions": {
+     "PAPER": 1.0
+    },
+    "derived_category": "Paper/paperboard",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": [
+     "material for '60 LB3000  uncoated' inferred from context as PAPER"
+    ]
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 18,
+   "sku": "BMH-9746",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "BMH-9746",
+    "component_id": "C1",
+    "component": "carton",
+    "layers": [
+     {
+      "material": "Paper",
+      "form": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 250.0
+     }
+    ],
+    "category": "Paper/paperboard",
+    "weight_g": 43.108
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 17.944,
+      "range_g": [
+       16.372,
+       19.602
+      ]
+     },
+     "reported": 43.108,
+     "explanation": "Out of range, but not by a known unit-conversion factor."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "FAIL",
+     "expected": {
+      "nominal_g": 17.944,
+      "range_g": [
+       16.372,
+       19.602
+      ]
+     },
+     "reported": 43.108,
+     "explanation": "Reported 43.108 g but the spec's dimensions x thickness x density give 16.4-19.6 g (nominal 17.9 g). Reported/nominal = 2.40x."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PAPER"
+     ],
+     "reported": [
+      "PAPER"
+     ],
+     "explanation": "AI layers cover all significant material families ['PAPER']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Paper/paperboard",
+     "reported": "Paper/paperboard",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Folding carton, 250 g/m2 SBS board; flat blank 43.5 cm W x 16.5 cm H.",
+   "parsed": {
+    "geometry": "sheet",
+    "dims_mm": {
+     "w": 435.0,
+     "h": 165.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PAPER",
+      "kind": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 250.0
+     }
+    ],
+    "mass_nominal_g": 17.94375,
+    "mass_range_g": [
+     16.371518625,
+     19.602111375
+    ],
+    "fractions": {
+     "PAPER": 1.0
+    },
+    "derived_category": "Paper/paperboard",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "FAIL"
+  },
+  {
+   "index": 19,
+   "sku": "BMH-9746",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "BMH-9746",
+    "component_id": "C2",
+    "component": "liner bag",
+    "layers": [
+     {
+      "material": "LLDPE",
+      "form": "film",
+      "thickness_um": 75.0,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "PE flexible",
+    "weight_g": 15.771
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 15.359,
+      "range_g": [
+       13.131,
+       18.533
+      ]
+     },
+     "reported": 15.771,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 15.359,
+      "range_g": [
+       13.131,
+       18.533
+      ]
+     },
+     "reported": 15.771,
+     "explanation": "15.771 g is within the physical range 13.1-18.5 g (ratio to nominal 1.03)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PE"
+     ],
+     "reported": [
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PE flexible",
+     "reported": "PE flexible",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Inner liner bag (flat) \u2014 Structure (out\u2192in): PE 75\u00b5m. Dimensions per face (W x H) 296 x 376 mm.",
+   "parsed": {
+    "geometry": "flat_pouch",
+    "dims_mm": {
+     "w": 296.0,
+     "h": 376.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PE",
+      "kind": "film",
+      "thickness_um": 75.0,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 15.358848,
+    "mass_range_g": [
+     13.131274141440002,
+     18.532566961919997
+    ],
+    "fractions": {
+     "PE": 1.0
+    },
+    "derived_category": "PE flexible",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 20,
+   "sku": "AGS-4455",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "AGS-4455",
+    "component_id": "C1",
+    "component": "flat pouch",
+    "layers": [
+     {
+      "material": "LLDPE",
+      "form": "film",
+      "thickness_um": 25.4,
+      "grammage_gsm": null
+     },
+     {
+      "material": "LLDPE",
+      "form": "film",
+      "thickness_um": 50.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Aluminum",
+      "form": "metallization",
+      "thickness_um": 0.045,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Adhesive",
+      "form": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 1.5
+     }
+    ],
+    "category": "PE flexible",
+    "weight_g": 3.019
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 2.988,
+      "range_g": [
+       2.557,
+       3.454
+      ]
+     },
+     "reported": 3.019,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 2.988,
+      "range_g": [
+       2.557,
+       3.454
+      ]
+     },
+     "reported": 3.019,
+     "explanation": "3.019 g is within the physical range 2.56-3.45 g (ratio to nominal 1.01)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PE"
+     ],
+     "reported": [
+      "ADHESIVE",
+      "METALLIZATION",
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "PASS",
+     "expected": [
+      "metallization"
+     ],
+     "reported": [
+      "metallization"
+     ],
+     "explanation": "Aluminium form (foil vs metallization) consistent with spec."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PE flexible",
+     "reported": "PE flexible",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "3-side-seal flat pouch. Face size 4.5\" x 7.25\". Layers: LLDPE 1 mils/metallized LLDPE 50 \u00b5 (~45 nm Al). Solventless adhesive 1.5 g/m\u00b2 per interface.",
+   "parsed": {
+    "geometry": "flat_pouch",
+    "dims_mm": {
+     "w": 114.3,
+     "h": 184.14999999999998,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "LLDPE",
+      "kind": "film",
+      "thickness_um": 25.4,
+      "grammage_gsm": null
+     },
+     {
+      "material": "LLDPE",
+      "kind": "film",
+      "thickness_um": 50.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ALUMINUM",
+      "kind": "metallization",
+      "thickness_um": 0.045,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ADHESIVE",
+      "kind": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 1.5
+     }
+    ],
+    "mass_nominal_g": 2.9884229747549993,
+    "mass_range_g": [
+     2.5569253991583287,
+     3.4541035560048776
+    ],
+    "fractions": {
+     "PE": 0.9771585938765592,
+     "METALLIZATION": 0.0017115207178526402,
+     "ADHESIVE": 0.02112988540558815
+    },
+    "derived_category": "PE flexible",
+    "has_foil": false,
+    "has_metallization": true,
+    "uncertain": [],
+    "notes": [
+     "adhesive interfaces inferred from layer count: 1"
+    ]
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 21,
+   "sku": "AGS-4455",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "AGS-4455",
+    "component_id": "C2",
+    "component": "carton",
+    "layers": [
+     {
+      "material": "Paper",
+      "form": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 350.0
+     }
+    ],
+    "category": "Paper/paperboard",
+    "weight_g": 29.937
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 29.51,
+      "range_g": [
+       26.924,
+       32.237
+      ]
+     },
+     "reported": 29.937,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 29.51,
+      "range_g": [
+       26.924,
+       32.237
+      ]
+     },
+     "reported": 29.937,
+     "explanation": "29.937 g is within the physical range 26.9-32.2 g (ratio to nominal 1.01)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PAPER"
+     ],
+     "reported": [
+      "PAPER"
+     ],
+     "explanation": "AI layers cover all significant material families ['PAPER']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Paper/paperboard",
+     "reported": "Paper/paperboard",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Folding carton, 350 gsm folding boxboard (FBB); flat blank 12.75 in W x 10.25 in H.",
+   "parsed": {
+    "geometry": "sheet",
+    "dims_mm": {
+     "w": 323.84999999999997,
+     "h": 260.34999999999997,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PAPER",
+      "kind": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 350.0
+     }
+    ],
+    "mass_nominal_g": 29.51002162499999,
+    "mass_range_g": [
+     26.92435353021749,
+     32.2373378235825
+    ],
+    "fractions": {
+     "PAPER": 1.0
+    },
+    "derived_category": "Paper/paperboard",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 22,
+   "sku": "WKF-4849",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "WKF-4849",
+    "component_id": "C1",
+    "component": "carton",
+    "layers": [
+     {
+      "material": "Paper",
+      "form": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 230.0
+     },
+     {
+      "material": "Coating",
+      "form": "coating",
+      "thickness_um": null,
+      "grammage_gsm": 3.0
+     }
+    ],
+    "category": "Paper/paperboard",
+    "weight_g": 32.013
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 33.338,
+      "range_g": [
+       30.334,
+       36.508
+      ]
+     },
+     "reported": 32.013,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 33.338,
+      "range_g": [
+       30.334,
+       36.508
+      ]
+     },
+     "reported": 32.013,
+     "explanation": "32.013 g is within the physical range 30.3-36.5 g (ratio to nominal 0.96)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PAPER"
+     ],
+     "reported": [
+      "COATING",
+      "PAPER"
+     ],
+     "explanation": "AI layers cover all significant material families ['PAPER']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Paper/paperboard",
+     "reported": "Paper/paperboard",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Folding carton, 230 g/m\u00b2 folding boxboard (FBB), aqueous varnish 3 gsm; flat blank 584 x 245 mm.",
+   "parsed": {
+    "geometry": "sheet",
+    "dims_mm": {
+     "w": 584.0,
+     "h": 245.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PAPER",
+      "kind": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 230.0
+     },
+     {
+      "material": "COATING",
+      "kind": "coating",
+      "thickness_um": null,
+      "grammage_gsm": 3.0
+     }
+    ],
+    "mass_nominal_g": 33.33764,
+    "mass_range_g": [
+     30.33414756399999,
+     36.50802094800001
+    ],
+    "fractions": {
+     "PAPER": 0.9871244635193133,
+     "COATING": 0.012875536480686697
+    },
+    "derived_category": "Paper/paperboard",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 23,
+   "sku": "WKF-4849",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "WKF-4849",
+    "component_id": "C2",
+    "component": "liner bag",
+    "layers": [
+     {
+      "material": "LLDPE",
+      "form": "film",
+      "thickness_um": 25.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "LLDPE",
+      "form": "film",
+      "thickness_um": 76.19999999999999,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Aluminum",
+      "form": "metallization",
+      "thickness_um": 0.045,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Adhesive",
+      "form": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 2.5
+     }
+    ],
+    "category": "PE flexible",
+    "weight_g": 16.972
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 16.64,
+      "range_g": [
+       14.232,
+       19.239
+      ]
+     },
+     "reported": 16.972,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 16.64,
+      "range_g": [
+       14.232,
+       19.239
+      ]
+     },
+     "reported": 16.972,
+     "explanation": "16.972 g is within the physical range 14.2-19.2 g (ratio to nominal 1.02)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PE"
+     ],
+     "reported": [
+      "ADHESIVE",
+      "METALLIZATION",
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "PASS",
+     "expected": [
+      "metallization"
+     ],
+     "reported": [
+      "metallization"
+     ],
+     "explanation": "Aluminium form (foil vs metallization) consistent with spec."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PE flexible",
+     "reported": "PE flexible",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Inner liner bag (flat) \u2014 Construction: 25 \u00b5 LLDPE/metallized LLDPE 3 mils; adhesive laminated, 1 x 2.5 gsm PU adhesive. Dimensions per face (W x H) 28.5 x 30.5 cm.",
+   "parsed": {
+    "geometry": "flat_pouch",
+    "dims_mm": {
+     "w": 285.0,
+     "h": 305.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "LLDPE",
+      "kind": "film",
+      "thickness_um": 25.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "LLDPE",
+      "kind": "film",
+      "thickness_um": 76.19999999999999,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ALUMINUM",
+      "kind": "metallization",
+      "thickness_um": 0.04,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ADHESIVE",
+      "kind": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 2.5
+     }
+    ],
+    "mass_nominal_g": 16.6395312,
+    "mass_range_g": [
+     14.232159326154,
+     19.23897582918
+    ],
+    "fractions": {
+     "PE": 0.9727515880976262,
+     "METALLIZATION": 0.0011283851554663993,
+     "ADHESIVE": 0.02612002674690739
+    },
+    "derived_category": "PE flexible",
+    "has_foil": false,
+    "has_metallization": true,
+    "uncertain": [],
+    "notes": [
+     "metallization thickness not stated; nominal 40 nm, range 10-100 nm"
+    ]
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 24,
+   "sku": "TEA-1227",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "TEA-1227",
+    "component_id": "C1",
+    "component": "side-gusset bag",
+    "layers": [
+     {
+      "material": "Paper",
+      "form": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 80.0
+     },
+     {
+      "material": "LDPE",
+      "form": "coating",
+      "thickness_um": null,
+      "grammage_gsm": 12.0
+     },
+     {
+      "material": "Aluminum",
+      "form": "foil",
+      "thickness_um": 8.89,
+      "grammage_gsm": null
+     },
+     {
+      "material": "LLDPE",
+      "form": "film",
+      "thickness_um": 76.19999999999999,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Adhesive",
+      "form": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 3.0
+     }
+    ],
+    "category": "Multi-material flexible laminate",
+    "weight_g": 25.739
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 25.667,
+      "range_g": [
+       22.358,
+       29.2
+      ]
+     },
+     "reported": 25.739,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 25.667,
+      "range_g": [
+       22.358,
+       29.2
+      ]
+     },
+     "reported": 25.739,
+     "explanation": "25.739 g is within the physical range 22.4-29.2 g (ratio to nominal 1.00)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "ALUMINUM",
+      "PAPER",
+      "PE"
+     ],
+     "reported": [
+      "ADHESIVE",
+      "ALUMINUM",
+      "PAPER",
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['ALUMINUM', 'PAPER', 'PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "PASS",
+     "expected": [
+      "foil"
+     ],
+     "reported": [
+      "foil"
+     ],
+     "explanation": "Aluminium form (foil vs metallization) consistent with spec."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Multi-material flexible laminate",
+     "reported": "Multi-material flexible laminate",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Quad-seal side gusset bag \u2014 Laminate: 80 gsm MG kraft // 12 gsm LDPE extrusion coat // 0.00035 in Al foil // 3 mils LLDPE sealant; adhesive laminated, 1 x 3 gsm PU adhesive. Dimensions per face 5 in W x 12.75 in H, side gussets 3.25\" (fully opened).",
+   "parsed": {
+    "geometry": "side_gusset_bag",
+    "dims_mm": {
+     "w": 127.0,
+     "h": 323.84999999999997,
+     "g": 82.55
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PAPER",
+      "kind": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 80.0
+     },
+     {
+      "material": "LDPE",
+      "kind": "coating",
+      "thickness_um": null,
+      "grammage_gsm": 12.0
+     },
+     {
+      "material": "ALUMINUM",
+      "kind": "foil",
+      "thickness_um": 8.89,
+      "grammage_gsm": null
+     },
+     {
+      "material": "LLDPE",
+      "kind": "film",
+      "thickness_um": 76.19999999999999,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ADHESIVE",
+      "kind": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 3.0
+     }
+    ],
+    "mass_nominal_g": 25.666648747244995,
+    "mass_range_g": [
+     22.358211759402206,
+     29.199813451448875
+    ],
+    "fractions": {
+     "PAPER": 0.4230409239213778,
+     "PE": 0.4341669002205101,
+     "ALUMINUM": 0.12692814121106044,
+     "ADHESIVE": 0.015864034647051672
+    },
+    "derived_category": "Multi-material flexible laminate",
+    "has_foil": true,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 25,
+   "sku": "TEA-1227",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "TEA-1227",
+    "component_id": "C2",
+    "component": "valve",
+    "layers": [
+     {
+      "material": "PE",
+      "form": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "HDPE rigid",
+    "weight_g": 1.368
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.417,
+      "range_g": [
+       1.276,
+       1.559
+      ]
+     },
+     "reported": 1.368,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.417,
+      "range_g": [
+       1.276,
+       1.559
+      ]
+     },
+     "reported": 1.368,
+     "explanation": "1.368 g is within the physical range 1.28-1.56 g (ratio to nominal 0.97)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PE"
+     ],
+     "reported": [
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "HDPE rigid",
+     "reported": "HDPE rigid",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "One-way degassing valve (PE); part weight 0.05 oz.",
+   "parsed": {
+    "geometry": "stated",
+    "dims_mm": null,
+    "surface_cm2": null,
+    "stated_weight_g": 1.4174761562500002,
+    "layers": [
+     {
+      "material": "PE",
+      "kind": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 1.4174761562500002,
+    "mass_range_g": [
+     1.2757285406250003,
+     1.5592237718750004
+    ],
+    "fractions": {
+     "PE": 1.0
+    },
+    "derived_category": "HDPE rigid",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 26,
+   "sku": "CME-9369",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "CME-9369",
+    "component_id": "C1",
+    "component": "bottle",
+    "layers": [
+     {
+      "material": "PET",
+      "form": "wall",
+      "thickness_um": 304.79999999999995,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "PVC rigid",
+    "weight_g": 10.673
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 10.888,
+      "range_g": [
+       9.276,
+       13.044
+      ]
+     },
+     "reported": 10.673,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 10.888,
+      "range_g": [
+       9.276,
+       13.044
+      ]
+     },
+     "reported": 10.673,
+     "explanation": "10.673 g is within the physical range 9.28-13 g (ratio to nominal 0.98)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PET"
+     ],
+     "reported": [
+      "PET"
+     ],
+     "explanation": "AI layers cover all significant material families ['PET']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "FAIL",
+     "expected": "PET rigid",
+     "reported": "PVC rigid",
+     "explanation": "From the spec's materials (mass fractions {'PET': '100.0%'}) the placeholder rules give 'PET rigid', not 'PVC rigid'."
+    }
+   ],
+   "spec_text": "rPET bottle, blow-moulded; surface area 257 sq cm, average wall 12 mils PET.",
+   "parsed": {
+    "geometry": "surface",
+    "dims_mm": null,
+    "surface_cm2": 257.0,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PET",
+      "kind": "wall",
+      "thickness_um": 304.79999999999995,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 10.888370399999998,
+    "mass_range_g": [
+     9.276054977951999,
+     13.043799304272
+    ],
+    "fractions": {
+     "PET": 1.0
+    },
+    "derived_category": "PET rigid",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "FAIL"
+  },
+  {
+   "index": 27,
+   "sku": "CME-9369",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "CME-9369",
+    "component_id": "C2",
+    "component": "cap",
+    "layers": [
+     {
+      "material": "STEEL",
+      "form": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "Steel",
+    "weight_g": 8.554
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 8.4,
+      "range_g": [
+       7.56,
+       9.24
+      ]
+     },
+     "reported": 8.554,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 8.4,
+      "range_g": [
+       7.56,
+       9.24
+      ]
+     },
+     "reported": 8.554,
+     "explanation": "8.554 g is within the physical range 7.56-9.24 g (ratio to nominal 1.02)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "STEEL"
+     ],
+     "reported": [
+      "STEEL"
+     ],
+     "explanation": "AI layers cover all significant material families ['STEEL']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Steel",
+     "reported": "Steel",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Steel lug cap 63 mm. Unit wt: 8.4g.",
+   "parsed": {
+    "geometry": "stated",
+    "dims_mm": null,
+    "surface_cm2": null,
+    "stated_weight_g": 8.4,
+    "layers": [
+     {
+      "material": "STEEL",
+      "kind": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 8.4,
+    "mass_range_g": [
+     7.5600000000000005,
+     9.240000000000002
+    ],
+    "fractions": {
+     "STEEL": 1.0
+    },
+    "derived_category": "Steel",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 28,
+   "sku": "CME-9369",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "CME-9369",
+    "component_id": "C2",
+    "component": "cap",
+    "layers": [
+     {
+      "material": "STEEL",
+      "form": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "Steel",
+    "weight_g": 8.554
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "FAIL",
+     "expected": "exactly once",
+     "reported": "duplicate",
+     "explanation": "CME-9369/C2 is reported more than once (duplicate of item #27)."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 8.4,
+      "range_g": [
+       7.56,
+       9.24
+      ]
+     },
+     "reported": 8.554,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 8.4,
+      "range_g": [
+       7.56,
+       9.24
+      ]
+     },
+     "reported": 8.554,
+     "explanation": "8.554 g is within the physical range 7.56-9.24 g (ratio to nominal 1.02)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "STEEL"
+     ],
+     "reported": [
+      "STEEL"
+     ],
+     "explanation": "AI layers cover all significant material families ['STEEL']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Steel",
+     "reported": "Steel",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Steel lug cap 63 mm. Unit wt: 8.4g.",
+   "parsed": {
+    "geometry": "stated",
+    "dims_mm": null,
+    "surface_cm2": null,
+    "stated_weight_g": 8.4,
+    "layers": [
+     {
+      "material": "STEEL",
+      "kind": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 8.4,
+    "mass_range_g": [
+     7.5600000000000005,
+     9.240000000000002
+    ],
+    "fractions": {
+     "STEEL": 1.0
+    },
+    "derived_category": "Steel",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "FAIL"
+  },
+  {
+   "index": 29,
+   "sku": "PMM-4311",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "PMM-4311",
+    "component_id": "C1",
+    "component": "can",
+    "layers": [
+     {
+      "material": "STEEL",
+      "form": "wall",
+      "thickness_um": 220.0,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "Steel",
+    "weight_g": 75.088
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 75.124,
+      "range_g": [
+       64.107,
+       88.166
+      ]
+     },
+     "reported": 75.088,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 75.124,
+      "range_g": [
+       64.107,
+       88.166
+      ]
+     },
+     "reported": 75.088,
+     "explanation": "75.088 g is within the physical range 64.1-88.2 g (ratio to nominal 1.00)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "STEEL"
+     ],
+     "reported": [
+      "STEEL"
+     ],
+     "explanation": "AI layers cover all significant material families ['STEEL']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Steel",
+     "reported": "Steel",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "3-piece steel can; surface area 435 cm2, average wall 0.22 mm tinplate.",
+   "parsed": {
+    "geometry": "surface",
+    "dims_mm": null,
+    "surface_cm2": 435.0,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "STEEL",
+      "kind": "wall",
+      "thickness_um": 220.0,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 75.1245,
+    "mass_range_g": [
+     64.10742029999999,
+     88.16594094000001
+    ],
+    "fractions": {
+     "STEEL": 1.0
+    },
+    "derived_category": "Steel",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 30,
+   "sku": "PMM-4311",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "PMM-4311",
+    "component_id": "C2",
+    "component": "label",
+    "layers": [
+     {
+      "material": "Paper",
+      "form": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 81.3737939397175
+     }
+    ],
+    "category": "Paper/paperboard",
+    "weight_g": 1.697
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.7,
+      "range_g": [
+       1.551,
+       1.857
+      ]
+     },
+     "reported": 1.697,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.7,
+      "range_g": [
+       1.551,
+       1.857
+      ]
+     },
+     "reported": 1.697,
+     "explanation": "1.697 g is within the physical range 1.55-1.86 g (ratio to nominal 1.00)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PAPER"
+     ],
+     "reported": [
+      "PAPER"
+     ],
+     "explanation": "AI layers cover all significant material families ['PAPER']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Paper/paperboard",
+     "reported": "Paper/paperboard",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Wrap-around paper label, 50# (3000 ft\u00b2 ream) uncoated; label size 9.25 in W x 3.5 in H.",
+   "parsed": {
+    "geometry": "sheet",
+    "dims_mm": {
+     "w": 234.95,
+     "h": 88.89999999999999,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PAPER",
+      "kind": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 81.3737939397175
+     }
+    ],
+    "mass_nominal_g": 1.699658909577546,
+    "mass_range_g": [
+     1.550734795920361,
+     1.8567413860007032
+    ],
+    "fractions": {
+     "PAPER": 1.0
+    },
+    "derived_category": "Paper/paperboard",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": [
+     "material for '50 LB3000  uncoated' inferred from context as PAPER"
+    ]
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 31,
+   "sku": "JEF-8780",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "JEF-8780",
+    "component_id": "C1",
+    "component": "flat pouch",
+    "layers": [
+     {
+      "material": "LLDPE",
+      "form": "film",
+      "thickness_um": 25.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "LLDPE",
+      "form": "film",
+      "thickness_um": 50.8,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Aluminum",
+      "form": "metallization",
+      "thickness_um": 0.05,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Adhesive",
+      "form": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 1.8
+     }
+    ],
+    "category": "PE flexible",
+    "weight_g": 4.284
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 4.193,
+      "range_g": [
+       3.573,
+       5.003
+      ]
+     },
+     "reported": 4.284,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 4.193,
+      "range_g": [
+       3.573,
+       5.003
+      ]
+     },
+     "reported": 4.284,
+     "explanation": "4.284 g is within the physical range 3.57-5 g (ratio to nominal 1.02)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PE"
+     ],
+     "reported": [
+      "ADHESIVE",
+      "METALLIZATION",
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "PASS",
+     "expected": [
+      "metallization"
+     ],
+     "reported": [
+      "metallization"
+     ],
+     "explanation": "Aluminium form (foil vs metallization) consistent with spec."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PE flexible",
+     "reported": "PE flexible",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Flat pouch \u2014 Build (outside first): LLDPE 25 mic/2 mils metallised PE; bonded with 1.8 gsm adhesive at each of the 1 interfaces. Dimensions per face 118 x 248 mm.",
+   "parsed": {
+    "geometry": "flat_pouch",
+    "dims_mm": {
+     "w": 118.0,
+     "h": 248.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "LLDPE",
+      "kind": "film",
+      "thickness_um": 25.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "PE",
+      "kind": "film",
+      "thickness_um": 50.8,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ALUMINUM",
+      "kind": "metallization",
+      "thickness_um": 0.04,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ADHESIVE",
+      "kind": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 1.8
+     }
+    ],
+    "mass_nominal_g": 4.193180031999999,
+    "mass_range_g": [
+     3.57326572746752,
+     5.003058237707521
+    ],
+    "fractions": {
+     "PE": 0.9733683211434314,
+     "METALLIZATION": 0.0015074535201831279,
+     "ADHESIVE": 0.02512422533638546
+    },
+    "derived_category": "PE flexible",
+    "has_foil": false,
+    "has_metallization": true,
+    "uncertain": [],
+    "notes": [
+     "metallization thickness not stated; nominal 40 nm, range 10-100 nm"
+    ]
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 32,
+   "sku": "SJJ-1605",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "SJJ-1605",
+    "component_id": "C1",
+    "component": "side-gusset bag",
+    "layers": [
+     {
+      "material": "Paper",
+      "form": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 81.3737939397175
+     },
+     {
+      "material": "LDPE",
+      "form": "coating",
+      "thickness_um": null,
+      "grammage_gsm": 15.0
+     }
+    ],
+    "category": "Paper-based multi-material",
+    "weight_g": 18.104
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 8.457,
+      "range_g": [
+       7.463,
+       9.512
+      ]
+     },
+     "reported": 18.104,
+     "explanation": "Out of range, but not by a known unit-conversion factor."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "FAIL",
+     "expected": {
+      "nominal_g": 8.457,
+      "range_g": [
+       7.463,
+       9.512
+      ]
+     },
+     "reported": 18.104,
+     "explanation": "Reported 18.104 g but the spec's dimensions x thickness x density give 7.46-9.51 g (nominal 8.46 g). Reported/nominal = 2.14x."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PAPER",
+      "PE"
+     ],
+     "reported": [
+      "PAPER",
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['PAPER', 'PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Paper-based multi-material",
+     "reported": "Paper-based multi-material",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Side-gusset bag \u2014 Spec: 50# (3000 ft\u00b2 ream) natural kraft // 15 g/m2 PE extrusion coat. Dimensions per face 11cm \u00d7 22.5cm; side gussets depth 8.5 cm unfolded.",
+   "parsed": {
+    "geometry": "side_gusset_bag",
+    "dims_mm": {
+     "w": 110.0,
+     "h": 225.0,
+     "g": 85.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PAPER",
+      "kind": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 81.3737939397175
+     },
+     {
+      "material": "PE",
+      "kind": "coating",
+      "thickness_um": null,
+      "grammage_gsm": 15.0
+     }
+    ],
+    "mass_nominal_g": 8.45680041821021,
+    "mass_range_g": [
+     7.4629902655666305,
+     9.5122632128612
+    ],
+    "fractions": {
+     "PAPER": 0.8443560288870374,
+     "PE": 0.15564397111296258
+    },
+    "derived_category": "Paper-based multi-material",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "FAIL"
+  },
+  {
+   "index": 33,
+   "sku": "SJJ-1605",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "SJJ-1605",
+    "component_id": "C2",
+    "component": "valve",
+    "layers": [
+     {
+      "material": "PE",
+      "form": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "HDPE rigid",
+    "weight_g": 1.431
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.417,
+      "range_g": [
+       1.276,
+       1.559
+      ]
+     },
+     "reported": 1.431,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.417,
+      "range_g": [
+       1.276,
+       1.559
+      ]
+     },
+     "reported": 1.431,
+     "explanation": "1.431 g is within the physical range 1.28-1.56 g (ratio to nominal 1.01)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PE"
+     ],
+     "reported": [
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "HDPE rigid",
+     "reported": "HDPE rigid",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "One-way degassing valve (PE). Unit wt: 0.05 oz.",
+   "parsed": {
+    "geometry": "stated",
+    "dims_mm": null,
+    "surface_cm2": null,
+    "stated_weight_g": 1.4174761562500002,
+    "layers": [
+     {
+      "material": "PE",
+      "kind": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 1.4174761562500002,
+    "mass_range_g": [
+     1.2757285406250003,
+     1.5592237718750004
+    ],
+    "fractions": {
+     "PE": 1.0
+    },
+    "derived_category": "HDPE rigid",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 34,
+   "sku": "SJJ-1605",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "SJJ-1605",
+    "component_id": "C2",
+    "component": "valve",
+    "layers": [
+     {
+      "material": "PE",
+      "form": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "HDPE rigid",
+    "weight_g": 1.431
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "FAIL",
+     "expected": "exactly once",
+     "reported": "duplicate",
+     "explanation": "SJJ-1605/C2 is reported more than once (duplicate of item #33)."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.417,
+      "range_g": [
+       1.276,
+       1.559
+      ]
+     },
+     "reported": 1.431,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.417,
+      "range_g": [
+       1.276,
+       1.559
+      ]
+     },
+     "reported": 1.431,
+     "explanation": "1.431 g is within the physical range 1.28-1.56 g (ratio to nominal 1.01)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PE"
+     ],
+     "reported": [
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "HDPE rigid",
+     "reported": "HDPE rigid",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "One-way degassing valve (PE). Unit wt: 0.05 oz.",
+   "parsed": {
+    "geometry": "stated",
+    "dims_mm": null,
+    "surface_cm2": null,
+    "stated_weight_g": 1.4174761562500002,
+    "layers": [
+     {
+      "material": "PE",
+      "kind": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 1.4174761562500002,
+    "mass_range_g": [
+     1.2757285406250003,
+     1.5592237718750004
+    ],
+    "fractions": {
+     "PE": 1.0
+    },
+    "derived_category": "HDPE rigid",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "FAIL"
+  },
+  {
+   "index": 35,
+   "sku": "WBN-2480",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "WBN-2480",
+    "component_id": "C1",
+    "component": "tray",
+    "layers": [
+     {
+      "material": "PVC",
+      "form": "wall",
+      "thickness_um": 250.0,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "PVC rigid",
+    "weight_g": 4768.0
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "FAIL",
+     "expected": {
+      "nominal_g": 4.941,
+      "range_g": [
+       4.023,
+       5.942
+      ],
+      "suspected_confusion": "kg<->g or g<->mg (x1000)"
+     },
+     "reported": 4768.0,
+     "explanation": "Reported value is ~1000x too high vs physics - matches a kg<->g or g<->mg (x1000) unit confusion."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "FAIL",
+     "expected": {
+      "nominal_g": 4.941,
+      "range_g": [
+       4.023,
+       5.942
+      ]
+     },
+     "reported": 4768.0,
+     "explanation": "Reported 4768 g but the spec's dimensions x thickness x density give 4.02-5.94 g (nominal 4.94 g). Reported/nominal = 964.93x."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PVC"
+     ],
+     "reported": [
+      "PVC"
+     ],
+     "explanation": "AI layers cover all significant material families ['PVC']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PVC rigid",
+     "reported": "PVC rigid",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "PVC blister cavity tray; surface area 22.2 sq in, average wall 250 micron PVC.",
+   "parsed": {
+    "geometry": "surface",
+    "dims_mm": null,
+    "surface_cm2": 143.22552,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PVC",
+      "kind": "wall",
+      "thickness_um": 250.0,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 4.94128044,
+    "mass_range_g": [
+     4.023448340183999,
+     5.941846761443999
+    ],
+    "fractions": {
+     "PVC": 1.0
+    },
+    "derived_category": "PVC rigid",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "FAIL"
+  },
+  {
+   "index": 36,
+   "sku": "WBN-2480",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "WBN-2480",
+    "component_id": "C2",
+    "component": "film wrap",
+    "layers": [
+     {
+      "material": "LDPE",
+      "form": "film",
+      "thickness_um": 12.0,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "PE flexible",
+    "weight_g": 1.606
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.584,
+      "range_g": [
+       1.354,
+       1.852
+      ]
+     },
+     "reported": 1.606,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.584,
+      "range_g": [
+       1.354,
+       1.852
+      ]
+     },
+     "reported": 1.606,
+     "explanation": "1.606 g is within the physical range 1.35-1.85 g (ratio to nominal 1.01)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PE"
+     ],
+     "reported": [
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PE flexible",
+     "reported": "PE flexible",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "LDPE wrap, gauge 12 micron; cut sheet 417mm \u00d7 344mm.",
+   "parsed": {
+    "geometry": "sheet",
+    "dims_mm": {
+     "w": 417.0,
+     "h": 344.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "LDPE",
+      "kind": "film",
+      "thickness_um": 12.0,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 1.58366592,
+    "mass_range_g": [
+     1.3539785890176,
+     1.8518108564736
+    ],
+    "fractions": {
+     "PE": 1.0
+    },
+    "derived_category": "PE flexible",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": [
+     "material for 'gauge 12 micron' inferred from context as LDPE"
+    ]
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 37,
+   "sku": "ZZZ-5678",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "ZZZ-5678",
+    "component_id": "C2",
+    "component": "film wrap",
+    "layers": [
+     {
+      "material": "LDPE",
+      "form": "film",
+      "thickness_um": 12.0,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "PE flexible",
+    "weight_g": 1.606
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "FAIL",
+     "expected": "an SKU/component present in spec",
+     "reported": "ZZZ-5678/C2",
+     "explanation": "ZZZ-5678/C2 does not exist in the catalog (invented or mis-keyed item)."
+    }
+   ],
+   "overall": "FAIL"
+  },
+  {
+   "index": 38,
+   "sku": "WMK-7771",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "WMK-7771",
+    "component_id": "C1",
+    "component": "side-gusset bag",
+    "layers": [
+     {
+      "material": "PET",
+      "form": "film",
+      "thickness_um": 23.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "PET",
+      "form": "film",
+      "thickness_um": 23.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Aluminum",
+      "form": "metallization",
+      "thickness_um": 0.035,
+      "grammage_gsm": null
+     },
+     {
+      "material": "LDPE",
+      "form": "film",
+      "thickness_um": 100.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Adhesive",
+      "form": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 2.0
+     },
+     {
+      "material": "Adhesive",
+      "form": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 2.0
+     }
+    ],
+    "category": "Multi-material flexible laminate",
+    "weight_g": 17.889
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 17.941,
+      "range_g": [
+       15.25,
+       21.646
+      ]
+     },
+     "reported": 17.889,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 17.941,
+      "range_g": [
+       15.25,
+       21.646
+      ]
+     },
+     "reported": 17.889,
+     "explanation": "17.889 g is within the physical range 15.2-21.6 g (ratio to nominal 1.00)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PE",
+      "PET"
+     ],
+     "reported": [
+      "ADHESIVE",
+      "METALLIZATION",
+      "PE",
+      "PET"
+     ],
+     "explanation": "AI layers cover all significant material families ['PE', 'PET']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "PASS",
+     "expected": [
+      "metallization"
+     ],
+     "reported": [
+      "metallization"
+     ],
+     "explanation": "Aluminium form (foil vs metallization) consistent with spec."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Multi-material flexible laminate",
+     "reported": "Multi-material flexible laminate",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Side-gusset bag \u2014 Spec: BOPET 23um/23 mic metallized PET/100um polyethylene; adhesive laminated, 2 x 2 gsm PU adhesive. Dimensions per face (W x H) 11 x 29.5 cm, side gussets 8 cm (fully opened).",
+   "parsed": {
+    "geometry": "side_gusset_bag",
+    "dims_mm": {
+     "w": 110.0,
+     "h": 295.0,
+     "g": 80.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PET",
+      "kind": "film",
+      "thickness_um": 23.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "PET",
+      "kind": "film",
+      "thickness_um": 23.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ALUMINUM",
+      "kind": "metallization",
+      "thickness_um": 0.04,
+      "grammage_gsm": null
+     },
+     {
+      "material": "PE",
+      "kind": "film",
+      "thickness_um": 100.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ADHESIVE",
+      "kind": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 2.0
+     },
+     {
+      "material": "ADHESIVE",
+      "kind": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 2.0
+     }
+    ],
+    "mass_nominal_g": 17.9413808,
+    "mass_range_g": [
+     15.249608915716001,
+     21.64561293096
+    ],
+    "fractions": {
+     "PET": 0.3995051484554633,
+     "METALLIZATION": 0.0006747975607317805,
+     "PE": 0.5748275517344796,
+     "ADHESIVE": 0.024992502249325203
+    },
+    "derived_category": "Multi-material flexible laminate",
+    "has_foil": false,
+    "has_metallization": true,
+    "uncertain": [],
+    "notes": [
+     "metallization thickness not stated; nominal 40 nm, range 10-100 nm"
+    ]
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 39,
+   "sku": "WMK-7771",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "WMK-7771",
+    "component_id": "C2",
+    "component": "valve",
+    "layers": [
+     {
+      "material": "PE",
+      "form": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "HDPE rigid",
+    "weight_g": 1.551
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.6,
+      "range_g": [
+       1.44,
+       1.76
+      ]
+     },
+     "reported": 1.551,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.6,
+      "range_g": [
+       1.44,
+       1.76
+      ]
+     },
+     "reported": 1.551,
+     "explanation": "1.551 g is within the physical range 1.44-1.76 g (ratio to nominal 0.97)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PE"
+     ],
+     "reported": [
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "HDPE rigid",
+     "reported": "HDPE rigid",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "One-way degassing valve (PE), weighs 1.6 g.",
+   "parsed": {
+    "geometry": "stated",
+    "dims_mm": null,
+    "surface_cm2": null,
+    "stated_weight_g": 1.6,
+    "layers": [
+     {
+      "material": "PE",
+      "kind": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 1.6,
+    "mass_range_g": [
+     1.4400000000000002,
+     1.7600000000000002
+    ],
+    "fractions": {
+     "PE": 1.0
+    },
+    "derived_category": "HDPE rigid",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 40,
+   "sku": "FMK-3151",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "FMK-3151",
+    "component_id": "C1",
+    "component": "carton",
+    "layers": [
+     {
+      "material": "Paper",
+      "form": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 250.0
+     }
+    ],
+    "category": "Paper/paperboard",
+    "weight_g": 33.104
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 33.92,
+      "range_g": [
+       30.948,
+       37.055
+      ]
+     },
+     "reported": 33.104,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 33.92,
+      "range_g": [
+       30.948,
+       37.055
+      ]
+     },
+     "reported": 33.104,
+     "explanation": "33.104 g is within the physical range 30.9-37.1 g (ratio to nominal 0.98)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PAPER"
+     ],
+     "reported": [
+      "PAPER"
+     ],
+     "explanation": "AI layers cover all significant material families ['PAPER']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Paper/paperboard",
+     "reported": "Paper/paperboard",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Folding carton, 250 g/m\u00b2 CUK board; flat blank 273 x 497 mm.",
+   "parsed": {
+    "geometry": "sheet",
+    "dims_mm": {
+     "w": 273.0,
+     "h": 497.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PAPER",
+      "kind": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 250.0
+     }
+    ],
+    "mass_nominal_g": 33.920249999999996,
+    "mass_range_g": [
+     30.948157695000006,
+     37.05515950499999
+    ],
+    "fractions": {
+     "PAPER": 1.0
+    },
+    "derived_category": "Paper/paperboard",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 41,
+   "sku": "MHN-5406",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "MHN-5406",
+    "component_id": "C1",
+    "component": "sachet",
+    "layers": [
+     {
+      "material": "Paper",
+      "form": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 80.0
+     },
+     {
+      "material": "LDPE",
+      "form": "coating",
+      "thickness_um": null,
+      "grammage_gsm": 18.0
+     },
+     {
+      "material": "Aluminum",
+      "form": "foil",
+      "thickness_um": 7.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "LLDPE",
+      "form": "film",
+      "thickness_um": 50.8,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Adhesive",
+      "form": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 1.8
+     }
+    ],
+    "category": "Multi-material flexible laminate",
+    "weight_g": 2.346
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 2.428,
+      "range_g": [
+       2.109,
+       2.769
+      ]
+     },
+     "reported": 2.346,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 2.428,
+      "range_g": [
+       2.109,
+       2.769
+      ]
+     },
+     "reported": 2.346,
+     "explanation": "2.346 g is within the physical range 2.11-2.77 g (ratio to nominal 0.97)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "ALUMINUM",
+      "PAPER",
+      "PE"
+     ],
+     "reported": [
+      "ADHESIVE",
+      "ALUMINUM",
+      "PAPER",
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['ALUMINUM', 'PAPER', 'PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "PASS",
+     "expected": [
+      "foil"
+     ],
+     "reported": [
+      "foil"
+     ],
+     "explanation": "Aluminium form (foil vs metallization) consistent with spec."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Multi-material flexible laminate",
+     "reported": "Multi-material flexible laminate",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Single-serve sachet. Face size 3.5\" x 3.25\". Spec: 80 gsm bleached kraft paper / 18 gsm PE extrusion layer / 7 \u00b5 Al foil / 2 mil LLDPE. Solventless adhesive 1.8 g/m\u00b2 per interface.",
+   "parsed": {
+    "geometry": "flat_pouch",
+    "dims_mm": {
+     "w": 88.89999999999999,
+     "h": 82.55,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PAPER",
+      "kind": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 80.0
+     },
+     {
+      "material": "PE",
+      "kind": "coating",
+      "thickness_um": null,
+      "grammage_gsm": 18.0
+     },
+     {
+      "material": "ALUMINUM",
+      "kind": "foil",
+      "thickness_um": 7.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "LLDPE",
+      "kind": "film",
+      "thickness_um": 50.8,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ADHESIVE",
+      "kind": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 1.8
+     }
+    ],
+    "mass_nominal_g": 2.4281686920399994,
+    "mass_range_g": [
+     2.1092204991505645,
+     2.7686072657421357
+    ],
+    "fractions": {
+     "PAPER": 0.483570685945018,
+     "PE": 0.3913053990667086,
+     "ALUMINUM": 0.11424357455451054,
+     "ADHESIVE": 0.010880340433762906
+    },
+    "derived_category": "Multi-material flexible laminate",
+    "has_foil": true,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": [
+     "adhesive interfaces inferred from layer count: 1"
+    ]
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 42,
+   "sku": "GPL-1707",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "GPL-1707",
+    "component_id": "C1",
+    "component": "glass jar",
+    "layers": [
+     {
+      "material": "GLASS",
+      "form": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "Glass",
+    "weight_g": 339.523
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 326.6,
+      "range_g": [
+       293.94,
+       359.26
+      ]
+     },
+     "reported": 339.523,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 326.6,
+      "range_g": [
+       293.94,
+       359.26
+      ]
+     },
+     "reported": 339.523,
+     "explanation": "339.523 g is within the physical range 294-359 g (ratio to nominal 1.04)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "GLASS"
+     ],
+     "reported": [
+      "GLASS"
+     ],
+     "explanation": "AI layers cover all significant material families ['GLASS']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Glass",
+     "reported": "Glass",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Flint glass jar, 12 oz capacity, weighs 326.6 g.",
+   "parsed": {
+    "geometry": "stated",
+    "dims_mm": null,
+    "surface_cm2": null,
+    "stated_weight_g": 326.6,
+    "layers": [
+     {
+      "material": "GLASS",
+      "kind": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 326.6,
+    "mass_range_g": [
+     293.94000000000005,
+     359.26000000000005
+    ],
+    "fractions": {
+     "GLASS": 1.0
+    },
+    "derived_category": "Glass",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": [
+     "capacity (volume) ignored; only the stated part weight is used"
+    ]
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 43,
+   "sku": "GPL-1707",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "GPL-1707",
+    "component_id": "C2",
+    "component": "cap",
+    "layers": [
+     {
+      "material": "PP",
+      "form": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "PP rigid",
+    "weight_g": 9.832
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 9.922,
+      "range_g": [
+       8.93,
+       10.915
+      ]
+     },
+     "reported": 9.832,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 9.922,
+      "range_g": [
+       8.93,
+       10.915
+      ]
+     },
+     "reported": 9.832,
+     "explanation": "9.832 g is within the physical range 8.93-10.9 g (ratio to nominal 0.99)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PP"
+     ],
+     "reported": [
+      "PP"
+     ],
+     "explanation": "AI layers cover all significant material families ['PP']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PP rigid",
+     "reported": "PP rigid",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "PP dispensing pump (all-PP), weighs 0.35 oz.",
+   "parsed": {
+    "geometry": "stated",
+    "dims_mm": null,
+    "surface_cm2": null,
+    "stated_weight_g": 9.92233309375,
+    "layers": [
+     {
+      "material": "PP",
+      "kind": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 9.92233309375,
+    "mass_range_g": [
+     8.930099784375,
+     10.914566403125
+    ],
+    "fractions": {
+     "PP": 1.0
+    },
+    "derived_category": "PP rigid",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 44,
+   "sku": "GPL-1707",
+   "component_id": "C3",
+   "ai_item": {
+    "sku": "GPL-1707",
+    "component_id": "C3",
+    "component": "label",
+    "layers": [
+     {
+      "material": "PP",
+      "form": "film",
+      "thickness_um": 50.0,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "PP flexible",
+    "weight_g": 356.0
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "FAIL",
+     "expected": {
+      "nominal_g": 0.344,
+      "range_g": [
+       0.294,
+       0.404
+      ],
+      "suspected_confusion": "kg<->g or g<->mg (x1000)"
+     },
+     "reported": 356.0,
+     "explanation": "Reported value is ~1000x too high vs physics - matches a kg<->g or g<->mg (x1000) unit confusion."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "FAIL",
+     "expected": {
+      "nominal_g": 0.344,
+      "range_g": [
+       0.294,
+       0.404
+      ]
+     },
+     "reported": 356.0,
+     "explanation": "Reported 356 g but the spec's dimensions x thickness x density give 0.294-0.404 g (nominal 0.344 g). Reported/nominal = 1035.18x."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PP"
+     ],
+     "reported": [
+      "PP"
+     ],
+     "explanation": "AI layers cover all significant material families ['PP']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PP flexible",
+     "reported": "PP flexible",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Clear OPP wrap label, 50 mic; label size 8cm \u00d7 9.5cm.",
+   "parsed": {
+    "geometry": "sheet",
+    "dims_mm": {
+     "w": 80.0,
+     "h": 95.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PP",
+      "kind": "film",
+      "thickness_um": 50.0,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 0.3439,
+    "mass_range_g": [
+     0.29396883599999996,
+     0.4044450960000001
+    ],
+    "fractions": {
+     "PP": 1.0
+    },
+    "derived_category": "PP flexible",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": [
+     "material for '50 mic' inferred from context as PP"
+    ]
+   },
+   "overall": "FAIL"
+  },
+  {
+   "index": 45,
+   "sku": "BMM-6428",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "BMM-6428",
+    "component_id": "C1",
+    "component": "glass jar",
+    "layers": [
+     {
+      "material": "GLASS",
+      "form": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "Flexible plastic",
+    "weight_g": 343.672
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 337.0,
+      "range_g": [
+       303.3,
+       370.7
+      ]
+     },
+     "reported": 343.672,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 337.0,
+      "range_g": [
+       303.3,
+       370.7
+      ]
+     },
+     "reported": 343.672,
+     "explanation": "343.672 g is within the physical range 303-371 g (ratio to nominal 1.02)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "GLASS"
+     ],
+     "reported": [
+      "GLASS"
+     ],
+     "explanation": "AI layers cover all significant material families ['GLASS']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "FAIL",
+     "expected": "one of config list",
+     "reported": "Flexible plastic",
+     "explanation": "'Flexible plastic' is not in the (placeholder) category list."
+    }
+   ],
+   "spec_text": "Amber glass bottle, 250 mL brimful; part weight 337 grams.",
+   "parsed": {
+    "geometry": "stated",
+    "dims_mm": null,
+    "surface_cm2": null,
+    "stated_weight_g": 337.0,
+    "layers": [
+     {
+      "material": "GLASS",
+      "kind": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 337.0,
+    "mass_range_g": [
+     303.3,
+     370.70000000000005
+    ],
+    "fractions": {
+     "GLASS": 1.0
+    },
+    "derived_category": "Glass",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": [
+     "capacity (volume) ignored; only the stated part weight is used"
+    ]
+   },
+   "overall": "FAIL"
+  },
+  {
+   "index": 46,
+   "sku": "BMM-6428",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "BMM-6428",
+    "component_id": "C2",
+    "component": "cap",
+    "layers": [
+     {
+      "material": "STEEL",
+      "form": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "Steel",
+    "weight_g": 10.788
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 10.7,
+      "range_g": [
+       9.63,
+       11.77
+      ]
+     },
+     "reported": 10.788,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 10.7,
+      "range_g": [
+       9.63,
+       11.77
+      ]
+     },
+     "reported": 10.788,
+     "explanation": "10.788 g is within the physical range 9.63-11.8 g (ratio to nominal 1.01)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "STEEL"
+     ],
+     "reported": [
+      "STEEL"
+     ],
+     "explanation": "AI layers cover all significant material families ['STEEL']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Steel",
+     "reported": "Steel",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Steel lug cap 63 mm. Unit wt: 10.7 g.",
+   "parsed": {
+    "geometry": "stated",
+    "dims_mm": null,
+    "surface_cm2": null,
+    "stated_weight_g": 10.7,
+    "layers": [
+     {
+      "material": "STEEL",
+      "kind": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 10.7,
+    "mass_range_g": [
+     9.629999999999999,
+     11.77
+    ],
+    "fractions": {
+     "STEEL": 1.0
+    },
+    "derived_category": "Steel",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 47,
+   "sku": "BMM-6428",
+   "component_id": "C3",
+   "ai_item": {
+    "sku": "BMM-6428",
+    "component_id": "C3",
+    "component": "label",
+    "layers": [
+     {
+      "material": "Paper",
+      "form": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 80.0
+     }
+    ],
+    "category": "Flexible plastic",
+    "weight_g": 0.264
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 0.269,
+      "range_g": [
+       0.245,
+       0.294
+      ]
+     },
+     "reported": 0.264,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 0.269,
+      "range_g": [
+       0.245,
+       0.294
+      ]
+     },
+     "reported": 0.264,
+     "explanation": "0.264 g is within the physical range 0.245-0.294 g (ratio to nominal 0.98)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PAPER"
+     ],
+     "reported": [
+      "PAPER"
+     ],
+     "explanation": "AI layers cover all significant material families ['PAPER']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "FAIL",
+     "expected": "one of config list",
+     "reported": "Flexible plastic",
+     "explanation": "'Flexible plastic' is not in the (placeholder) category list."
+    }
+   ],
+   "spec_text": "Wrap-around paper label, 80 g/m2 uncoated; label size 60 mm W x 56 mm H.",
+   "parsed": {
+    "geometry": "sheet",
+    "dims_mm": {
+     "w": 60.0,
+     "h": 56.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PAPER",
+      "kind": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 80.0
+     }
+    ],
+    "mass_nominal_g": 0.26880000000000004,
+    "mass_range_g": [
+     0.24524774399999996,
+     0.2936424960000001
+    ],
+    "fractions": {
+     "PAPER": 1.0
+    },
+    "derived_category": "Paper/paperboard",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": [
+     "material for '80 GSM uncoated' inferred from context as PAPER"
+    ]
+   },
+   "overall": "FAIL"
+  },
+  {
+   "index": 48,
+   "sku": "TVS-1012",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "TVS-1012",
+    "component_id": "C1",
+    "component": "bottle",
+    "layers": [
+     {
+      "material": "PET",
+      "form": "wall",
+      "thickness_um": 304.79999999999995,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "PET rigid",
+    "weight_g": 22.493
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 22.497,
+      "range_g": [
+       19.166,
+       26.95
+      ]
+     },
+     "reported": 22.493,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 22.497,
+      "range_g": [
+       19.166,
+       26.95
+      ]
+     },
+     "reported": 22.493,
+     "explanation": "22.493 g is within the physical range 19.2-27 g (ratio to nominal 1.00)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PET"
+     ],
+     "reported": [
+      "PET"
+     ],
+     "explanation": "AI layers cover all significant material families ['PET']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PET rigid",
+     "reported": "PET rigid",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "rPET bottle, blow-moulded; surface area 531 cm2, average wall 12 mils PET.",
+   "parsed": {
+    "geometry": "surface",
+    "dims_mm": null,
+    "surface_cm2": 531.0,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PET",
+      "kind": "wall",
+      "thickness_um": 304.79999999999995,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 22.496983199999995,
+    "mass_range_g": [
+     19.165701141216,
+     26.950418017776002
+    ],
+    "fractions": {
+     "PET": 1.0
+    },
+    "derived_category": "PET rigid",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 49,
+   "sku": "TVS-1012",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "TVS-1012",
+    "component_id": "C2",
+    "component": "cap",
+    "layers": [
+     {
+      "material": "PP",
+      "form": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "PP rigid",
+    "weight_g": 3.373
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 3.402,
+      "range_g": [
+       3.062,
+       3.742
+      ]
+     },
+     "reported": 3.373,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 3.402,
+      "range_g": [
+       3.062,
+       3.742
+      ]
+     },
+     "reported": 3.373,
+     "explanation": "3.373 g is within the physical range 3.06-3.74 g (ratio to nominal 0.99)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PP"
+     ],
+     "reported": [
+      "PP"
+     ],
+     "explanation": "AI layers cover all significant material families ['PP']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PP rigid",
+     "reported": "PP rigid",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "PP screw cap 28 mm, weighs 0.12 oz.",
+   "parsed": {
+    "geometry": "stated",
+    "dims_mm": null,
+    "surface_cm2": null,
+    "stated_weight_g": 3.401942775,
+    "layers": [
+     {
+      "material": "PP",
+      "kind": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 3.401942775,
+    "mass_range_g": [
+     3.0617484975000004,
+     3.7421370525000004
+    ],
+    "fractions": {
+     "PP": 1.0
+    },
+    "derived_category": "PP rigid",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 50,
+   "sku": "TVS-1012",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "TVS-1012",
+    "component_id": "C2",
+    "component": "cap",
+    "layers": [
+     {
+      "material": "PP",
+      "form": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "PP rigid",
+    "weight_g": 3.373
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "FAIL",
+     "expected": "exactly once",
+     "reported": "duplicate",
+     "explanation": "TVS-1012/C2 is reported more than once (duplicate of item #49)."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 3.402,
+      "range_g": [
+       3.062,
+       3.742
+      ]
+     },
+     "reported": 3.373,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 3.402,
+      "range_g": [
+       3.062,
+       3.742
+      ]
+     },
+     "reported": 3.373,
+     "explanation": "3.373 g is within the physical range 3.06-3.74 g (ratio to nominal 0.99)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PP"
+     ],
+     "reported": [
+      "PP"
+     ],
+     "explanation": "AI layers cover all significant material families ['PP']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PP rigid",
+     "reported": "PP rigid",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "PP screw cap 28 mm, weighs 0.12 oz.",
+   "parsed": {
+    "geometry": "stated",
+    "dims_mm": null,
+    "surface_cm2": null,
+    "stated_weight_g": 3.401942775,
+    "layers": [
+     {
+      "material": "PP",
+      "kind": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 3.401942775,
+    "mass_range_g": [
+     3.0617484975000004,
+     3.7421370525000004
+    ],
+    "fractions": {
+     "PP": 1.0
+    },
+    "derived_category": "PP rigid",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "FAIL"
+  },
+  {
+   "index": 51,
+   "sku": "TVS-1012",
+   "component_id": "C3",
+   "ai_item": {
+    "sku": "TVS-1012",
+    "component_id": "C3",
+    "component": "label",
+    "layers": [
+     {
+      "material": "Paper",
+      "form": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 60.0
+     }
+    ],
+    "category": "Paper/paperboard",
+    "weight_g": 0.49
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 0.483,
+      "range_g": [
+       0.44,
+       0.527
+      ]
+     },
+     "reported": 0.49,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 0.483,
+      "range_g": [
+       0.44,
+       0.527
+      ]
+     },
+     "reported": 0.49,
+     "explanation": "0.49 g is within the physical range 0.44-0.527 g (ratio to nominal 1.01)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PAPER"
+     ],
+     "reported": [
+      "PAPER"
+     ],
+     "explanation": "AI layers cover all significant material families ['PAPER']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Paper/paperboard",
+     "reported": "Paper/paperboard",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Front label, coated paper 60 g/m\u00b2; label size (W x H) 149 x 54 mm.",
+   "parsed": {
+    "geometry": "sheet",
+    "dims_mm": {
+     "w": 149.0,
+     "h": 54.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PAPER",
+      "kind": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 60.0
+     }
+    ],
+    "mass_nominal_g": 0.48275999999999997,
+    "mass_range_g": [
+     0.4404605688,
+     0.5273766792
+    ],
+    "fractions": {
+     "PAPER": 1.0
+    },
+    "derived_category": "Paper/paperboard",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 52,
+   "sku": "KMA-1175",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "KMA-1175",
+    "component_id": "C1",
+    "component": "glass jar",
+    "layers": [
+     {
+      "material": "GLASS",
+      "form": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "Glass",
+    "weight_g": 379.372
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 372.6,
+      "range_g": [
+       335.34,
+       409.86
+      ]
+     },
+     "reported": 379.372,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 372.6,
+      "range_g": [
+       335.34,
+       409.86
+      ]
+     },
+     "reported": 379.372,
+     "explanation": "379.372 g is within the physical range 335-410 g (ratio to nominal 1.02)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "GLASS"
+     ],
+     "reported": [
+      "GLASS"
+     ],
+     "explanation": "AI layers cover all significant material families ['GLASS']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Glass",
+     "reported": "Glass",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Flint glass jar, 375 mL brimful. Unit wt: 372.6g.",
+   "parsed": {
+    "geometry": "stated",
+    "dims_mm": null,
+    "surface_cm2": null,
+    "stated_weight_g": 372.6,
+    "layers": [
+     {
+      "material": "GLASS",
+      "kind": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 372.6,
+    "mass_range_g": [
+     335.34000000000003,
+     409.86000000000007
+    ],
+    "fractions": {
+     "GLASS": 1.0
+    },
+    "derived_category": "Glass",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": [
+     "capacity (volume) ignored; only the stated part weight is used"
+    ]
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 53,
+   "sku": "KMA-1175",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "KMA-1175",
+    "component_id": "C2",
+    "component": "cap",
+    "layers": [
+     {
+      "material": "Aluminum",
+      "form": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "Plastic",
+    "weight_g": 1.965
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.984,
+      "range_g": [
+       1.786,
+       2.183
+      ]
+     },
+     "reported": 1.965,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.984,
+      "range_g": [
+       1.786,
+       2.183
+      ]
+     },
+     "reported": 1.965,
+     "explanation": "1.965 g is within the physical range 1.79-2.18 g (ratio to nominal 0.99)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "ALUMINUM"
+     ],
+     "reported": [
+      "ALUMINUM"
+     ],
+     "explanation": "AI layers cover all significant material families ['ALUMINUM']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "Rigid aluminium/other part; foil vs metallization not applicable."
+    },
+    {
+     "rule": "category_validity",
+     "status": "FAIL",
+     "expected": "one of config list",
+     "reported": "Plastic",
+     "explanation": "'Plastic' is not in the (placeholder) category list."
+    }
+   ],
+   "spec_text": "Aluminium ROPP closure, weighs 0.07 oz.",
+   "parsed": {
+    "geometry": "stated",
+    "dims_mm": null,
+    "surface_cm2": null,
+    "stated_weight_g": 1.9844666187500002,
+    "layers": [
+     {
+      "material": "ALUMINUM",
+      "kind": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 1.9844666187500002,
+    "mass_range_g": [
+     1.7860199568750001,
+     2.1829132806250002
+    ],
+    "fractions": {
+     "ALUMINUM": 1.0
+    },
+    "derived_category": "Aluminum",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "FAIL"
+  },
+  {
+   "index": 54,
+   "sku": "TNW-1602",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "TNW-1602",
+    "component_id": "C1",
+    "component": "flat pouch",
+    "layers": [
+     {
+      "material": "LLDPE",
+      "form": "film",
+      "thickness_um": 25.4,
+      "grammage_gsm": null
+     },
+     {
+      "material": "LLDPE",
+      "form": "film",
+      "thickness_um": 100.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Aluminum",
+      "form": "metallization",
+      "thickness_um": 0.03,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Adhesive",
+      "form": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 2.2
+     }
+    ],
+    "category": "PE flexible",
+    "weight_g": 5.737
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 5.918,
+      "range_g": [
+       5.042,
+       7.159
+      ]
+     },
+     "reported": 5.737,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 5.918,
+      "range_g": [
+       5.042,
+       7.159
+      ]
+     },
+     "reported": 5.737,
+     "explanation": "5.737 g is within the physical range 5.04-7.16 g (ratio to nominal 0.97)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PE"
+     ],
+     "reported": [
+      "ADHESIVE",
+      "METALLIZATION",
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "PASS",
+     "expected": [
+      "metallization"
+     ],
+     "reported": [
+      "metallization"
+     ],
+     "explanation": "Aluminium form (foil vs metallization) consistent with spec."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PE flexible",
+     "reported": "PE flexible",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Flat pouch. Face size (W x H) 198 x 127 mm. Structure (out\u2192in): MDO-PE 1 mils / met-PE 100 \u00b5. Solventless adhesive 2.2 g/m\u00b2 per interface.",
+   "parsed": {
+    "geometry": "flat_pouch",
+    "dims_mm": {
+     "w": 198.0,
+     "h": 127.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PE",
+      "kind": "film",
+      "thickness_um": 25.4,
+      "grammage_gsm": null
+     },
+     {
+      "material": "PE",
+      "kind": "film",
+      "thickness_um": 100.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ALUMINUM",
+      "kind": "metallization",
+      "thickness_um": 0.04,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ADHESIVE",
+      "kind": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 2.2
+     }
+    ],
+    "mass_nominal_g": 5.918161392000001,
+    "mass_range_g": [
+     5.0415754429656,
+     7.159088384807041
+    ],
+    "fractions": {
+     "PE": 0.9803868248410891,
+     "METALLIZATION": 0.0009177742275400251,
+     "ADHESIVE": 0.018695400931370884
+    },
+    "derived_category": "PE flexible",
+    "has_foil": false,
+    "has_metallization": true,
+    "uncertain": [],
+    "notes": [
+     "metallization thickness not stated; nominal 40 nm, range 10-100 nm",
+     "adhesive interfaces inferred from layer count: 1"
+    ]
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 55,
+   "sku": "PJL-4689",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "PJL-4689",
+    "component_id": "C1",
+    "component": "sachet",
+    "layers": [
+     {
+      "material": "Paper",
+      "form": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 50.0
+     },
+     {
+      "material": "LDPE",
+      "form": "coating",
+      "thickness_um": null,
+      "grammage_gsm": 20.0
+     },
+     {
+      "material": "Aluminum",
+      "form": "foil",
+      "thickness_um": 8.89,
+      "grammage_gsm": null
+     },
+     {
+      "material": "LLDPE",
+      "form": "film",
+      "thickness_um": 76.19999999999999,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Adhesive",
+      "form": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 1.5
+     }
+    ],
+    "category": "Multi-material flexible laminate",
+    "weight_g": 1.197
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.176,
+      "range_g": [
+       1.009,
+       1.356
+      ]
+     },
+     "reported": 1.197,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.176,
+      "range_g": [
+       1.009,
+       1.356
+      ]
+     },
+     "reported": 1.197,
+     "explanation": "1.197 g is within the physical range 1.01-1.36 g (ratio to nominal 1.02)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "ALUMINUM",
+      "PAPER",
+      "PE"
+     ],
+     "reported": [
+      "ADHESIVE",
+      "ALUMINUM",
+      "PAPER",
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['ALUMINUM', 'PAPER', 'PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "PASS",
+     "expected": [
+      "foil"
+     ],
+     "reported": [
+      "foil"
+     ],
+     "explanation": "Aluminium form (foil vs metallization) consistent with spec."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Multi-material flexible laminate",
+     "reported": "Multi-material flexible laminate",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Sachet, 4-side seal. Face size 48 x 74 mm. Layers: 50 gsm paper/20 g/m\u00b2 PE extrusion layer/Al foil 0.00035 in/3 mil LLDPE; bonded with 1.5 gsm adhesive at each of the 1 interfaces.",
+   "parsed": {
+    "geometry": "flat_pouch",
+    "dims_mm": {
+     "w": 48.0,
+     "h": 74.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PAPER",
+      "kind": "paper",
+      "thickness_um": null,
+      "grammage_gsm": 50.0
+     },
+     {
+      "material": "PE",
+      "kind": "coating",
+      "thickness_um": null,
+      "grammage_gsm": 20.0
+     },
+     {
+      "material": "ALUMINUM",
+      "kind": "foil",
+      "thickness_um": 8.89,
+      "grammage_gsm": null
+     },
+     {
+      "material": "LLDPE",
+      "kind": "film",
+      "thickness_um": 76.19999999999999,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ADHESIVE",
+      "kind": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 1.5
+     }
+    ],
+    "mass_nominal_g": 1.1764721280000001,
+    "mass_range_g": [
+     1.009063624122624,
+     1.355580573145344
+    ],
+    "fractions": {
+     "PAPER": 0.30191960484762115,
+     "PE": 0.544083281503801,
+     "ALUMINUM": 0.14493952550314904,
+     "ADHESIVE": 0.009057588145428635
+    },
+    "derived_category": "Multi-material flexible laminate",
+    "has_foil": true,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 56,
+   "sku": "DNP-4779",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "DNP-4779",
+    "component_id": "C1",
+    "component": "bottle",
+    "layers": [
+     {
+      "material": "HDPE",
+      "form": "wall",
+      "thickness_um": 700.0,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "HDPE rigid",
+    "weight_g": 25.121
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 25.55,
+      "range_g": [
+       21.761,
+       29.7
+      ]
+     },
+     "reported": 25.121,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 25.55,
+      "range_g": [
+       21.761,
+       29.7
+      ]
+     },
+     "reported": 25.121,
+     "explanation": "25.121 g is within the physical range 21.8-29.7 g (ratio to nominal 0.98)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PE"
+     ],
+     "reported": [
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "HDPE rigid",
+     "reported": "HDPE rigid",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "HDPE bottle; surface area 38220 mm\u00b2, average wall 700 mic HDPE.",
+   "parsed": {
+    "geometry": "surface",
+    "dims_mm": null,
+    "surface_cm2": 382.2,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "HDPE",
+      "kind": "wall",
+      "thickness_um": 700.0,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 25.550069999999998,
+    "mass_range_g": [
+     21.760707281039995,
+     29.699797327200002
+    ],
+    "fractions": {
+     "PE": 1.0
+    },
+    "derived_category": "HDPE rigid",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 57,
+   "sku": "DNP-4779",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "DNP-4779",
+    "component_id": "C2",
+    "component": "cap",
+    "layers": [
+     {
+      "material": "PP",
+      "form": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "PP rigid",
+    "weight_g": 8.526
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 8.6,
+      "range_g": [
+       7.74,
+       9.46
+      ]
+     },
+     "reported": 8.526,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 8.6,
+      "range_g": [
+       7.74,
+       9.46
+      ]
+     },
+     "reported": 8.526,
+     "explanation": "8.526 g is within the physical range 7.74-9.46 g (ratio to nominal 0.99)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PP"
+     ],
+     "reported": [
+      "PP"
+     ],
+     "explanation": "AI layers cover all significant material families ['PP']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PP rigid",
+     "reported": "PP rigid",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "PP dispensing pump (all-PP); part weight 8.6 grams.",
+   "parsed": {
+    "geometry": "stated",
+    "dims_mm": null,
+    "surface_cm2": null,
+    "stated_weight_g": 8.6,
+    "layers": [
+     {
+      "material": "PP",
+      "kind": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 8.6,
+    "mass_range_g": [
+     7.74,
+     9.46
+    ],
+    "fractions": {
+     "PP": 1.0
+    },
+    "derived_category": "PP rigid",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 58,
+   "sku": "BPH-5249",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "BPH-5249",
+    "component_id": "C1",
+    "component": "tub",
+    "layers": [
+     {
+      "material": "PP",
+      "form": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "PP rigid",
+    "weight_g": 13.419
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 13.324,
+      "range_g": [
+       11.992,
+       14.657
+      ]
+     },
+     "reported": 13.419,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 13.324,
+      "range_g": [
+       11.992,
+       14.657
+      ]
+     },
+     "reported": 13.419,
+     "explanation": "13.419 g is within the physical range 12-14.7 g (ratio to nominal 1.01)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PP"
+     ],
+     "reported": [
+      "PP"
+     ],
+     "explanation": "AI layers cover all significant material families ['PP']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "No aluminium foil or metallization in spec or report."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PP rigid",
+     "reported": "PP rigid",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Injection-moulded PP tub. Unit wt: 0.47 oz.",
+   "parsed": {
+    "geometry": "stated",
+    "dims_mm": null,
+    "surface_cm2": null,
+    "stated_weight_g": 13.32427586875,
+    "layers": [
+     {
+      "material": "PP",
+      "kind": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 13.32427586875,
+    "mass_range_g": [
+     11.991848281875,
+     14.656703455625001
+    ],
+    "fractions": {
+     "PP": 1.0
+    },
+    "derived_category": "PP rigid",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 59,
+   "sku": "BPH-5249",
+   "component_id": "C2",
+   "ai_item": {
+    "sku": "BPH-5249",
+    "component_id": "C2",
+    "component": "lidding",
+    "layers": [
+     {
+      "material": "Aluminum",
+      "form": "foil",
+      "thickness_um": 40.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Coating",
+      "form": "coating",
+      "thickness_um": null,
+      "grammage_gsm": 2.5
+     }
+    ],
+    "category": "Aluminum",
+    "weight_g": 0.0356
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "FAIL",
+     "expected": {
+      "nominal_g": 1.016,
+      "range_g": [
+       0.872,
+       1.171
+      ],
+      "suspected_confusion": "oz<->g (x28.35)"
+     },
+     "reported": 0.0356,
+     "explanation": "Reported value is ~28.3495x too low vs physics - matches a oz<->g (x28.35) unit confusion."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "FAIL",
+     "expected": {
+      "nominal_g": 1.016,
+      "range_g": [
+       0.872,
+       1.171
+      ]
+     },
+     "reported": 0.0356,
+     "explanation": "Reported 0.0356 g but the spec's dimensions x thickness x density give 0.872-1.17 g (nominal 1.02 g). Reported/nominal = 0.04x."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "ALUMINUM"
+     ],
+     "reported": [
+      "ALUMINUM",
+      "COATING"
+     ],
+     "explanation": "AI layers cover all significant material families ['ALUMINUM']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "PASS",
+     "expected": [
+      "foil"
+     ],
+     "reported": [
+      "foil"
+     ],
+     "explanation": "Aluminium form (foil vs metallization) consistent with spec."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Aluminum",
+     "reported": "Aluminum",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Die-cut lid, 40 mic aluminium foil + 2.5 gsm heat-seal lacquer; lid blank (W x H) 121 x 76 mm.",
+   "parsed": {
+    "geometry": "sheet",
+    "dims_mm": {
+     "w": 121.0,
+     "h": 76.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "ALUMINUM",
+      "kind": "foil",
+      "thickness_um": 40.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "COATING",
+      "kind": "coating",
+      "thickness_um": null,
+      "grammage_gsm": 2.5
+     }
+    ],
+    "mass_nominal_g": 1.016158,
+    "mass_range_g": [
+     0.871834927656,
+     1.1707293890159998
+    ],
+    "fractions": {
+     "ALUMINUM": 0.9773755656108598,
+     "COATING": 0.02262443438914027
+    },
+    "derived_category": "Aluminum",
+    "has_foil": true,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "FAIL"
+  },
+  {
+   "index": 60,
+   "sku": "BPH-5249",
+   "component_id": "C3",
+   "ai_item": {
+    "sku": "BPH-5249",
+    "component_id": "C3",
+    "component": "cap",
+    "layers": [
+     {
+      "material": "Aluminum",
+      "form": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "category": "Aluminum",
+    "weight_g": 1.355
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.4,
+      "range_g": [
+       1.26,
+       1.54
+      ]
+     },
+     "reported": 1.355,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 1.4,
+      "range_g": [
+       1.26,
+       1.54
+      ]
+     },
+     "reported": 1.355,
+     "explanation": "1.355 g is within the physical range 1.26-1.54 g (ratio to nominal 0.97)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "ALUMINUM"
+     ],
+     "reported": [
+      "ALUMINUM"
+     ],
+     "explanation": "AI layers cover all significant material families ['ALUMINUM']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "N/A",
+     "expected": null,
+     "reported": null,
+     "explanation": "Rigid aluminium/other part; foil vs metallization not applicable."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "Aluminum",
+     "reported": "Aluminum",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Aluminium ROPP closure, weighs 1.4g.",
+   "parsed": {
+    "geometry": "stated",
+    "dims_mm": null,
+    "surface_cm2": null,
+    "stated_weight_g": 1.4,
+    "layers": [
+     {
+      "material": "ALUMINUM",
+      "kind": "wall",
+      "thickness_um": null,
+      "grammage_gsm": null
+     }
+    ],
+    "mass_nominal_g": 1.4,
+    "mass_range_g": [
+     1.26,
+     1.54
+    ],
+    "fractions": {
+     "ALUMINUM": 1.0
+    },
+    "derived_category": "Aluminum",
+    "has_foil": false,
+    "has_metallization": false,
+    "uncertain": [],
+    "notes": []
+   },
+   "overall": "PASS"
+  },
+  {
+   "index": 61,
+   "sku": "NKH-4758",
+   "component_id": "C1",
+   "ai_item": {
+    "sku": "NKH-4758",
+    "component_id": "C1",
+    "component": "flat pouch",
+    "layers": [
+     {
+      "material": "LLDPE",
+      "form": "film",
+      "thickness_um": 40.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "LLDPE",
+      "form": "film",
+      "thickness_um": 90.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Aluminum",
+      "form": "metallization",
+      "thickness_um": 0.045,
+      "grammage_gsm": null
+     },
+     {
+      "material": "Adhesive",
+      "form": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 1.5
+     }
+    ],
+    "category": "PE flexible",
+    "weight_g": 2.857
+   },
+   "checks": [
+    {
+     "rule": "completeness",
+     "status": "PASS",
+     "expected": null,
+     "reported": null,
+     "explanation": "Component exists in spec and is reported once."
+    },
+    {
+     "rule": "unit_sanity",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 2.907,
+      "range_g": [
+       2.479,
+       3.514
+      ]
+     },
+     "reported": 2.857,
+     "explanation": "Weight is in the physically plausible range; no unit error indicated."
+    },
+    {
+     "rule": "physics_mass",
+     "status": "PASS",
+     "expected": {
+      "nominal_g": 2.907,
+      "range_g": [
+       2.479,
+       3.514
+      ]
+     },
+     "reported": 2.857,
+     "explanation": "2.857 g is within the physical range 2.48-3.51 g (ratio to nominal 0.98)."
+    },
+    {
+     "rule": "structure",
+     "status": "PASS",
+     "expected": [
+      "PE"
+     ],
+     "reported": [
+      "ADHESIVE",
+      "METALLIZATION",
+      "PE"
+     ],
+     "explanation": "AI layers cover all significant material families ['PE']."
+    },
+    {
+     "rule": "metallized_vs_foil",
+     "status": "PASS",
+     "expected": [
+      "metallization"
+     ],
+     "reported": [
+      "metallization"
+     ],
+     "explanation": "Aluminium form (foil vs metallization) consistent with spec."
+    },
+    {
+     "rule": "category_validity",
+     "status": "PASS",
+     "expected": "PE flexible",
+     "reported": "PE flexible",
+     "explanation": "Category consistent with spec materials under placeholder rules."
+    }
+   ],
+   "spec_text": "Pillow pack (flat, 2 faces). Face size 109 x 110 mm. Structure (out\u2192in): 40 micron MDO-PE/metallised PE 90 \u00b5 (OD 2.8). Solventless adhesive 1.5 g/m\u00b2 per interface.",
+   "parsed": {
+    "geometry": "flat_pouch",
+    "dims_mm": {
+     "w": 109.0,
+     "h": 110.0,
+     "g": 0.0
+    },
+    "surface_cm2": null,
+    "stated_weight_g": null,
+    "layers": [
+     {
+      "material": "PE",
+      "kind": "film",
+      "thickness_um": 40.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "PE",
+      "kind": "film",
+      "thickness_um": 90.0,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ALUMINUM",
+      "kind": "metallization",
+      "thickness_um": 0.04,
+      "grammage_gsm": null
+     },
+     {
+      "material": "ADHESIVE",
+      "kind": "adhesive",
+      "thickness_um": null,
+      "grammage_gsm": 1.5
+     }
+    ],
+    "mass_nominal_g": 2.90656784,
+    "mass_range_g": [
+     2.4785745447848,
+     3.5141870459520006
+    ],
+    "fractions": {
+     "PE": 0.986733548940664,
+     "METALLIZATION": 0.0008910302950300311,
+     "ADHESIVE": 0.012375420764305986
+    },
+    "derived_category": "PE flexible",
+    "has_foil": false,
+    "has_metallization": true,
+    "uncertain": [],
+    "notes": [
+     "metallization thickness not stated; nominal 40 nm, range 10-100 nm",
+     "adhesive interfaces inferred from layer count: 1"
+    ]
+   },
+   "overall": "PASS"
+  }
+ ],
+ "missing": [
+  {
+   "sku": "FMK-3151",
+   "component_id": "C2",
+   "spec_text": "Inner liner bag (flat). Face size 7.25\" x 11.75\". Laminate: MDO-PE 25 \u00b5m/met-PE 60 micron (OD 2.4); adhesive laminated, 1 x 1.5 gsm PU adhesive.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "FMK-3151/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "KMA-1175",
+   "component_id": "C3",
+   "spec_text": "BOPP film label 50\u00b5m; label size 4.5 in W x 2 in H.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "KMA-1175/C3 is in the catalog but missing from the AI report."
+   }
+  }
+ ],
+ "totals": [
+  {
+   "rule": "totals",
+   "status": "PASS",
+   "expected": 9.59,
+   "reported": 9.589,
+   "explanation": "'Aluminum' total matches line items."
+  },
+  {
+   "rule": "totals",
+   "status": "PASS",
+   "expected": 343.94,
+   "reported": 343.936,
+   "explanation": "'Flexible plastic' total matches line items."
+  },
+  {
+   "rule": "totals",
+   "status": "PASS",
+   "expected": 718.89,
+   "reported": 718.895,
+   "explanation": "'Glass' total matches line items."
+  },
+  {
+   "rule": "totals",
+   "status": "PASS",
+   "expected": 80.66,
+   "reported": 80.655,
+   "explanation": "'HDPE rigid' total matches line items."
+  },
+  {
+   "rule": "totals",
+   "status": "PASS",
+   "expected": 52.52,
+   "reported": 52.518,
+   "explanation": "'Multi-material flexible laminate' total matches line items."
+  },
+  {
+   "rule": "totals",
+   "status": "PASS",
+   "expected": 57.67,
+   "reported": 57.671,
+   "explanation": "'PE flexible' total matches line items."
+  },
+  {
+   "rule": "totals",
+   "status": "PASS",
+   "expected": 20.46,
+   "reported": 20.465,
+   "explanation": "'PET flexible' total matches line items."
+  },
+  {
+   "rule": "totals",
+   "status": "PASS",
+   "expected": 22.49,
+   "reported": 22.493,
+   "explanation": "'PET rigid' total matches line items."
+  },
+  {
+   "rule": "totals",
+   "status": "FAIL",
+   "expected": 360.74,
+   "reported": 469.933,
+   "explanation": "'PP flexible': AI total 469.933 g but line items sum to 360.74 g."
+  },
+  {
+   "rule": "totals",
+   "status": "PASS",
+   "expected": 98.54,
+   "reported": 98.54,
+   "explanation": "'PP rigid' total matches line items."
+  },
+  {
+   "rule": "totals",
+   "status": "PASS",
+   "expected": 21.03,
+   "reported": 21.031,
+   "explanation": "'PS rigid' total matches line items."
+  },
+  {
+   "rule": "totals",
+   "status": "PASS",
+   "expected": 4780.07,
+   "reported": 4780.072,
+   "explanation": "'PVC rigid' total matches line items."
+  },
+  {
+   "rule": "totals",
+   "status": "PASS",
+   "expected": 18.97,
+   "reported": 18.974,
+   "explanation": "'Paper-based multi-material' total matches line items."
+  },
+  {
+   "rule": "totals",
+   "status": "PASS",
+   "expected": 143.67,
+   "reported": 143.668,
+   "explanation": "'Paper/paperboard' total matches line items."
+  },
+  {
+   "rule": "totals",
+   "status": "PASS",
+   "expected": 1.97,
+   "reported": 1.965,
+   "explanation": "'Plastic' total matches line items."
+  },
+  {
+   "rule": "totals",
+   "status": "PASS",
+   "expected": 102.98,
+   "reported": 102.984,
+   "explanation": "'Steel' total matches line items."
+  },
+  {
+   "rule": "totals",
+   "status": "PASS",
+   "expected": 6834.2,
+   "reported": 6834.198,
+   "explanation": "Overall total matches line items."
+  }
+ ],
+ "n_spec_components": 59,
+ "format_error": null
+}

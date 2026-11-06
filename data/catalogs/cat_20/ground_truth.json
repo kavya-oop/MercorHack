@@ -1,0 +1,3226 @@
+{
+  "catalog_id": "cat_20",
+  "seed": 2026020,
+  "synthetic": true,
+  "skus": [
+    {
+      "sku": "DDH-4942",
+      "product": "Bluepeak Tuna",
+      "product_type": "canned",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "can",
+          "format": "rigid",
+          "geometry": "surface",
+          "dims_mm": null,
+          "surface_cm2": 262.58012,
+          "stated_weight_g": null,
+          "area_m2": 0.026258012,
+          "layers": [
+            {
+              "material": "ALUMINUM",
+              "kind": "wall",
+              "thickness_um": 100.0,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "ALUMINUM": 1.0
+          },
+          "true_mass_g": 7.0897,
+          "true_category": "Aluminum",
+          "tags": [
+            "rigid"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Aluminium beverage can (body + end), aluminium, avg wall thickness 100 micron, total surface 40.7 in2."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "label",
+          "format": "flexible",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 135.0,
+            "h": 45.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.006075,
+          "layers": [
+            {
+              "material": "PP",
+              "kind": "film",
+              "thickness_um": 60.0,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PP": 1.0
+          },
+          "true_mass_g": 0.3299,
+          "true_category": "PP flexible",
+          "tags": [
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Clear OPP wrap label, 60um; label size 13.5 x 4.5 cm."
+        }
+      ]
+    },
+    {
+      "sku": "PSB-5398",
+      "product": "Northfield Ground Espresso",
+      "product_type": "coffee",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "side-gusset bag",
+          "format": "flexible",
+          "geometry": "side_gusset_bag",
+          "dims_mm": {
+            "w": 133.35,
+            "h": 311.15,
+            "g": 88.89999999999999
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.13830617499999998,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 65.099035151774
+            },
+            {
+              "material": "LDPE",
+              "kind": "coating",
+              "thickness_um": null,
+              "grammage_gsm": 20.0
+            },
+            {
+              "material": "ALUMINUM",
+              "kind": "foil",
+              "thickness_um": 6.35,
+              "grammage_gsm": null
+            },
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 50.8,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ADHESIVE",
+              "kind": "adhesive",
+              "thickness_um": null,
+              "grammage_gsm": 2.0
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 0.43117644717947395,
+            "PE": 0.44201870752588607,
+            "ALUMINUM": 0.11355806072481595,
+            "ADHESIVE": 0.013246784569823967
+          },
+          "true_mass_g": 20.8815,
+          "true_category": "Multi-material flexible laminate",
+          "tags": [
+            "adhesive",
+            "coating",
+            "foil",
+            "grammage",
+            "gusset",
+            "laminate",
+            "two-faced"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Quad-seal side gusset bag \u2014 Layers: 40 lb basis wt (3000 sq ft) paper/20g/m2 PE extrusion layer/aluminium foil 6.35 mic/LLDPE sealant 2 mil; adhesive laminated, 1 x 2 gsm PU adhesive. Dimensions per face 5.25 in W x 12.25 in H, side gussets: 3.5 in opened out."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "valve",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 1.6,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "PE",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PE": 1.0
+          },
+          "true_mass_g": 1.6,
+          "true_category": "HDPE rigid",
+          "tags": [
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "One-way degassing valve (PE), weighs 1.6g."
+        }
+      ]
+    },
+    {
+      "sku": "PNT-2445",
+      "product": "Kestrel Body Lotion",
+      "product_type": "personal",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "bottle",
+          "format": "rigid",
+          "geometry": "surface",
+          "dims_mm": null,
+          "surface_cm2": 583.3,
+          "stated_weight_g": null,
+          "area_m2": 0.05832999999999999,
+          "layers": [
+            {
+              "material": "HDPE",
+              "kind": "wall",
+              "thickness_um": 762.0,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PE": 1.0
+          },
+          "true_mass_g": 42.4473,
+          "true_category": "HDPE rigid",
+          "tags": [
+            "rigid"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "HDPE bottle, HDPE, avg wall thickness 30mil, total surface 58330 mm\u00b2."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "cap",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 1.9844666187500002,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "ALUMINUM",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "ALUMINUM": 1.0
+          },
+          "true_mass_g": 1.9845,
+          "true_category": "Aluminum",
+          "tags": [
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Aluminium ROPP closure, weighs 0.07 oz."
+        }
+      ]
+    },
+    {
+      "sku": "PKB-4015",
+      "product": "Tidewater Protein Powder Sachet",
+      "product_type": "single-serve",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "sachet",
+          "format": "flexible",
+          "geometry": "flat_pouch",
+          "dims_mm": {
+            "w": 72.0,
+            "h": 70.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.01008,
+          "layers": [
+            {
+              "material": "PET",
+              "kind": "film",
+              "thickness_um": 23.368000000000002,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ALUMINUM",
+              "kind": "foil",
+              "thickness_um": 8.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 100.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ADHESIVE",
+              "kind": "adhesive",
+              "thickness_um": null,
+              "grammage_gsm": 2.2
+            },
+            {
+              "material": "ADHESIVE",
+              "kind": "adhesive",
+              "thickness_um": null,
+              "grammage_gsm": 2.2
+            }
+          ],
+          "family_fractions": {
+            "PET": 0.21585055759670688,
+            "ALUMINUM": 0.14353921996534857,
+            "PE": 0.6113707517042624,
+            "ADHESIVE": 0.029239470733682115
+          },
+          "true_mass_g": 1.5169,
+          "true_category": "Multi-material flexible laminate",
+          "tags": [
+            "adhesive",
+            "foil",
+            "laminate",
+            "two-faced"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Single-serve sachet. Face size 72 mm W x 70 mm H. Build (outside first): polyester 92 ga / aluminum foil 8um / 100 \u00b5 LLDPE. Solventless adhesive 2.2 g/m\u00b2 per interface."
+        }
+      ]
+    },
+    {
+      "sku": "SLR-3032",
+      "product": "Bluepeak Gummy Bears",
+      "product_type": "candy",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "flat pouch",
+          "format": "flexible",
+          "geometry": "flat_pouch",
+          "dims_mm": {
+            "w": 200.0,
+            "h": 255.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.102,
+          "layers": [
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 25.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 76.19999999999999,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ALUMINUM",
+              "kind": "metallization",
+              "thickness_um": 0.04,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ADHESIVE",
+              "kind": "adhesive",
+              "thickness_um": null,
+              "grammage_gsm": 2.5
+            }
+          ],
+          "family_fractions": {
+            "PE": 0.9727515880976262,
+            "METALLIZATION": 0.0011283851554663993,
+            "ADHESIVE": 0.02612002674690739
+          },
+          "true_mass_g": 9.7626,
+          "true_category": "PE flexible",
+          "tags": [
+            "adhesive",
+            "laminate",
+            "metallized",
+            "two-faced"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Pillow pack (flat, 2 faces) \u2014 Construction: LLDPE 25 mic // met-PE 3 mils (OD 2.2); bonded with 2.5 gsm adhesive at each of the 1 interfaces. Dimensions per face 20cm \u00d7 25.5cm."
+        }
+      ]
+    },
+    {
+      "sku": "GCM-8572",
+      "product": "Meridian Iced Tea",
+      "product_type": "beverage",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "bottle",
+          "format": "rigid",
+          "geometry": "surface",
+          "dims_mm": null,
+          "surface_cm2": 430.96688,
+          "stated_weight_g": null,
+          "area_m2": 0.043096688,
+          "layers": [
+            {
+              "material": "HDPE",
+              "kind": "wall",
+              "thickness_um": 350,
+              "grammage_gsm": null
+            },
+            {
+              "material": "EVOH",
+              "kind": "wall",
+              "thickness_um": 61,
+              "grammage_gsm": null
+            },
+            {
+              "material": "HDPE",
+              "kind": "wall",
+              "thickness_um": 350,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PE": 0.9020496835741948,
+            "EVOH": 0.09795031642580525
+          },
+          "true_mass_g": 31.9385,
+          "true_category": "Multi-material rigid",
+          "tags": [
+            "multilayer-rigid",
+            "rigid"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Co-ex barrier bottle, HDPE 350 \u00b5m / EVOH 61 \u00b5m / HDPE 350 \u00b5m; surface area 66.8 in\u00b2."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "cap",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 13.5,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "PP",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PP": 1.0
+          },
+          "true_mass_g": 13.5,
+          "true_category": "PP rigid",
+          "tags": [
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "PP dispensing pump (all-PP). Unit wt: 13.5g."
+        },
+        {
+          "component_id": "C3",
+          "component_type": "label",
+          "format": "paper",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 171.45,
+            "h": 38.099999999999994,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.006532244999999999,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 81.3737939397175
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 1.0
+          },
+          "true_mass_g": 0.5316,
+          "true_category": "Paper/paperboard",
+          "tags": [
+            "grammage",
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Front label, coated paper 50 lb basis wt (3000 sq ft); label size 6.75 in W x 1.5 in H."
+        }
+      ]
+    },
+    {
+      "sku": "JMK-3695",
+      "product": "Northfield Cold Brew",
+      "product_type": "beverage",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "bottle",
+          "format": "rigid",
+          "geometry": "surface",
+          "dims_mm": null,
+          "surface_cm2": 547,
+          "stated_weight_g": null,
+          "area_m2": 0.0547,
+          "layers": [
+            {
+              "material": "PET",
+              "kind": "wall",
+              "thickness_um": 304.79999999999995,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PET": 1.0
+          },
+          "true_mass_g": 23.1749,
+          "true_category": "PET rigid",
+          "tags": [
+            "ambiguous",
+            "rigid"
+          ],
+          "ambiguous_spec": true,
+          "spec_text": "rPET bottle, blow-moulded, PET, avg wall thickness 12, total surface 547 sq cm. [thickness unit missing on supplier sheet]"
+        },
+        {
+          "component_id": "C2",
+          "component_type": "cap",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 3.7,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "HDPE",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PE": 1.0
+          },
+          "true_mass_g": 3.7,
+          "true_category": "HDPE rigid",
+          "tags": [
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "HDPE flip-top closure; part weight 3.7g."
+        },
+        {
+          "component_id": "C3",
+          "component_type": "label",
+          "format": "flexible",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 123.0,
+            "h": 74.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.009102,
+          "layers": [
+            {
+              "material": "PP",
+              "kind": "film",
+              "thickness_um": 50.0,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PP": 1.0
+          },
+          "true_mass_g": 0.4119,
+          "true_category": "PP flexible",
+          "tags": [
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "BOPP film label 50 mic; label size 123 mm W x 74 mm H."
+        }
+      ]
+    },
+    {
+      "sku": "KJL-2487",
+      "product": "Oakline Drink Mix Stick",
+      "product_type": "single-serve",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "sachet",
+          "format": "flexible",
+          "geometry": "flat_pouch",
+          "dims_mm": {
+            "w": 69.0,
+            "h": 96.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.013248,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 65.099035151774
+            },
+            {
+              "material": "LDPE",
+              "kind": "coating",
+              "thickness_um": null,
+              "grammage_gsm": 25.0
+            },
+            {
+              "material": "ALUMINUM",
+              "kind": "foil",
+              "thickness_um": 7.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 60.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ADHESIVE",
+              "kind": "adhesive",
+              "thickness_um": null,
+              "grammage_gsm": 2.2
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 0.3912224316228553,
+            "PE": 0.4819739485078677,
+            "ALUMINUM": 0.11358238936157981,
+            "ADHESIVE": 0.01322123050769712
+          },
+          "true_mass_g": 2.2045,
+          "true_category": "Multi-material flexible laminate",
+          "tags": [
+            "adhesive",
+            "coating",
+            "foil",
+            "grammage",
+            "laminate",
+            "two-faced"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Sachet, 4-side seal \u2014 Laminate: 40 lb/3000 ft\u00b2 bleached kraft paper // 25 g/m\u00b2 LDPE extrusion coat // 7um Al foil // 60 mic LLDPE; adhesive laminated, 1 x 2.2 gsm PU adhesive. Dimensions per face 69 mm W x 96 mm H."
+        }
+      ]
+    },
+    {
+      "sku": "SVL-9293",
+      "product": "Meridian Marinara",
+      "product_type": "sauce",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "glass jar",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 248.3,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "GLASS",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "GLASS": 1.0
+          },
+          "true_mass_g": 248.3,
+          "true_category": "Glass",
+          "tags": [
+            "capacity-trap",
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Flint glass jar, 500 mL brimful, weighs 248.3 g."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "cap",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 13.9,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "PP",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PP": 1.0
+          },
+          "true_mass_g": 13.9,
+          "true_category": "PP rigid",
+          "tags": [
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "PP dispensing pump (all-PP). Unit wt: 13.9 g."
+        },
+        {
+          "component_id": "C3",
+          "component_type": "label",
+          "format": "paper",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 60.0,
+            "h": 100.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.006,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 81.3737939397175
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 1.0
+          },
+          "true_mass_g": 0.4882,
+          "true_category": "Paper/paperboard",
+          "tags": [
+            "grammage",
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Front label, coated paper 50 lb/3000 ft\u00b2; label size 6 x 10 cm."
+        }
+      ]
+    },
+    {
+      "sku": "CNF-7231",
+      "product": "Meridian Greek Yogurt",
+      "product_type": "dairy",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "tub",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 5.38640939375,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "PS",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PS": 1.0
+          },
+          "true_mass_g": 5.3864,
+          "true_category": "PS rigid",
+          "tags": [
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "PS yoghurt cup. Unit wt: 0.19 oz."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "lidding",
+          "format": "flexible",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 86.0,
+            "h": 85.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.00731,
+          "layers": [
+            {
+              "material": "ALUMINUM",
+              "kind": "foil",
+              "thickness_um": 30.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "COATING",
+              "kind": "coating",
+              "thickness_um": null,
+              "grammage_gsm": 8.0
+            }
+          ],
+          "family_fractions": {
+            "ALUMINUM": 0.9101123595505618,
+            "COATING": 0.0898876404494382
+          },
+          "true_mass_g": 0.6506,
+          "true_category": "Multi-material flexible laminate",
+          "tags": [
+            "coating",
+            "foil",
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Die-cut lid, 30 \u00b5m aluminium foil + 8 gsm heat-seal lacquer; lid blank 86 x 85 mm."
+        },
+        {
+          "component_id": "C3",
+          "component_type": "cap",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 2.55145708125,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "ALUMINUM",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "ALUMINUM": 1.0
+          },
+          "true_mass_g": 2.5515,
+          "true_category": "Aluminum",
+          "tags": [
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Aluminium ROPP closure, weighs 0.09 oz."
+        }
+      ]
+    },
+    {
+      "sku": "KCM-4621",
+      "product": "Sunward Gummy Bears",
+      "product_type": "candy",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "flat pouch",
+          "format": "flexible",
+          "geometry": "flat_pouch",
+          "dims_mm": {
+            "w": 132.0,
+            "h": 183.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.048312,
+          "layers": [
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 30.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 50.8,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ALUMINUM",
+              "kind": "metallization",
+              "thickness_um": 0.035,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ADHESIVE",
+              "kind": "adhesive",
+              "thickness_um": null,
+              "grammage_gsm": 1.5
+            }
+          ],
+          "family_fractions": {
+            "PE": 0.979000533382501,
+            "METALLIZATION": 0.0012445591692402923,
+            "ADHESIVE": 0.019754907448258606
+          },
+          "true_mass_g": 3.6684,
+          "true_category": "PE flexible",
+          "tags": [
+            "adhesive",
+            "laminate",
+            "metallized",
+            "two-faced"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Pillow pack (flat, 2 faces). Face size 132mm \u00d7 183mm. Construction: 30 \u00b5m LLDPE / 2 mils metallized LLDPE; adhesive laminated, 1 x 1.5 gsm PU adhesive."
+        }
+      ]
+    },
+    {
+      "sku": "MRG-3647",
+      "product": "Bluepeak Ketchup Packet",
+      "product_type": "single-serve",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "sachet",
+          "format": "flexible",
+          "geometry": "flat_pouch",
+          "dims_mm": {
+            "w": 76.19999999999999,
+            "h": 63.5,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.009677399999999997,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 65.099035151774
+            },
+            {
+              "material": "LDPE",
+              "kind": "coating",
+              "thickness_um": null,
+              "grammage_gsm": 15.0
+            },
+            {
+              "material": "ALUMINUM",
+              "kind": "foil",
+              "thickness_um": 8.889999999999999,
+              "grammage_gsm": null
+            },
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 100.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ADHESIVE",
+              "kind": "adhesive",
+              "thickness_um": null,
+              "grammage_gsm": 3.0
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 0.3269631829837877,
+            "PE": 0.5374128894184065,
+            "ALUMINUM": 0.12055627649261691,
+            "ADHESIVE": 0.015067651105188968
+          },
+          "true_mass_g": 1.9268,
+          "true_category": "Multi-material flexible laminate",
+          "tags": [
+            "adhesive",
+            "coating",
+            "foil",
+            "grammage",
+            "laminate",
+            "two-faced"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Sachet, 4-side seal. Face size 3in \u00d7 2.5in. Construction: 40 lb basis wt (3000 sq ft) bleached kraft paper/15 gsm PE extrusion layer/Al foil 0.35 mils/LLDPE 100\u00b5m. Solventless adhesive 3 g/m\u00b2 per interface."
+        }
+      ]
+    },
+    {
+      "sku": "JRB-7437",
+      "product": "Northfield Hand Soap",
+      "product_type": "personal",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "bottle",
+          "format": "rigid",
+          "geometry": "surface",
+          "dims_mm": null,
+          "surface_cm2": 526,
+          "stated_weight_g": null,
+          "area_m2": 0.0526,
+          "layers": [
+            {
+              "material": "PET",
+              "kind": "wall",
+              "thickness_um": 304.79999999999995,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PET": 1.0
+          },
+          "true_mass_g": 22.2851,
+          "true_category": "PET rigid",
+          "tags": [
+            "rigid"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "rPET bottle, blow-moulded; surface area 526 sq cm, average wall 12 mil PET."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "cap",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 9.1,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "STEEL",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "STEEL": 1.0
+          },
+          "true_mass_g": 9.1,
+          "true_category": "Steel",
+          "tags": [
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Steel lug cap 63 mm. Unit wt: 9.1 g."
+        }
+      ]
+    },
+    {
+      "sku": "FJA-4722",
+      "product": "Sunward Protein Powder Sachet",
+      "product_type": "single-serve",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "sachet",
+          "format": "flexible",
+          "geometry": "flat_pouch",
+          "dims_mm": {
+            "w": 45.0,
+            "h": 110.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.0099,
+          "layers": [
+            {
+              "material": "PET",
+              "kind": "film",
+              "thickness_um": 12.192,
+              "grammage_gsm": null
+            },
+            {
+              "material": "PE",
+              "kind": "film",
+              "thickness_um": 76.19999999999999,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ADHESIVE",
+              "kind": "adhesive",
+              "thickness_um": null,
+              "grammage_gsm": 1.8
+            }
+          ],
+          "family_fractions": {
+            "PET": 0.19073395784037256,
+            "PE": 0.7890073795554979,
+            "ADHESIVE": 0.020258662604129528
+          },
+          "true_mass_g": 0.8796,
+          "true_category": "Multi-material flexible laminate",
+          "tags": [
+            "adhesive",
+            "laminate",
+            "two-faced"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Single-serve sachet \u2014 Spec: 48 ga PET // 3 mils polyethylene; bonded with 1.8 gsm adhesive at each of the 1 interfaces. Dimensions per face 4.5 cm W x 11 cm H."
+        }
+      ]
+    },
+    {
+      "sku": "AED-1906",
+      "product": "Sunward Cold Brew",
+      "product_type": "beverage",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "bottle",
+          "format": "rigid",
+          "geometry": "surface",
+          "dims_mm": null,
+          "surface_cm2": 504.7,
+          "stated_weight_g": null,
+          "area_m2": 0.05047,
+          "layers": [
+            {
+              "material": "HDPE",
+              "kind": "wall",
+              "thickness_um": 374,
+              "grammage_gsm": null
+            },
+            {
+              "material": "EVOH",
+              "kind": "wall",
+              "thickness_um": 15,
+              "grammage_gsm": null
+            },
+            {
+              "material": "HDPE",
+              "kind": "wall",
+              "thickness_um": 374,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PE": 0.9756210819596007,
+            "EVOH": 0.02437891804039935
+          },
+          "true_mass_g": 36.9536,
+          "true_category": "HDPE rigid",
+          "tags": [
+            "multilayer-rigid",
+            "rigid"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Co-ex barrier bottle, HDPE 374 \u00b5m / EVOH 15 \u00b5m / HDPE 374 \u00b5m; surface area 50470 mm\u00b2."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "cap",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 2.55145708125,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "PP",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PP": 1.0
+          },
+          "true_mass_g": 2.5515,
+          "true_category": "PP rigid",
+          "tags": [
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "PP screw cap 28 mm; part weight 0.09 oz."
+        },
+        {
+          "component_id": "C3",
+          "component_type": "label",
+          "format": "paper",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 150.0,
+            "h": 86.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.0129,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 70.0
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 1.0
+          },
+          "true_mass_g": 0.903,
+          "true_category": "Paper/paperboard",
+          "tags": [
+            "grammage",
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Front label, coated paper 70 g/m2; label size 150mm \u00d7 86mm."
+        }
+      ]
+    },
+    {
+      "sku": "APD-2849",
+      "product": "Kestrel Coconut Milk",
+      "product_type": "canned",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "can",
+          "format": "rigid",
+          "geometry": "surface",
+          "dims_mm": null,
+          "surface_cm2": 409.6766,
+          "stated_weight_g": null,
+          "area_m2": 0.04096766,
+          "layers": [
+            {
+              "material": "STEEL",
+              "kind": "wall",
+              "thickness_um": 220.0,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "STEEL": 1.0
+          },
+          "true_mass_g": 70.7511,
+          "true_category": "Steel",
+          "tags": [
+            "rigid"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Tinplate food can (body + 2 ends), tinplate, avg wall thickness 0.22 mm, total surface 63.5 in2."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "label",
+          "format": "flexible",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 123.0,
+            "h": 84.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.010332,
+          "layers": [
+            {
+              "material": "PP",
+              "kind": "film",
+              "thickness_um": 60.0,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PP": 1.0
+          },
+          "true_mass_g": 0.561,
+          "true_category": "PP flexible",
+          "tags": [
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Clear OPP wrap label, 60 mic; label size 123mm \u00d7 84mm."
+        }
+      ]
+    },
+    {
+      "sku": "LBM-2501",
+      "product": "Northfield Dark Chocolate Squares",
+      "product_type": "candy",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "flat pouch",
+          "format": "flexible",
+          "geometry": "flat_pouch",
+          "dims_mm": {
+            "w": 99.0,
+            "h": 102.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.020196,
+          "layers": [
+            {
+              "material": "PET",
+              "kind": "film",
+              "thickness_um": 23.368000000000002,
+              "grammage_gsm": null
+            },
+            {
+              "material": "PE",
+              "kind": "film",
+              "thickness_um": 60.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ADHESIVE",
+              "kind": "adhesive",
+              "thickness_um": null,
+              "grammage_gsm": 2.5
+            }
+          ],
+          "family_fractions": {
+            "PET": 0.36017933607683705,
+            "PE": 0.6120987980686066,
+            "ADHESIVE": 0.027721865854556455
+          },
+          "true_mass_g": 1.8213,
+          "true_category": "Multi-material flexible laminate",
+          "tags": [
+            "adhesive",
+            "laminate",
+            "two-faced"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Flat pouch. Face size (W x H) 99 x 102 mm. Spec: 92 ga PET/polyethylene 60 \u00b5; bonded with 2.5 gsm adhesive at each of the 1 interfaces."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "carton",
+          "format": "paper",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 431.0,
+            "h": 191.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.082321,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 230.0
+            },
+            {
+              "material": "LDPE",
+              "kind": "coating",
+              "thickness_um": null,
+              "grammage_gsm": 20.0
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 0.92,
+            "PE": 0.08
+          },
+          "true_mass_g": 20.5803,
+          "true_category": "Paper-based multi-material",
+          "tags": [
+            "coating",
+            "grammage",
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Folding carton, 230 g/m\u00b2 CUK board, one side LDPE extrusion coat 20g/m2; flat blank 431mm \u00d7 191mm."
+        }
+      ]
+    },
+    {
+      "sku": "BGH-6757",
+      "product": "Oakline Pretzel Thins",
+      "product_type": "snack",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "standup pouch",
+          "format": "flexible",
+          "geometry": "standup_pouch",
+          "dims_mm": {
+            "w": 144.0,
+            "h": 267.0,
+            "g": 81.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.08856,
+          "layers": [
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 40.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 100.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ALUMINUM",
+              "kind": "metallization",
+              "thickness_um": 0.03,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ADHESIVE",
+              "kind": "adhesive",
+              "thickness_um": null,
+              "grammage_gsm": 2.0
+            }
+          ],
+          "family_fractions": {
+            "PE": 0.9841000603601745,
+            "METALLIZATION": 0.0006188828019345817,
+            "ADHESIVE": 0.015281056837890907
+          },
+          "true_mass_g": 11.5908,
+          "true_category": "PE flexible",
+          "tags": [
+            "adhesive",
+            "gusset",
+            "laminate",
+            "metallized",
+            "two-faced"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "SUP with bottom gusset. Face size 144 mm W x 267 mm H, bottom gusset 81 mm (fully opened). Construction: LLDPE 40um/100 \u00b5m metallised PE; adhesive laminated, 1 x 2 gsm PU adhesive."
+        }
+      ]
+    },
+    {
+      "sku": "RRS-7302",
+      "product": "Kestrel Tuna",
+      "product_type": "canned",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "can",
+          "format": "rigid",
+          "geometry": "surface",
+          "dims_mm": null,
+          "surface_cm2": 554.9,
+          "stated_weight_g": null,
+          "area_m2": 0.05549,
+          "layers": [
+            {
+              "material": "STEEL",
+              "kind": "wall",
+              "thickness_um": 220.0,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "STEEL": 1.0
+          },
+          "true_mass_g": 95.8312,
+          "true_category": "Steel",
+          "tags": [
+            "rigid"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "3-piece steel can; surface area 55490 mm\u00b2, average wall 0.22 mm tinplate."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "label",
+          "format": "paper",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 110.0,
+            "h": 40.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.0044,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 80.0
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 1.0
+          },
+          "true_mass_g": 0.352,
+          "true_category": "Paper/paperboard",
+          "tags": [
+            "grammage",
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Wrap-around paper label, 80 gsm uncoated; label size 11cm \u00d7 4cm."
+        }
+      ]
+    },
+    {
+      "sku": "GAG-3017",
+      "product": "Kestrel Shampoo",
+      "product_type": "personal",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "bottle",
+          "format": "rigid",
+          "geometry": "surface",
+          "dims_mm": null,
+          "surface_cm2": 298,
+          "stated_weight_g": null,
+          "area_m2": 0.0298,
+          "layers": [
+            {
+              "material": "PET",
+              "kind": "wall",
+              "thickness_um": 304.79999999999995,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PET": 1.0
+          },
+          "true_mass_g": 12.6254,
+          "true_category": "PET rigid",
+          "tags": [
+            "rigid"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "rPET bottle, blow-moulded; surface area 298 cm\u00b2, average wall 12mil PET."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "cap",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 10.7,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "STEEL",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "STEEL": 1.0
+          },
+          "true_mass_g": 10.7,
+          "true_category": "Steel",
+          "tags": [
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Steel lug cap 63 mm, weighs 10.7 g."
+        },
+        {
+          "component_id": "C3",
+          "component_type": "carton",
+          "format": "paper",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 267.0,
+            "h": 300.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.0801,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 250.0
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 1.0
+          },
+          "true_mass_g": 20.025,
+          "true_category": "Paper/paperboard",
+          "tags": [
+            "grammage",
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Folding carton, 250g/m2 SBS board; flat blank 267 x 300 mm."
+        },
+        {
+          "component_id": "C4",
+          "component_type": "label",
+          "format": "flexible",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 197.0,
+            "h": 61.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.012017,
+          "layers": [
+            {
+              "material": "PP",
+              "kind": "film",
+              "thickness_um": 50.8,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PP": 1.0
+          },
+          "true_mass_g": 0.5525,
+          "true_category": "PP flexible",
+          "tags": [
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Clear OPP wrap label, 2 mils; label size 197 mm W x 61 mm H."
+        }
+      ]
+    },
+    {
+      "sku": "FNC-5541",
+      "product": "Oakline Iced Tea",
+      "product_type": "beverage",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "bottle",
+          "format": "rigid",
+          "geometry": "surface",
+          "dims_mm": null,
+          "surface_cm2": 291.61232,
+          "stated_weight_g": null,
+          "area_m2": 0.029161232000000002,
+          "layers": [
+            {
+              "material": "PET",
+              "kind": "wall",
+              "thickness_um": 304.79999999999995,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PET": 1.0
+          },
+          "true_mass_g": 12.3548,
+          "true_category": "PET rigid",
+          "tags": [
+            "rigid"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "PET bottle, PET, avg wall thickness 12 mils, total surface 45.2 in\u00b2."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "cap",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 3.2,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "HDPE",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PE": 1.0
+          },
+          "true_mass_g": 3.2,
+          "true_category": "HDPE rigid",
+          "tags": [
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "HDPE flip-top closure, weighs 3.2g."
+        },
+        {
+          "component_id": "C3",
+          "component_type": "label",
+          "format": "paper",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 235.0,
+            "h": 116.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.02726,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 97.648552727661
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 1.0
+          },
+          "true_mass_g": 2.6619,
+          "true_category": "Paper/paperboard",
+          "tags": [
+            "grammage",
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Wrap-around paper label, 60 lb/3000 ft\u00b2 uncoated; label size 235 mm W x 116 mm H."
+        }
+      ]
+    },
+    {
+      "sku": "EHM-1078",
+      "product": "Kestrel Cherry Tomatoes",
+      "product_type": "produce",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "tray",
+          "format": "rigid",
+          "geometry": "surface",
+          "dims_mm": null,
+          "surface_cm2": 539.9,
+          "stated_weight_g": null,
+          "area_m2": 0.053989999999999996,
+          "layers": [
+            {
+              "material": "PS",
+              "kind": "wall",
+              "thickness_um": 635.0,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PS": 1.0
+          },
+          "true_mass_g": 35.655,
+          "true_category": "PS rigid",
+          "tags": [
+            "rigid"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "HIPS tray, HIPS, avg wall thickness 25 mil, total surface 53990 mm\u00b2."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "film wrap",
+          "format": "flexible",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 327.0,
+            "h": 496.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.162192,
+          "layers": [
+            {
+              "material": "LDPE",
+              "kind": "film",
+              "thickness_um": 15.239999999999998,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PE": 1.0
+          },
+          "true_mass_g": 2.2741,
+          "true_category": "PE flexible",
+          "tags": [
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Overwrap film, LDPE 0.6 mil; cut sheet 327mm \u00d7 496mm."
+        }
+      ]
+    },
+    {
+      "sku": "BKL-1244",
+      "product": "Oakline Honey",
+      "product_type": "sauce",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "glass jar",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 276.23775333,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "GLASS",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "GLASS": 1.0
+          },
+          "true_mass_g": 276.2378,
+          "true_category": "Glass",
+          "tags": [
+            "capacity-trap",
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Flint glass jar, 16 oz capacity; part weight 0.609 lb."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "cap",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 10.3,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "STEEL",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "STEEL": 1.0
+          },
+          "true_mass_g": 10.3,
+          "true_category": "Steel",
+          "tags": [
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Steel lug cap 63 mm; part weight 10.3 g."
+        },
+        {
+          "component_id": "C3",
+          "component_type": "label",
+          "format": "flexible",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 155.0,
+            "h": 90.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.01395,
+          "layers": [
+            {
+              "material": "PP",
+              "kind": "film",
+              "thickness_um": 50.8,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PP": 1.0
+          },
+          "true_mass_g": 0.6413,
+          "true_category": "PP flexible",
+          "tags": [
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Clear OPP wrap label, 2 mils; label size (W x H) 15.5 x 9 cm."
+        }
+      ]
+    },
+    {
+      "sku": "CCV-6335",
+      "product": "Oakline Cherry Tomatoes",
+      "product_type": "produce",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "tray",
+          "format": "rigid",
+          "geometry": "surface",
+          "dims_mm": null,
+          "surface_cm2": 150,
+          "stated_weight_g": null,
+          "area_m2": 0.015,
+          "layers": [
+            {
+              "material": "PVC",
+              "kind": "wall",
+              "thickness_um": 254.0,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PVC": 1.0
+          },
+          "true_mass_g": 5.2578,
+          "true_category": "PVC rigid",
+          "tags": [
+            "rigid"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "PVC blister cavity tray, PVC, avg wall thickness 10mil, total surface 150 sq cm."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "film wrap",
+          "format": "flexible",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 446.0,
+            "h": 473.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.210958,
+          "layers": [
+            {
+              "material": "LDPE",
+              "kind": "film",
+              "thickness_um": 15.0,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PE": 1.0
+          },
+          "true_mass_g": 2.9112,
+          "true_category": "PE flexible",
+          "tags": [
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Overwrap film, LDPE 15 \u00b5m; cut sheet 446 mm W x 473 mm H."
+        }
+      ]
+    },
+    {
+      "sku": "ETM-9042",
+      "product": "Harvest & Co Corn Puffs",
+      "product_type": "cereal",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "carton",
+          "format": "paper",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 560.0,
+            "h": 340.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.1904,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 230.0
+            },
+            {
+              "material": "COATING",
+              "kind": "coating",
+              "thickness_um": null,
+              "grammage_gsm": 3.0
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 0.9871244635193134,
+            "COATING": 0.012875536480686697
+          },
+          "true_mass_g": 44.3632,
+          "true_category": "Paper/paperboard",
+          "tags": [
+            "coating",
+            "grammage",
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Folding carton, 230 gsm SBS board, aqueous varnish 3 gsm; flat blank (W x H) 56 x 34 cm."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "liner bag",
+          "format": "flexible",
+          "geometry": "flat_pouch",
+          "dims_mm": {
+            "w": 250.0,
+            "h": 322.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.161,
+          "layers": [
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 40.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 100.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ALUMINUM",
+              "kind": "metallization",
+              "thickness_um": 0.03,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ADHESIVE",
+              "kind": "adhesive",
+              "thickness_um": null,
+              "grammage_gsm": 2.0
+            }
+          ],
+          "family_fractions": {
+            "PE": 0.9841000603601745,
+            "METALLIZATION": 0.0006188828019345817,
+            "ADHESIVE": 0.015281056837890907
+          },
+          "true_mass_g": 21.0718,
+          "true_category": "PE flexible",
+          "tags": [
+            "adhesive",
+            "laminate",
+            "metallized",
+            "two-faced"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Bag-in-box liner, flat. Face size 250 x 322 mm. Construction: 40um LLDPE/met-PE 100um (OD 2.8); bonded with 2 gsm adhesive at each of the 1 interfaces."
+        }
+      ]
+    },
+    {
+      "sku": "TJK-2946",
+      "product": "Oakline Salsa Verde",
+      "product_type": "sauce",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "glass jar",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 376.4,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "GLASS",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "GLASS": 1.0
+          },
+          "true_mass_g": 376.4,
+          "true_category": "Glass",
+          "tags": [
+            "capacity-trap",
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Flint glass jar, 500 mL brimful, weighs 376.4g."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "cap",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 2.6,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "HDPE",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PE": 1.0
+          },
+          "true_mass_g": 2.6,
+          "true_category": "HDPE rigid",
+          "tags": [
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "HDPE flip-top closure. Unit wt: 2.6 g."
+        },
+        {
+          "component_id": "C3",
+          "component_type": "label",
+          "format": "paper",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 182.0,
+            "h": 100.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.0182,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 81.3737939397175
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 1.0
+          },
+          "true_mass_g": 1.481,
+          "true_category": "Paper/paperboard",
+          "tags": [
+            "grammage",
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Front label, coated paper 50# (3000 ft\u00b2 ream); label size 182mm \u00d7 100mm."
+        }
+      ]
+    },
+    {
+      "sku": "PMW-9646",
+      "product": "Northfield Corn Puffs",
+      "product_type": "cereal",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "carton",
+          "format": "paper",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 205.0,
+            "h": 495.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.101475,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 400.0
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 1.0
+          },
+          "true_mass_g": 40.59,
+          "true_category": "Paper/paperboard",
+          "tags": [
+            "grammage",
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Folding carton, 400 g/m\u00b2 SBS board; flat blank 20.5 x 49.5 cm."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "liner bag",
+          "format": "flexible",
+          "geometry": "flat_pouch",
+          "dims_mm": {
+            "w": 265.0,
+            "h": 380.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.2014,
+          "layers": [
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 30.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 60.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ALUMINUM",
+              "kind": "metallization",
+              "thickness_um": 0.05,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ADHESIVE",
+              "kind": "adhesive",
+              "thickness_um": null,
+              "grammage_gsm": 2.5
+            }
+          ],
+          "family_fractions": {
+            "PE": 0.9691578392930299,
+            "METALLIZATION": 0.0015801486510212443,
+            "ADHESIVE": 0.029262012055948965
+          },
+          "true_mass_g": 17.2066,
+          "true_category": "PE flexible",
+          "tags": [
+            "adhesive",
+            "laminate",
+            "metallized",
+            "two-faced"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Bag-in-box liner, flat. Face size 26.5cm \u00d7 38cm. Construction: MDO-PE 30 \u00b5m/met-PE 60um (OD 2.4); adhesive laminated, 1 x 2.5 gsm PU adhesive."
+        }
+      ]
+    },
+    {
+      "sku": "BLD-5747",
+      "product": "Tidewater Granola Bites",
+      "product_type": "snack",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "standup pouch",
+          "format": "flexible",
+          "geometry": "standup_pouch",
+          "dims_mm": {
+            "w": 165.0,
+            "h": 305.0,
+            "g": 70.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.1122,
+          "layers": [
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 25.4,
+              "grammage_gsm": null
+            },
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 76.19999999999999,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ALUMINUM",
+              "kind": "metallization",
+              "thickness_um": 0.035,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ADHESIVE",
+              "kind": "adhesive",
+              "thickness_um": null,
+              "grammage_gsm": 1.5
+            }
+          ],
+          "family_fractions": {
+            "PE": 0.9832275302025424,
+            "METALLIZATION": 0.0009940410133958862,
+            "ADHESIVE": 0.015778428784061684
+          },
+          "true_mass_g": 10.6665,
+          "true_category": "PE flexible",
+          "tags": [
+            "adhesive",
+            "ambiguous",
+            "gusset",
+            "laminate",
+            "metallized",
+            "two-faced"
+          ],
+          "ambiguous_spec": true,
+          "spec_text": "Stand-up pouch (doypack) \u2014 Layers: LLDPE 1 / 3mil met-PE (~35 nm Al). Solventless adhesive 1.5 g/m\u00b2 per interface. Dimensions per face (W x H) 16.5 x 30.5 cm, bottom gusset: 7 cm opened out. [thickness unit missing on supplier sheet]"
+        }
+      ]
+    },
+    {
+      "sku": "RLC-1031",
+      "product": "Kestrel Trail Mix",
+      "product_type": "snack",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "standup pouch",
+          "format": "flexible",
+          "geometry": "standup_pouch",
+          "dims_mm": {
+            "w": 138.0,
+            "h": 187.0,
+            "g": 51.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.05865,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 65.099035151774
+            },
+            {
+              "material": "LDPE",
+              "kind": "coating",
+              "thickness_um": null,
+              "grammage_gsm": 15.0
+            },
+            {
+              "material": "ALUMINUM",
+              "kind": "foil",
+              "thickness_um": 8.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 100.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ADHESIVE",
+              "kind": "adhesive",
+              "thickness_um": null,
+              "grammage_gsm": 1.5
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 0.3335008039417677,
+            "PE": 0.5481584471808675,
+            "ALUMINUM": 0.11065628466454895,
+            "ADHESIVE": 0.007684464212815898
+          },
+          "true_mass_g": 11.4484,
+          "true_category": "Multi-material flexible laminate",
+          "tags": [
+            "adhesive",
+            "coating",
+            "foil",
+            "grammage",
+            "gusset",
+            "laminate",
+            "two-faced"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Stand-up pouch (doypack). Face size 138 x 187 mm, bottom gusset: 51 mm opened out. Build (outside first): 40 lb/3000 ft\u00b2 bleached kraft paper / 15g/m2 PE extrusion layer / aluminium foil 8 micron / 100 \u00b5m LLDPE; bonded with 1.5 gsm adhesive at each of the 1 interfaces."
+        }
+      ]
+    },
+    {
+      "sku": "DCG-3754",
+      "product": "Tidewater Body Lotion",
+      "product_type": "personal",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "bottle",
+          "format": "rigid",
+          "geometry": "surface",
+          "dims_mm": null,
+          "surface_cm2": 396,
+          "stated_weight_g": null,
+          "area_m2": 0.0396,
+          "layers": [
+            {
+              "material": "PET",
+              "kind": "wall",
+              "thickness_um": 300.0,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PET": 1.0
+          },
+          "true_mass_g": 16.5132,
+          "true_category": "PET rigid",
+          "tags": [
+            "rigid"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "rPET bottle, blow-moulded; surface area 396 sq cm, average wall 300\u00b5m PET."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "cap",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 2.3,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "PP",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PP": 1.0
+          },
+          "true_mass_g": 2.3,
+          "true_category": "PP rigid",
+          "tags": [
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "PP screw cap 28 mm. Unit wt: 2.3 grams."
+        },
+        {
+          "component_id": "C3",
+          "component_type": "carton",
+          "format": "paper",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 457.2,
+            "h": 298.45,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.13645134,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 250.0
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 1.0
+          },
+          "true_mass_g": 34.1128,
+          "true_category": "Paper/paperboard",
+          "tags": [
+            "grammage",
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Folding carton, 250 gsm CUK board; flat blank 18 x 11.75 in."
+        }
+      ]
+    },
+    {
+      "sku": "JBA-5935",
+      "product": "Sunward Coconut Milk",
+      "product_type": "canned",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "can",
+          "format": "rigid",
+          "geometry": "surface",
+          "dims_mm": null,
+          "surface_cm2": 530,
+          "stated_weight_g": null,
+          "area_m2": 0.053,
+          "layers": [
+            {
+              "material": "STEEL",
+              "kind": "wall",
+              "thickness_um": 180.0,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "STEEL": 1.0
+          },
+          "true_mass_g": 74.889,
+          "true_category": "Steel",
+          "tags": [
+            "rigid"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Tinplate food can (body + 2 ends), tinplate, avg wall thickness 0.18 mm, total surface 530 cm2."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "label",
+          "format": "paper",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 142.0,
+            "h": 98.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.013916,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 70.0
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 1.0
+          },
+          "true_mass_g": 0.9741,
+          "true_category": "Paper/paperboard",
+          "tags": [
+            "grammage",
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Wrap-around paper label, 70 g/m\u00b2 uncoated; label size 142 x 98 mm."
+        }
+      ]
+    },
+    {
+      "sku": "KKA-4050",
+      "product": "Sunward Honey",
+      "product_type": "sauce",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "glass jar",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 161.02529135,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "GLASS",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "GLASS": 1.0
+          },
+          "true_mass_g": 161.0253,
+          "true_category": "Glass",
+          "tags": [
+            "capacity-trap",
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Flint glass jar, 375 mL brimful. Unit wt: 0.355 lb."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "cap",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 5.5,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "HDPE",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PE": 1.0
+          },
+          "true_mass_g": 5.5,
+          "true_category": "HDPE rigid",
+          "tags": [
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "HDPE flip-top closure, weighs 5.5 grams."
+        },
+        {
+          "component_id": "C3",
+          "component_type": "label",
+          "format": "paper",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 245.0,
+            "h": 105.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.025725,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 97.648552727661
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 1.0
+          },
+          "true_mass_g": 2.512,
+          "true_category": "Paper/paperboard",
+          "tags": [
+            "grammage",
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Wrap-around paper label, 60 lb/3000 ft\u00b2 uncoated; label size (W x H) 24.5 x 10.5 cm."
+        }
+      ]
+    },
+    {
+      "sku": "FBN-8626",
+      "product": "Northfield Protein Powder Sachet",
+      "product_type": "single-serve",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "sachet",
+          "format": "flexible",
+          "geometry": "flat_pouch",
+          "dims_mm": {
+            "w": 55.0,
+            "h": 130.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.0143,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 60.0
+            },
+            {
+              "material": "LDPE",
+              "kind": "coating",
+              "thickness_um": null,
+              "grammage_gsm": 15.0
+            },
+            {
+              "material": "ALUMINUM",
+              "kind": "foil",
+              "thickness_um": 8.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 90.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ADHESIVE",
+              "kind": "adhesive",
+              "thickness_um": null,
+              "grammage_gsm": 2.0
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 0.33076074972436603,
+            "PE": 0.5391400220507166,
+            "ALUMINUM": 0.11907386990077179,
+            "ADHESIVE": 0.011025358324145534
+          },
+          "true_mass_g": 2.594,
+          "true_category": "Multi-material flexible laminate",
+          "tags": [
+            "adhesive",
+            "coating",
+            "foil",
+            "grammage",
+            "laminate",
+            "two-faced"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Sachet, 4-side seal. Face size 5.5 x 13 cm. Laminate: 60 gsm bleached kraft paper/15 g/m\u00b2 PE extrusion layer/aluminium foil 8um/LLDPE sealant 90 \u00b5m. Solventless adhesive 2 g/m\u00b2 per interface."
+        }
+      ]
+    },
+    {
+      "sku": "WPE-4410",
+      "product": "Northfield Protein Powder Sachet",
+      "product_type": "single-serve",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "sachet",
+          "format": "flexible",
+          "geometry": "flat_pouch",
+          "dims_mm": {
+            "w": 45.0,
+            "h": 105.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.00945,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 65.099035151774
+            },
+            {
+              "material": "LDPE",
+              "kind": "coating",
+              "thickness_um": null,
+              "grammage_gsm": 20.0
+            },
+            {
+              "material": "ALUMINUM",
+              "kind": "foil",
+              "thickness_um": 6.35,
+              "grammage_gsm": null
+            },
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 76.19999999999999,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ADHESIVE",
+              "kind": "adhesive",
+              "thickness_um": null,
+              "grammage_gsm": 1.5
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 0.3744594242606239,
+            "PE": 0.5182917363508699,
+            "ALUMINUM": 0.09862061417623705,
+            "ADHESIVE": 0.008628225212269207
+          },
+          "true_mass_g": 1.6429,
+          "true_category": "Multi-material flexible laminate",
+          "tags": [
+            "adhesive",
+            "coating",
+            "foil",
+            "grammage",
+            "laminate",
+            "two-faced"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Sachet, 4-side seal \u2014 Structure (out\u2192in): 40 lb basis wt (3000 sq ft) paper // 20 gsm PE extrusion layer // Al foil 6.35um // LLDPE 3mil. Solventless adhesive 1.5 g/m\u00b2 per interface. Dimensions per face 4.5cm \u00d7 10.5cm."
+        }
+      ]
+    },
+    {
+      "sku": "EMA-3607",
+      "product": "Sunward Protein Powder Sachet",
+      "product_type": "single-serve",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "sachet",
+          "format": "flexible",
+          "geometry": "flat_pouch",
+          "dims_mm": {
+            "w": 54.0,
+            "h": 94.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.010152,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 70.0
+            },
+            {
+              "material": "LDPE",
+              "kind": "coating",
+              "thickness_um": null,
+              "grammage_gsm": 25.0
+            },
+            {
+              "material": "ALUMINUM",
+              "kind": "foil",
+              "thickness_um": 9.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 100.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ADHESIVE",
+              "kind": "adhesive",
+              "thickness_um": null,
+              "grammage_gsm": 1.8
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 0.32848427968090094,
+            "PE": 0.5490380103237916,
+            "ALUMINUM": 0.11403097137494134,
+            "ADHESIVE": 0.008446738620366026
+          },
+          "true_mass_g": 2.1634,
+          "true_category": "Multi-material flexible laminate",
+          "tags": [
+            "adhesive",
+            "coating",
+            "foil",
+            "grammage",
+            "laminate",
+            "two-faced"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Single-serve sachet. Face size 54mm \u00d7 94mm. Build (outside first): 70 g/m\u00b2 MG kraft / 25 gsm PE extrusion layer / 9 \u00b5 Al foil / 100 micron LLDPE sealant. Solventless adhesive 1.8 g/m\u00b2 per interface."
+        }
+      ]
+    },
+    {
+      "sku": "MFF-7615",
+      "product": "Oakline Hummus",
+      "product_type": "dairy",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "tub",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 20.5,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "PP",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PP": 1.0
+          },
+          "true_mass_g": 20.5,
+          "true_category": "PP rigid",
+          "tags": [
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Injection-moulded PP tub. Unit wt: 20.5 g."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "lidding",
+          "format": "flexible",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 95.0,
+            "h": 130.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.01235,
+          "layers": [
+            {
+              "material": "ALUMINUM",
+              "kind": "foil",
+              "thickness_um": 38.099999999999994,
+              "grammage_gsm": null
+            },
+            {
+              "material": "COATING",
+              "kind": "coating",
+              "thickness_um": null,
+              "grammage_gsm": 2.0
+            }
+          ],
+          "family_fractions": {
+            "ALUMINUM": 0.9809287689520358,
+            "COATING": 0.019071231047964148
+          },
+          "true_mass_g": 1.2951,
+          "true_category": "Aluminum",
+          "tags": [
+            "ambiguous",
+            "coating",
+            "foil",
+            "sheet"
+          ],
+          "ambiguous_spec": true,
+          "spec_text": "Die-cut lid, 1.5 aluminium foil + 2 gsm heat-seal lacquer; lid blank 9.5cm \u00d7 13cm. [thickness unit missing on supplier sheet]"
+        }
+      ]
+    },
+    {
+      "sku": "DLV-5007",
+      "product": "Meridian Cottage Cheese",
+      "product_type": "dairy",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "tub",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 5.38640939375,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "PS",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "PS": 1.0
+          },
+          "true_mass_g": 5.3864,
+          "true_category": "PS rigid",
+          "tags": [
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "PS yoghurt cup; part weight 0.19 oz."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "lidding",
+          "format": "flexible",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 68.0,
+            "h": 106.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.007208,
+          "layers": [
+            {
+              "material": "PET",
+              "kind": "film",
+              "thickness_um": 23.368000000000002,
+              "grammage_gsm": null
+            },
+            {
+              "material": "PE",
+              "kind": "film",
+              "thickness_um": 50.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ADHESIVE",
+              "kind": "adhesive",
+              "thickness_um": null,
+              "grammage_gsm": 2.2
+            }
+          ],
+          "family_fractions": {
+            "PET": 0.40258934140060826,
+            "PE": 0.5701429521902909,
+            "ADHESIVE": 0.027267706409100874
+          },
+          "true_mass_g": 0.5816,
+          "true_category": "Multi-material flexible laminate",
+          "tags": [
+            "adhesive",
+            "laminate",
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Peelable lidding film, PET 92 gauge / 50\u00b5m PE; bonded with 2.2 gsm adhesive at each of the 1 interfaces; lid blank (W x H) 68 x 106 mm."
+        },
+        {
+          "component_id": "C3",
+          "component_type": "cap",
+          "format": "rigid",
+          "geometry": "stated",
+          "dims_mm": null,
+          "surface_cm2": null,
+          "stated_weight_g": 1.7009713875,
+          "area_m2": null,
+          "layers": [
+            {
+              "material": "ALUMINUM",
+              "kind": "wall",
+              "thickness_um": null,
+              "grammage_gsm": null
+            }
+          ],
+          "family_fractions": {
+            "ALUMINUM": 1.0
+          },
+          "true_mass_g": 1.701,
+          "true_category": "Aluminum",
+          "tags": [
+            "stated-weight"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Aluminium ROPP closure; part weight 0.06 oz."
+        }
+      ]
+    },
+    {
+      "sku": "WFF-1679",
+      "product": "Meridian Kettle Chips",
+      "product_type": "snack",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "standup pouch",
+          "format": "flexible",
+          "geometry": "standup_pouch",
+          "dims_mm": {
+            "w": 160.0,
+            "h": 270.0,
+            "g": 110.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.104,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 50.0
+            },
+            {
+              "material": "LDPE",
+              "kind": "coating",
+              "thickness_um": null,
+              "grammage_gsm": 25.0
+            },
+            {
+              "material": "ALUMINUM",
+              "kind": "foil",
+              "thickness_um": 9.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "LLDPE",
+              "kind": "film",
+              "thickness_um": 75.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ADHESIVE",
+              "kind": "adhesive",
+              "thickness_um": null,
+              "grammage_gsm": 1.5
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 0.29446407538280334,
+            "PE": 0.5535924617196702,
+            "ALUMINUM": 0.14310954063604242,
+            "ADHESIVE": 0.0088339222614841
+          },
+          "true_mass_g": 17.6592,
+          "true_category": "Multi-material flexible laminate",
+          "tags": [
+            "adhesive",
+            "ambiguous",
+            "coating",
+            "foil",
+            "grammage",
+            "gusset",
+            "laminate",
+            "two-faced"
+          ],
+          "ambiguous_spec": true,
+          "spec_text": "SUP with bottom gusset \u2014 Laminate: 50 paper/25 g/m\u00b2 LDPE extrusion coat/aluminium foil 9\u00b5m/75 \u00b5m LLDPE sealant. Solventless adhesive 1.5 g/m\u00b2 per interface. Dimensions per face 16cm \u00d7 27cm, bottom gusset 11 cm (fully opened). [thickness unit missing on supplier sheet]"
+        }
+      ]
+    },
+    {
+      "sku": "TME-9663",
+      "product": "Harvest & Co Dark Chocolate Squares",
+      "product_type": "candy",
+      "components": [
+        {
+          "component_id": "C1",
+          "component_type": "flat pouch",
+          "format": "flexible",
+          "geometry": "flat_pouch",
+          "dims_mm": {
+            "w": 101.6,
+            "h": 215.89999999999998,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.04387087999999999,
+          "layers": [
+            {
+              "material": "PET",
+              "kind": "film",
+              "thickness_um": 23.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "PE",
+              "kind": "film",
+              "thickness_um": 90.0,
+              "grammage_gsm": null
+            },
+            {
+              "material": "ADHESIVE",
+              "kind": "adhesive",
+              "thickness_um": null,
+              "grammage_gsm": 1.5
+            }
+          ],
+          "family_fractions": {
+            "PET": 0.2749634471488776,
+            "PE": 0.7121355465726327,
+            "ADHESIVE": 0.01290100627848972
+          },
+          "true_mass_g": 5.1009,
+          "true_category": "Multi-material flexible laminate",
+          "tags": [
+            "adhesive",
+            "laminate",
+            "two-faced"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Pillow pack (flat, 2 faces) \u2014 Construction: PET 23 mic/90\u00b5m polyethylene. Solventless adhesive 1.5 g/m\u00b2 per interface. Dimensions per face 4\" W x 8.5\" H."
+        },
+        {
+          "component_id": "C2",
+          "component_type": "carton",
+          "format": "paper",
+          "geometry": "sheet",
+          "dims_mm": {
+            "w": 421.0,
+            "h": 392.0,
+            "g": 0.0
+          },
+          "surface_cm2": null,
+          "stated_weight_g": null,
+          "area_m2": 0.165032,
+          "layers": [
+            {
+              "material": "PAPER",
+              "kind": "paper",
+              "thickness_um": null,
+              "grammage_gsm": 250.0
+            }
+          ],
+          "family_fractions": {
+            "PAPER": 1.0
+          },
+          "true_mass_g": 41.258,
+          "true_category": "Paper/paperboard",
+          "tags": [
+            "grammage",
+            "sheet"
+          ],
+          "ambiguous_spec": false,
+          "spec_text": "Folding carton, 250g/m2 SBS board; flat blank (W x H) 421 x 392 mm."
+        }
+      ]
+    }
+  ],
+  "totals_by_category": {
+    "Aluminum": 14.6218,
+    "Glass": 1061.9631,
+    "HDPE rigid": 96.0009,
+    "Multi-material flexible laminate": 71.0716,
+    "Multi-material rigid": 31.9385,
+    "PE flexible": 79.152,
+    "PET rigid": 86.9534,
+    "PP flexible": 2.4966,
+    "PP rigid": 52.7515,
+    "PS rigid": 46.4278,
+    "PVC rigid": 5.2578,
+    "Paper-based multi-material": 20.5803,
+    "Paper/paperboard": 190.2528,
+    "Steel": 271.5713
+  },
+  "total_weight_g": 2031.0394
+}

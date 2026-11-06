@@ -1,0 +1,90 @@
+PACKAGING SPECIFICATION CATALOG cat_06
+(SYNTHETIC test data — not real products)
+
+Item code AFK-2932: Tidewater Drink Mix Stick, 16 fl oz
+Packaging spec:
+  C1) Single-serve sachet. Face size 90 mm W x 112 mm H. Structure (out→in): 50g/m2 bleached kraft paper // 15g/m2 PE extrusion layer // aluminium foil 0.00035" // LLDPE sealant 50 micron; bonded with 1.8 gsm adhesive at each of the 1 interfaces.
+------------------------------------------------------------
+SKU: TDM-1258 | Kestrel Cold Brew | Net 500 mL
+Pack BOM:
+  C1) Co-ex barrier bottle, HDPE 343 µm / EVOH 76 µm / HDPE 343 µm; surface area 59.6 sq in.
+  C2) Steel lug cap 63 mm; part weight 9.5 g.
+  C3 – BOPP film label 60 µm; label size 97 mm W x 95 mm H.
+------------------------------------------------------------
+SKU# BBD-9567 — Sunward Ketchup Packet (250 g)
+Pack BOM:
+  C1 – Sachet, 4-side seal. Face size 72mm × 76mm. Spec: 92 gauge BOPET/92 ga VMPET/2 mils polyethylene; bonded with 1.5 gsm adhesive at each of the 2 interfaces.
+------------------------------------------------------------
+SKU# GMD-3693 — Harvest & Co Coconut Milk (250 g)
+Packaging spec:
+  Component C1: Aluminium beverage can (body + end), aluminium, avg wall thickness 100 mic, total surface 339 sq cm.
+  C2 – BOPP film label 50µm; label size (W x H) 22.5 x 11.5 cm.
+------------------------------------------------------------
+Item code WWS-2799: Bluepeak Oat Flakes, Net 500 mL
+Packaging spec:
+  C1) Folding carton, 400 gsm CUK board, aqueous varnish 3 gsm; flat blank 54cm × 40.5cm.
+  Component C2: Bag-in-box liner, flat — Layers: 90 micron LLDPE. Dimensions per face 9.25" x 15.25".
+------------------------------------------------------------
+SKU: VWR-5993 | Harvest & Co Gummy Bears | 250 g
+Pack BOM:
+  [C1] Flat pouch — Spec: 30µm MDO-PE/90µm met-PE (OD 2.4); adhesive laminated, 1 x 2.5 gsm PU adhesive. Dimensions per face 130 mm W x 112 mm H.
+------------------------------------------------------------
+Item code WLR-7066: Harvest & Co Muesli, Net 500 mL
+Pack BOM:
+  Component C1: Folding carton, 350g/m2 SBS board, aqueous varnish 3 gsm; flat blank (W x H) 224 x 453 mm.
+  [C2] Bag-in-box liner, flat. Face size 9.75in × 11.75in. Laminate: 30µm MDO-PE / 100 mic met-PE (OD 2.2); bonded with 2.2 gsm adhesive at each of the 1 interfaces.
+------------------------------------------------------------
+SKU: GBD-1967 | Northfield Tuna | NET WT 8 OZ
+Packaging spec:
+  C1 – 3-piece steel can; surface area 73.7 sq in, average wall 0.22 mm tinplate.
+  C2 – BOPP film label 50 mic; label size 165 mm W x 120 mm H.
+------------------------------------------------------------
+Item code GJF-4947: Oakline Cottage Cheese, 250 g
+Pack BOM:
+  C1 – PS yoghurt cup. Unit wt: 7.8g.
+  C2) Peelable lidding film, OPET 23µm/50 µm PE; bonded with 2.2 gsm adhesive at each of the 1 interfaces; lid blank (W x H) 89 x 127 mm.
+------------------------------------------------------------
+SKU: FDE-9603 | Bluepeak Honey | Net wt 1 lb
+Packaging spec:
+  C1) Amber glass bottle, 24 oz capacity. Unit wt: 10.65 oz.
+  C2) PP dispensing pump (all-PP); part weight 13.2g.
+  C3 – BOPP film label 2 mil; label size 236mm × 75mm.
+------------------------------------------------------------
+SKU: PFD-2663 | Sunward Whole Bean Coffee | 16 fl oz
+Packaging components:
+  Component C1: Side-gusset bag — Build (outside first): 90 g/m² kraft paper/20 g/m2 PE extrusion coat. Dimensions per face 14 x 27 cm, side gussets: 9 cm opened out.
+  C2 – One-way degassing valve (PE). Unit wt: 0.04 oz.
+------------------------------------------------------------
+SKU: BKJ-1628 | Meridian Drink Mix Stick | Net wt 1 lb
+Pack BOM:
+  [C1] Sachet, 4-side seal — Construction: 92ga PET/60µm polyethylene. Solventless adhesive 2 g/m² per interface. Dimensions per face 54 mm W x 116 mm H.
+------------------------------------------------------------
+SKU: KFP-1921 | Sunward Corn Puffs | 16 fl oz
+Pack BOM:
+  C1) Folding carton, 230g/m2 recycled CCNB board; flat blank 326mm × 325mm.
+  C2) Bag-in-box liner, flat. Face size 197mm × 302mm. Structure (out→in): LLDPE 50 µm.
+------------------------------------------------------------
+SKU# RRP-9762 — Harvest & Co Black Beans (250 g)
+Packaging components:
+  C1 – Aluminium beverage can (body + end); surface area 28510 mm², average wall 0.1mm aluminium.
+  C2) Wrap-around paper label, 60 lb basis wt (3000 sq ft) uncoated; label size 24 x 6 cm.
+------------------------------------------------------------
+SKU# VBW-2239 — Sunward Cold Brew (NET WT 8 OZ)
+Pack BOM:
+  Component C1: Co-ex barrier bottle, HDPE 392 µm / EVOH 16 µm / HDPE 392 µm; surface area 400 sq cm.
+  C2) Steel lug cap 63 mm. Unit wt: 7.6 grams.
+  Component C3: Clear OPP wrap label, 50 µm; label size 3.5" W x 3" H.
+------------------------------------------------------------
+SKU: ECK-1472 | Harvest & Co Cherry Tomatoes | Net 500 mL
+Packaging components:
+  Component C1: PVC blister cavity tray; surface area 240 cm², average wall 250 mic PVC.
+  [C2] LLDPE stretch film wrap, gauge 0.6 mils; cut sheet 17" x 12.5".
+------------------------------------------------------------
+Item code MGD-9609: Bluepeak Mint Drops, Net 500 mL
+Packaging components:
+  [C1] Pillow pack (flat, 2 faces). Face size 6 in W x 7 in H. Build (outside first): 48 ga BOPET // 12um met-PET // 100 µm polyethylene; adhesive laminated, 2 x 1.5 gsm PU adhesive.
+  C2 – Folding carton, 230g/m2 CUK board; flat blank 53 x 19 cm.
+------------------------------------------------------------
+SKU: KCJ-1955 | Tidewater Pretzel Thins | 250 g
+Pack BOM:
+  Component C1: Stand-up pouch (doypack) — Layers: 2.5 mil LLDPE. Dimensions per face 10 cm W x 25 cm H, bottom gusset: 5 cm opened out.

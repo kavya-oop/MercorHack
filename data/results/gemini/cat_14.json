@@ -1,0 +1,887 @@
+{
+ "items": [],
+ "missing": [
+  {
+   "sku": "NGM-4762",
+   "component_id": "C1",
+   "spec_text": "rPET bottle, blow-moulded, PET, avg wall thickness 0.25 mm, total surface 52010 mm\u00b2.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "NGM-4762/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "NGM-4762",
+   "component_id": "C2",
+   "spec_text": "Steel lug cap 63 mm, weighs 8.9 grams.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "NGM-4762/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "NGM-4762",
+   "component_id": "C3",
+   "spec_text": "Folding carton, 400 gsm recycled CCNB board; flat blank 483 mm W x 210 mm H.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "NGM-4762/C3 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "NGM-4762",
+   "component_id": "C4",
+   "spec_text": "Front label, coated paper 60 g/m\u00b2; label size 84 x 110 mm.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "NGM-4762/C4 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "SSF-9523",
+   "component_id": "C1",
+   "spec_text": "SUP with bottom gusset. Face size (W x H) 16 x 16.5 cm, bottom gusset 6 cm (fully opened). Construction: 100 gsm natural kraft // 18 gsm PE extrusion coat.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "SSF-9523/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "KBE-8336",
+   "component_id": "C1",
+   "spec_text": "PP thermoformed tub; surface area 484 cm\u00b2, average wall 0.5 mm PP.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "KBE-8336/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "KBE-8336",
+   "component_id": "C2",
+   "spec_text": "LLDPE stretch film wrap, gauge 0.8mil; cut sheet 31cm \u00d7 29.5cm.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "KBE-8336/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "KBE-8336",
+   "component_id": "C3",
+   "spec_text": "Wrap-around paper label, 70 gsm uncoated; label size 5.5\" x 3.5\".",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "KBE-8336/C3 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "SHP-9884",
+   "component_id": "C1",
+   "spec_text": "Side-gusset bag. Face size 13.5 x 32 cm, side gussets 5.5 cm (fully opened). Laminate: 70 gsm kraft paper/20 g/m2 PE extrusion coat.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "SHP-9884/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "SHP-9884",
+   "component_id": "C2",
+   "spec_text": "One-way degassing valve (PE); part weight 1.4 grams.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "SHP-9884/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "MEH-7214",
+   "component_id": "C1",
+   "spec_text": "PS yoghurt cup. Unit wt: 5.1g.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "MEH-7214/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "MEH-7214",
+   "component_id": "C2",
+   "spec_text": "Peelable lidding film, 12\u00b5m PET / 100\u00b5m polyethylene; adhesive laminated, 1 x 3 gsm PU adhesive; lid blank 72 x 79 mm.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "MEH-7214/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "BPF-3433",
+   "component_id": "C1",
+   "spec_text": "Flint glass jar, 8 oz capacity. Unit wt: 9.92 oz.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "BPF-3433/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "BPF-3433",
+   "component_id": "C2",
+   "spec_text": "PP screw cap 28 mm; part weight 3.4 g.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "BPF-3433/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "BPF-3433",
+   "component_id": "C3",
+   "spec_text": "Wrap-around paper label, 60 lb basis wt (3000 sq ft) uncoated; label size 4.75\" x 3.75\".",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "BPF-3433/C3 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "RLG-8901",
+   "component_id": "C1",
+   "spec_text": "APET thermoformed tray, APET, avg wall thickness 0.4mm, total surface 660 cm2.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "RLG-8901/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "RLG-8901",
+   "component_id": "C2",
+   "spec_text": "LDPE wrap, gauge 1.2 mils; cut sheet 332mm \u00d7 310mm.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "RLG-8901/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "RLG-8901",
+   "component_id": "C3",
+   "spec_text": "Wrap-around paper label, 70 g/m2 uncoated; label size 6.25 x 2 in.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "RLG-8901/C3 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "ELP-5978",
+   "component_id": "C1",
+   "spec_text": "Injection-moulded PP tub, weighs 0.5 oz.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "ELP-5978/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "ELP-5978",
+   "component_id": "C2",
+   "spec_text": "Peelable lidding film, 48 gauge OPET / polyethylene 100 mic; adhesive laminated, 1 x 2 gsm PU adhesive; lid blank 82 mm W x 76 mm H.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "ELP-5978/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "FKL-2125",
+   "component_id": "C1",
+   "spec_text": "PP thermoformed tub, PP, avg wall thickness 0.5mm, total surface 77.8 sq in.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "FKL-2125/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "FKL-2125",
+   "component_id": "C2",
+   "spec_text": "PVC cling film wrap, gauge 0.8; cut sheet 300mm \u00d7 323mm. [thickness unit missing on supplier sheet]",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "FKL-2125/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "FKL-2125",
+   "component_id": "C3",
+   "spec_text": "Wrap-around paper label, 60# (3000 ft\u00b2 ream) uncoated; label size 176 mm W x 89 mm H.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "FKL-2125/C3 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "LHL-2358",
+   "component_id": "C1",
+   "spec_text": "PP thermoformed tub; surface area 383 sq cm, average wall 20 mils PP.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "LHL-2358/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "LHL-2358",
+   "component_id": "C2",
+   "spec_text": "LLDPE stretch film wrap, gauge 1.2; cut sheet 46 x 34 cm. [thickness unit missing on supplier sheet]",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "LHL-2358/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "EHM-7965",
+   "component_id": "C1",
+   "spec_text": "Sachet, 4-side seal \u2014 Layers: 40# (3000 ft\u00b2 ream) MG kraft / 18 gsm PE extrusion layer / 8 \u00b5m aluminium foil / 60 \u00b5 LLDPE; bonded with 3 gsm adhesive at each of the 1 interfaces. Dimensions per face 78 x 124 mm.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "EHM-7965/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "WCA-4329",
+   "component_id": "C1",
+   "spec_text": "PVC blister cavity tray, PVC, avg wall thickness 10 mil, total surface 126 cm\u00b2.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "WCA-4329/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "WCA-4329",
+   "component_id": "C2",
+   "spec_text": "Overwrap film, LLDPE stretch film 1.2 mils; cut sheet 16.75in \u00d7 15.5in.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "WCA-4329/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "NCE-4137",
+   "component_id": "C1",
+   "spec_text": "3-side-seal flat pouch \u2014 Build (outside first): 20 \u00b5 OPP // 20\u00b5m met-OPP (OD 2.2). Solventless adhesive 3 g/m\u00b2 per interface. Dimensions per face 164 mm W x 118 mm H.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "NCE-4137/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "NCE-4137",
+   "component_id": "C2",
+   "spec_text": "Folding carton, 400 g/m2 SBS board, aqueous varnish 2 gsm; flat blank 21 in W x 10.25 in H.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "NCE-4137/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "NPA-1512",
+   "component_id": "C1",
+   "spec_text": "Co-ex barrier bottle, HDPE 315 \u00b5m / EVOH 70 \u00b5m / HDPE 315 \u00b5m; surface area 793 cm\u00b2.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "NPA-1512/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "NPA-1512",
+   "component_id": "C2",
+   "spec_text": "PP dispensing pump (all-PP), weighs 13 g.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "NPA-1512/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "NPA-1512",
+   "component_id": "C3",
+   "spec_text": "Folding carton, 300 gsm SBS board; flat blank 589 mm W x 403 mm H.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "NPA-1512/C3 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "NPA-1512",
+   "component_id": "C4",
+   "spec_text": "Wrap-around paper label, 70 gsm uncoated; label size (W x H) 18.5 x 8.5 cm.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "NPA-1512/C4 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "CJC-4284",
+   "component_id": "C1",
+   "spec_text": "PP thermoformed tub, PP, avg wall thickness 0.5mm, total surface 40.2 in\u00b2.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "CJC-4284/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "CJC-4284",
+   "component_id": "C2",
+   "spec_text": "Overwrap film, LDPE 15; cut sheet 321mm \u00d7 548mm. [thickness unit missing on supplier sheet]",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "CJC-4284/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "LLC-1192",
+   "component_id": "C1",
+   "spec_text": "Flint glass jar, 16 oz capacity, weighs 10.51 oz.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "LLC-1192/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "LLC-1192",
+   "component_id": "C2",
+   "spec_text": "Aluminium ROPP closure, weighs 0.08 oz.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "LLC-1192/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "LLC-1192",
+   "component_id": "C3",
+   "spec_text": "Wrap-around paper label, 60g/m2 uncoated; label size 18cm \u00d7 9cm.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "LLC-1192/C3 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "RKT-9022",
+   "component_id": "C1",
+   "spec_text": "Folding carton, 400 CUK board, aqueous varnish 3 gsm; flat blank 28.5 x 47 cm. [thickness unit missing on supplier sheet]",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "RKT-9022/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "RKT-9022",
+   "component_id": "C2",
+   "spec_text": "Bag-in-box liner, flat. Face size 10.5 x 13.75 in. Construction: mono-PE 50. [thickness unit missing on supplier sheet]",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "RKT-9022/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "SAG-7046",
+   "component_id": "C1",
+   "spec_text": "APET thermoformed tray; surface area 678 sq cm, average wall 20mil APET.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "SAG-7046/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "SAG-7046",
+   "component_id": "C2",
+   "spec_text": "PVC cling film wrap, gauge 0.6mil; cut sheet 368 x 439 mm.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "SAG-7046/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "NLE-1684",
+   "component_id": "C1",
+   "spec_text": "Sachet, 4-side seal \u2014 Laminate: OPET 12 micron/3 mil PE; adhesive laminated, 1 x 1.8 gsm PU adhesive. Dimensions per face 3.25in \u00d7 3.25in.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "NLE-1684/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "GMT-2702",
+   "component_id": "C1",
+   "spec_text": "HIPS tray; surface area 244 sq cm, average wall 0.6 mm HIPS.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "GMT-2702/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "GMT-2702",
+   "component_id": "C2",
+   "spec_text": "Overwrap film, LLDPE stretch film 0.6 mils; cut sheet (W x H) 19.5 x 19.25 in.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "GMT-2702/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "RRG-8748",
+   "component_id": "C1",
+   "spec_text": "Aluminium beverage can (body + end); surface area 48.1 in\u00b2, average wall 100\u00b5m aluminium.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "RRG-8748/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "RRG-8748",
+   "component_id": "C2",
+   "spec_text": "BOPP film label 2 mils; label size 15.5 x 6 cm.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "RRG-8748/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "EBJ-4862",
+   "component_id": "C1",
+   "spec_text": "EBM HDPE bottle; surface area 54700 mm\u00b2, average wall 700 mic HDPE.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "EBJ-4862/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "EBJ-4862",
+   "component_id": "C2",
+   "spec_text": "Steel lug cap 63 mm. Unit wt: 9.5 grams.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "EBJ-4862/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "EBJ-4862",
+   "component_id": "C3",
+   "spec_text": "Folding carton, 350 gsm SBS board; flat blank 15.75 in W x 12.75 in H.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "EBJ-4862/C3 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "EVD-9745",
+   "component_id": "C1",
+   "spec_text": "PS yoghurt cup; part weight 8.7 grams.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "EVD-9745/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "EVD-9745",
+   "component_id": "C2",
+   "spec_text": "Peelable lidding film, OPET 12 \u00b5m/PE 60 micron; adhesive laminated, 1 x 2.2 gsm PU adhesive; lid blank 98mm \u00d7 71mm.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "EVD-9745/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "EVD-9745",
+   "component_id": "C3",
+   "spec_text": "HDPE flip-top closure. Unit wt: 0.14 oz.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "EVD-9745/C3 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "RFV-3464",
+   "component_id": "C1",
+   "spec_text": "3-piece steel can; surface area 518 cm2, average wall 0.22 mm tinplate.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "RFV-3464/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "RFV-3464",
+   "component_id": "C2",
+   "spec_text": "BOPP film label 2 mil; label size 185 x 113 mm.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "RFV-3464/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "MHE-4614",
+   "component_id": "C1",
+   "spec_text": "Flat pouch \u2014 Build (outside first): MDO-PE 25um // metallised PE 60 \u00b5 (~30 nm Al). Solventless adhesive 1.5 g/m\u00b2 per interface. Dimensions per face (W x H) 198 x 144 mm.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "MHE-4614/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "KHB-5008",
+   "component_id": "C1",
+   "spec_text": "Side-gusset bag \u2014 Laminate: 70 g/m2 kraft paper/18 gsm PE extrusion coat. Dimensions per face 94 mm W x 290 mm H, side gussets: 80 mm opened out.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "KHB-5008/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "KHB-5008",
+   "component_id": "C2",
+   "spec_text": "One-way degassing valve (PE). Unit wt: 1.6 grams.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "KHB-5008/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "DAA-3539",
+   "component_id": "C1",
+   "spec_text": "Single-serve sachet \u2014 Layers: 92 gauge OPET/2.5mil PE; adhesive laminated, 1 x 1.8 gsm PU adhesive. Dimensions per face 65 mm W x 87 mm H.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "DAA-3539/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "CHC-1656",
+   "component_id": "C1",
+   "spec_text": "Folding carton, 350g/m2 folding boxboard (FBB); flat blank 337mm \u00d7 274mm.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "CHC-1656/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "CHC-1656",
+   "component_id": "C2",
+   "spec_text": "Bag-in-box liner, flat. Face size (W x H) 228 x 366 mm. Spec: 40\u00b5m MDO-PE // met-PE 100um (~35 nm Al); bonded with 2 gsm adhesive at each of the 1 interfaces.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "CHC-1656/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "ERH-7221",
+   "component_id": "C1",
+   "spec_text": "Flint glass jar, 500 mL brimful. Unit wt: 0.307 kg.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "ERH-7221/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "ERH-7221",
+   "component_id": "C2",
+   "spec_text": "PP dispensing pump (all-PP). Unit wt: 12.9 g.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "ERH-7221/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "ERH-7221",
+   "component_id": "C3",
+   "spec_text": "Wrap-around paper label, 70g/m2 uncoated; label size 6.75in \u00d7 2in.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "ERH-7221/C3 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "WTF-9448",
+   "component_id": "C1",
+   "spec_text": "Sachet, 4-side seal \u2014 Build (outside first): PET 48 ga // polyethylene 3mil. Solventless adhesive 1.5 g/m\u00b2 per interface. Dimensions per face 8cm \u00d7 9.5cm.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "WTF-9448/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "LKT-6927",
+   "component_id": "C1",
+   "spec_text": "PS yoghurt cup; part weight 6.5 grams.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "LKT-6927/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "LKT-6927",
+   "component_id": "C2",
+   "spec_text": "Die-cut lid, 30 \u00b5m aluminium foil + 2.5 gsm heat-seal lacquer; lid blank 2.5\" W x 3\" H.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "LKT-6927/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "LKT-6927",
+   "component_id": "C3",
+   "spec_text": "PP screw cap 28 mm. Unit wt: 3.4 g.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "LKT-6927/C3 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "HCG-1975",
+   "component_id": "C1",
+   "spec_text": "HIPS tray, HIPS, avg wall thickness 0.6mm, total surface 44.1 sq in.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "HCG-1975/C1 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "HCG-1975",
+   "component_id": "C2",
+   "spec_text": "Overwrap film, LLDPE stretch film 0.8mil; cut sheet (W x H) 351 x 468 mm.",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "HCG-1975/C2 is in the catalog but missing from the AI report."
+   }
+  },
+  {
+   "sku": "HCG-1975",
+   "component_id": "C3",
+   "spec_text": "Clear OPP wrap label, 40um; label size 9.25\" x 3.25\".",
+   "check": {
+    "rule": "completeness",
+    "status": "FAIL",
+    "expected": "reported",
+    "reported": "missing",
+    "explanation": "HCG-1975/C3 is in the catalog but missing from the AI report."
+   }
+  }
+ ],
+ "totals": [
+  {
+   "rule": "totals",
+   "status": "INCONCLUSIVE",
+   "expected": null,
+   "reported": null,
+   "explanation": "AI report has no totals_by_category to verify."
+  },
+  {
+   "rule": "totals",
+   "status": "INCONCLUSIVE",
+   "expected": null,
+   "reported": null,
+   "explanation": "No total_weight_g reported."
+  }
+ ],
+ "n_spec_components": 72,
+ "format_error": "AI response was not valid JSON (raw text in raw/); nothing could be read"
+}

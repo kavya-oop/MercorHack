@@ -1,0 +1,702 @@
+{
+ "items": [
+  {
+   "sku": "AFK-2932",
+   "component_id": "C1",
+   "component": "sachet",
+   "layers": [
+    {
+     "material": "Paper",
+     "form": "paper",
+     "thickness_um": null,
+     "grammage_gsm": 50.0
+    },
+    {
+     "material": "LDPE",
+     "form": "coating",
+     "thickness_um": null,
+     "grammage_gsm": 15.0
+    },
+    {
+     "material": "Aluminum",
+     "form": "foil",
+     "thickness_um": 8.89,
+     "grammage_gsm": null
+    },
+    {
+     "material": "LLDPE",
+     "form": "film",
+     "thickness_um": 50.0,
+     "grammage_gsm": null
+    },
+    {
+     "material": "Adhesive",
+     "form": "adhesive",
+     "thickness_um": null,
+     "grammage_gsm": 1.8
+    }
+   ],
+   "category": "Multi-material flexible laminate",
+   "weight_g": 2657.0
+  },
+  {
+   "sku": "TDM-1258",
+   "component_id": "C1",
+   "component": "bottle",
+   "layers": [
+    {
+     "material": "HDPE",
+     "form": "wall",
+     "thickness_um": 343,
+     "grammage_gsm": null
+    },
+    {
+     "material": "EVOH",
+     "form": "wall",
+     "thickness_um": 76,
+     "grammage_gsm": null
+    },
+    {
+     "material": "HDPE",
+     "form": "wall",
+     "thickness_um": 343,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "Multi-material rigid",
+   "weight_g": 28.111
+  },
+  {
+   "sku": "TDM-1258",
+   "component_id": "C2",
+   "component": "cap",
+   "layers": [
+    {
+     "material": "STEEL",
+     "form": "wall",
+     "thickness_um": null,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "PE flexible",
+   "weight_g": 9.803
+  },
+  {
+   "sku": "TDM-1258",
+   "component_id": "C3",
+   "component": "label",
+   "layers": [
+    {
+     "material": "PP",
+     "form": "film",
+     "thickness_um": 60.0,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "PP flexible",
+   "weight_g": 0.519
+  },
+  {
+   "sku": "BBD-9567",
+   "component_id": "C1",
+   "component": "sachet",
+   "layers": [
+    {
+     "material": "PET",
+     "form": "film",
+     "thickness_um": 23.368000000000002,
+     "grammage_gsm": null
+    },
+    {
+     "material": "PET",
+     "form": "film",
+     "thickness_um": 23.368000000000002,
+     "grammage_gsm": null
+    },
+    {
+     "material": "Aluminum",
+     "form": "metallization",
+     "thickness_um": 0.045,
+     "grammage_gsm": null
+    },
+    {
+     "material": "LDPE",
+     "form": "film",
+     "thickness_um": 50.8,
+     "grammage_gsm": null
+    },
+    {
+     "material": "Adhesive",
+     "form": "adhesive",
+     "thickness_um": null,
+     "grammage_gsm": 1.5
+    },
+    {
+     "material": "Adhesive",
+     "form": "adhesive",
+     "thickness_um": null,
+     "grammage_gsm": 1.5
+    }
+   ],
+   "category": "Multi-material flexible laminate",
+   "weight_g": 1.233
+  },
+  {
+   "sku": "GMD-3693",
+   "component_id": "C1",
+   "component": "can",
+   "layers": [
+    {
+     "material": "Aluminum",
+     "form": "wall",
+     "thickness_um": 100.0,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "Aluminum",
+   "weight_g": 255.6841
+  },
+  {
+   "sku": "GMD-3693",
+   "component_id": "C2",
+   "component": "label",
+   "layers": [
+    {
+     "material": "PP",
+     "form": "film",
+     "thickness_um": 50.0,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "PP flexible",
+   "weight_g": 1.126
+  },
+  {
+   "sku": "GMD-3693",
+   "component_id": "C2",
+   "component": "label",
+   "layers": [
+    {
+     "material": "PP",
+     "form": "film",
+     "thickness_um": 50.0,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "PP flexible",
+   "weight_g": 1.126
+  },
+  {
+   "sku": "WWS-2799",
+   "component_id": "C1",
+   "component": "carton",
+   "layers": [
+    {
+     "material": "Paper",
+     "form": "paper",
+     "thickness_um": null,
+     "grammage_gsm": 400.0
+    },
+    {
+     "material": "Coating",
+     "form": "coating",
+     "thickness_um": null,
+     "grammage_gsm": 3.0
+    }
+   ],
+   "category": "Paper/paperboard",
+   "weight_g": 89.656
+  },
+  {
+   "sku": "WWS-2799",
+   "component_id": "C2",
+   "component": "liner bag",
+   "layers": [
+    {
+     "material": "LLDPE",
+     "form": "film",
+     "thickness_um": 90.0,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "PE flexible",
+   "weight_g": 15.404
+  },
+  {
+   "sku": "VWR-5993",
+   "component_id": "C1",
+   "component": "flat pouch",
+   "layers": [
+    {
+     "material": "LLDPE",
+     "form": "film",
+     "thickness_um": 30.0,
+     "grammage_gsm": null
+    },
+    {
+     "material": "LLDPE",
+     "form": "film",
+     "thickness_um": 90.0,
+     "grammage_gsm": null
+    },
+    {
+     "material": "Aluminum",
+     "form": "metallization",
+     "thickness_um": 0.045,
+     "grammage_gsm": null
+    },
+    {
+     "material": "Adhesive",
+     "form": "adhesive",
+     "thickness_um": null,
+     "grammage_gsm": 2.5
+    }
+   ],
+   "category": "PE flexible",
+   "weight_g": 3.4
+  },
+  {
+   "sku": "WLR-7066",
+   "component_id": "C1",
+   "component": "carton",
+   "layers": [
+    {
+     "material": "Paper",
+     "form": "paper",
+     "thickness_um": null,
+     "grammage_gsm": 350.0
+    },
+    {
+     "material": "Coating",
+     "form": "coating",
+     "thickness_um": null,
+     "grammage_gsm": 3.0
+    }
+   ],
+   "category": "Paper/paperboard",
+   "weight_g": 34.767
+  },
+  {
+   "sku": "WLR-7066",
+   "component_id": "C2",
+   "component": "liner bag",
+   "layers": [
+    {
+     "material": "LLDPE",
+     "form": "film",
+     "thickness_um": 30.0,
+     "grammage_gsm": null
+    },
+    {
+     "material": "LLDPE",
+     "form": "film",
+     "thickness_um": 100.0,
+     "grammage_gsm": null
+    },
+    {
+     "material": "Aluminum",
+     "form": "metallization",
+     "thickness_um": 0.03,
+     "grammage_gsm": null
+    },
+    {
+     "material": "Adhesive",
+     "form": "adhesive",
+     "thickness_um": null,
+     "grammage_gsm": 2.2
+    }
+   ],
+   "category": "PE flexible",
+   "weight_g": 17.309
+  },
+  {
+   "sku": "GBD-1967",
+   "component_id": "C1",
+   "component": "can",
+   "layers": [
+    {
+     "material": "STEEL",
+     "form": "wall",
+     "thickness_um": 220.0,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "Steel",
+   "weight_g": 80.824
+  },
+  {
+   "sku": "GBD-1967",
+   "component_id": "C2",
+   "component": "label",
+   "layers": [
+    {
+     "material": "PP",
+     "form": "film",
+     "thickness_um": 50.0,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "Metal",
+   "weight_g": 0.871
+  },
+  {
+   "sku": "GJF-4947",
+   "component_id": "C1",
+   "component": "tub",
+   "layers": [
+    {
+     "material": "PS",
+     "form": "wall",
+     "thickness_um": null,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "PS rigid",
+   "weight_g": 7.714
+  },
+  {
+   "sku": "GJF-4947",
+   "component_id": "C2",
+   "component": "lidding",
+   "layers": [
+    {
+     "material": "PET",
+     "form": "film",
+     "thickness_um": 23.0,
+     "grammage_gsm": null
+    },
+    {
+     "material": "PE",
+     "form": "film",
+     "thickness_um": 50.0,
+     "grammage_gsm": null
+    },
+    {
+     "material": "Adhesive",
+     "form": "adhesive",
+     "thickness_um": null,
+     "grammage_gsm": 2.2
+    }
+   ],
+   "category": "Multi-material flexible laminate",
+   "weight_g": 0.415
+  },
+  {
+   "sku": "FDE-9603",
+   "component_id": "C1",
+   "component": "glass jar",
+   "layers": [
+    {
+     "material": "GLASS",
+     "form": "wall",
+     "thickness_um": null,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "Glass",
+   "weight_g": 301.48
+  },
+  {
+   "sku": "FDE-9603",
+   "component_id": "C2",
+   "component": "cap",
+   "layers": [
+    {
+     "material": "PP",
+     "form": "wall",
+     "thickness_um": null,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "PP rigid",
+   "weight_g": 12.842
+  },
+  {
+   "sku": "FDE-9603",
+   "component_id": "C3",
+   "component": "label",
+   "layers": [
+    {
+     "material": "PP",
+     "form": "film",
+     "thickness_um": 50.8,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "PP flexible",
+   "weight_g": 788.0
+  },
+  {
+   "sku": "PFD-2663",
+   "component_id": "C1",
+   "component": "side-gusset bag",
+   "layers": [
+    {
+     "material": "Paper",
+     "form": "paper",
+     "thickness_um": null,
+     "grammage_gsm": 90.0
+    },
+    {
+     "material": "LDPE",
+     "form": "coating",
+     "thickness_um": null,
+     "grammage_gsm": 20.0
+    }
+   ],
+   "category": "Paper-based multi-material",
+   "weight_g": 13.221
+  },
+  {
+   "sku": "PFD-2663",
+   "component_id": "C2",
+   "component": "valve",
+   "layers": [
+    {
+     "material": "PE",
+     "form": "wall",
+     "thickness_um": null,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "HDPE rigid",
+   "weight_g": 1.153
+  },
+  {
+   "sku": "BKJ-1628",
+   "component_id": "C1",
+   "component": "sachet",
+   "layers": [
+    {
+     "material": "PET",
+     "form": "film",
+     "thickness_um": 23.368000000000002,
+     "grammage_gsm": null
+    },
+    {
+     "material": "PE",
+     "form": "film",
+     "thickness_um": 60.0,
+     "grammage_gsm": null
+    },
+    {
+     "material": "Adhesive",
+     "form": "adhesive",
+     "thickness_um": null,
+     "grammage_gsm": 2.0
+    }
+   ],
+   "category": "Multi-material flexible laminate",
+   "weight_g": 1.1
+  },
+  {
+   "sku": "KFP-1921",
+   "component_id": "C1",
+   "component": "carton",
+   "layers": [
+    {
+     "material": "Paper",
+     "form": "paper",
+     "thickness_um": null,
+     "grammage_gsm": 230.0
+    }
+   ],
+   "category": "Paper/paperboard",
+   "weight_g": 24.603
+  },
+  {
+   "sku": "KFP-1921",
+   "component_id": "C2",
+   "component": "liner bag",
+   "layers": [
+    {
+     "material": "LLDPE",
+     "form": "film",
+     "thickness_um": 50.0,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "PE flexible",
+   "weight_g": 5.582
+  },
+  {
+   "sku": "RRP-9762",
+   "component_id": "C1",
+   "component": "can",
+   "layers": [
+    {
+     "material": "Aluminum",
+     "form": "wall",
+     "thickness_um": 100.0,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "PVC rigid",
+   "weight_g": 7.799
+  },
+  {
+   "sku": "RRP-9762",
+   "component_id": "C2",
+   "component": "label",
+   "layers": [
+    {
+     "material": "Paper",
+     "form": "paper",
+     "thickness_um": null,
+     "grammage_gsm": 97.648552727661
+    }
+   ],
+   "category": "Aluminum",
+   "weight_g": 1.381
+  },
+  {
+   "sku": "VBW-2239",
+   "component_id": "C1",
+   "component": "bottle",
+   "layers": [
+    {
+     "material": "HDPE",
+     "form": "wall",
+     "thickness_um": 392,
+     "grammage_gsm": null
+    },
+    {
+     "material": "EVOH",
+     "form": "wall",
+     "thickness_um": 16,
+     "grammage_gsm": null
+    },
+    {
+     "material": "HDPE",
+     "form": "wall",
+     "thickness_um": 392,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "HDPE rigid",
+   "weight_g": 30.122
+  },
+  {
+   "sku": "VBW-2239",
+   "component_id": "C2",
+   "component": "cap",
+   "layers": [
+    {
+     "material": "STEEL",
+     "form": "wall",
+     "thickness_um": null,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "Multi-material rigid",
+   "weight_g": 7.409
+  },
+  {
+   "sku": "VBW-2239",
+   "component_id": "C3",
+   "component": "label",
+   "layers": [
+    {
+     "material": "PP",
+     "form": "film",
+     "thickness_um": 50.0,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "PS rigid",
+   "weight_g": 0.299
+  },
+  {
+   "sku": "ECK-1472",
+   "component_id": "C1",
+   "component": "tray",
+   "layers": [
+    {
+     "material": "PVC",
+     "form": "wall",
+     "thickness_um": 250.0,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "PVC rigid",
+   "weight_g": 0.00829
+  },
+  {
+   "sku": "ECK-1472",
+   "component_id": "C2",
+   "component": "film wrap",
+   "layers": [
+    {
+     "material": "LLDPE",
+     "form": "film",
+     "thickness_um": 15.239999999999998,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "PE flexible",
+   "weight_g": 1.998
+  },
+  {
+   "sku": "ECK-1472",
+   "component_id": "C2",
+   "component": "film wrap",
+   "layers": [
+    {
+     "material": "LLDPE",
+     "form": "film",
+     "thickness_um": 15.239999999999998,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "PE flexible",
+   "weight_g": 1.998
+  },
+  {
+   "sku": "MGD-9609",
+   "component_id": "C2",
+   "component": "carton",
+   "layers": [
+    {
+     "material": "Paper",
+     "form": "paper",
+     "thickness_um": null,
+     "grammage_gsm": 230.0
+    }
+   ],
+   "category": "PS rigid",
+   "weight_g": 23.929
+  },
+  {
+   "sku": "KCJ-1955",
+   "component_id": "C1",
+   "component": "standup pouch",
+   "layers": [
+    {
+     "material": "LLDPE",
+     "form": "film",
+     "thickness_um": 63.5,
+     "grammage_gsm": null
+    }
+   ],
+   "category": "PE flexible",
+   "weight_g": 2.814
+  }
+ ],
+ "totals_by_category": {
+  "Multi-material flexible laminate": 2659.748,
+  "Multi-material rigid": 35.52,
+  "PE flexible": 58.308,
+  "PP flexible": 790.771,
+  "Aluminum": 257.065,
+  "Paper/paperboard": 149.026,
+  "Steel": 80.824,
+  "Metal": 0.871,
+  "PS rigid": 31.942,
+  "Glass": 301.48,
+  "PP rigid": 12.842,
+  "Paper-based multi-material": 13.221,
+  "HDPE rigid": 31.275,
+  "PVC rigid": 7.807
+ },
+ "total_weight_g": 4430.7
+}

@@ -1,0 +1,127 @@
+PACKAGING SPECIFICATION CATALOG cat_02
+(SYNTHETIC test data — not real products)
+
+Item code LRM-3259: Sunward Kettle Chips, NET WT 8 OZ
+Packaging components:
+  C1) Stand-up pouch (doypack) — Build (outside first): 50# (3000 ft² ream) kraft paper // 12 gsm LDPE coating. Dimensions per face 8.25 x 11 in, bottom gusset 4 in (fully opened).
+------------------------------------------------------------
+Item code JSV-6318: Kestrel Hummus, Net wt 12 oz (340 g)
+Packaging spec:
+  Component C1: Injection-moulded PP tub, weighs 14.3 g.
+  C2 – Peelable lidding film, 12µm OPET // 2.5 mils polyethylene; adhesive laminated, 1 x 1.5 gsm PU adhesive; lid blank 12cm × 9.5cm.
+  [C3] Aluminium ROPP closure; part weight 1.5g.
+------------------------------------------------------------
+Item code JPK-2225: Kestrel Oat Flakes, 16 fl oz
+Packaging spec:
+  C1) Folding carton, 300 gsm recycled CCNB board; flat blank (W x H) 19 x 6.5 in.
+  C2) Bag-in-box liner, flat. Face size 213 mm W x 259 mm H. Layers: LLDPE 90 µ.
+------------------------------------------------------------
+SKU: KCR-5570 | Sunward Whole Bean Coffee | 250 g
+Pack BOM:
+  [C1] Quad-seal side gusset bag. Face size (W x H) 134 x 273 mm, side gussets: 51 mm opened out. Construction: 70 gsm bleached kraft paper/25 g/m2 PE extrusion layer/8um aluminium foil/50 µ LLDPE; bonded with 2.5 gsm adhesive at each of the 1 interfaces.
+  Component C2: One-way degassing valve (PE), weighs 1.5 g.
+------------------------------------------------------------
+SKU# ECE-5821 — Harvest & Co Iced Tea (Net 500 mL)
+Packaging components:
+  C1 – PET bottle, PET, avg wall thickness 300 µm, total surface 26360 mm².
+  [C2] PP screw cap 28 mm, weighs 1.9 g.
+  Component C3: Wrap-around paper label, 50# (3000 ft² ream) uncoated; label size 140 x 39 mm.
+------------------------------------------------------------
+SKU# PAE-4074 — Sunward Ground Espresso (Net 500 mL)
+Packaging spec:
+  [C1] Quad-seal side gusset bag — Build (outside first): polyester 92 gauge // 0.00035" aluminum foil // LLDPE sealant 60um; bonded with 1.5 gsm adhesive at each of the 2 interfaces. Dimensions per face 119 x 245 mm, side gussets 76 mm (fully opened).
+  C2 – One-way degassing valve (PE). Unit wt: 0.06 oz.
+------------------------------------------------------------
+SKU: SLC-5268 | Kestrel Cherry Tomatoes | Net wt 2.5 oz (70 g)
+Pack BOM:
+  Component C1: HIPS tray, HIPS, avg wall thickness 0.6 mm, total surface 565 cm2.
+  C2 – Overwrap film, LLDPE stretch film 1.2 mil; cut sheet 17.75" x 20.75".
+  C3 – Clear OPP wrap label, 60 µ; label size 76 x 48 mm.
+------------------------------------------------------------
+Item code NVB-9578: Sunward Muesli, Net wt 1 lb
+Packaging spec:
+  [C1] Folding carton, 250 gsm folding boxboard (FBB); flat blank 8.25" W x 13.5" H.
+  C2) Bag-in-box liner, flat. Face size 21 x 27 cm. Laminate: LLDPE 25 µm / 100 micron metallised PE (OD 2.8); adhesive laminated, 1 x 2.2 gsm PU adhesive.
+------------------------------------------------------------
+SKU: VHW-3530 | Northfield Iced Tea | NET WT 8 OZ
+Packaging spec:
+  C1) EBM HDPE bottle; surface area 688 cm², average wall 0.8 mm HDPE.
+  C2 – PP screw cap 28 mm, weighs 1.9 grams.
+  [C3] Wrap-around paper label, 80g/m2 uncoated; label size 8" W x 1.75" H.
+------------------------------------------------------------
+Item code TWF-1040: Meridian Kettle Chips, Net 500 mL
+Packaging components:
+  Component C1: Stand-up pouch (doypack) — Layers: 2.5 mil PE. Dimensions per face 7" x 11.5"; bottom gusset depth 2.75" unfolded.
+------------------------------------------------------------
+Item code TSP-2351: Sunward Protein Powder Sachet, Net wt 12 oz (340 g)
+Packaging spec:
+  [C1] Sachet, 4-side seal. Face size 88 mm W x 115 mm H. Structure (out→in): OPET 92 gauge // 100 µ polyethylene. Solventless adhesive 1.8 g/m² per interface.
+------------------------------------------------------------
+SKU: RPL-9179 | Bluepeak Blueberries | NET WT 8 OZ
+Packaging components:
+  C1 – APET thermoformed tray, APET, avg wall thickness 20, total surface 94.9 in2. [thickness unit missing on supplier sheet]
+  C2) Overwrap film, BOPP 1.2mil; cut sheet 15.5" W x 22.5" H.
+------------------------------------------------------------
+Item code LWL-7983: Harvest & Co Whole Bean Coffee, Net wt 1 lb
+Pack BOM:
+  Component C1: Quad-seal side gusset bag — Laminate: 70 g/m² MG kraft // 12 g/m² LDPE extrusion coat // 0.00035 in Al foil // LLDPE 50 µ; adhesive laminated, 1 x 1.5 PU adhesive. Dimensions per face (W x H) 123 x 311 mm, side gussets 69 mm (fully opened). [thickness unit missing on supplier sheet]
+  Component C2: One-way degassing valve (PE). Unit wt: 1.3g.
+------------------------------------------------------------
+Item code KVB-6511: Tidewater Electrolyte Drink, 250 g
+Packaging components:
+  C1) rPET bottle, blow-moulded, PET, avg wall thickness 300 mic, total surface 56470 mm².
+  [C2] PP screw cap 28 mm; part weight 2.1 g.
+  [C3] Clear OPP wrap label, 60 micron; label size 8.25in × 2.25in.
+------------------------------------------------------------
+SKU# JSB-5673 — Harvest & Co Salsa Verde (Net 500 mL)
+Packaging components:
+  Component C1: Amber glass bottle, 24 oz capacity; part weight 308.7 g.
+  [C2] Aluminium ROPP closure, weighs 2.1 grams.
+  [C3] Wrap-around paper label, 60 gsm uncoated; label size 15.5 x 5 cm.
+------------------------------------------------------------
+Item code NET-9289: Northfield Kettle Chips, Net wt 1 lb
+Packaging spec:
+  [C1] SUP with bottom gusset. Face size 13 x 17.5 cm, bottom gusset: 11 cm opened out. Spec: 12µm BOPET / 23µm metallized PET (OD 2.2) / LDPE 100 mic; bonded with 1.5 gsm adhesive at each of the 2 interfaces.
+------------------------------------------------------------
+Item code JRB-5541: Harvest & Co Cherry Tomatoes, 16 fl oz
+Packaging spec:
+  C1 – PP thermoformed tub; surface area 390 sq cm, average wall 0.5mm PP.
+  C2) BOPP wrap, gauge 20 µ; cut sheet 9.75 in W x 15.5 in H.
+------------------------------------------------------------
+Item code CSK-2696: Northfield Veggie Crisps, Net wt 12 oz (340 g)
+Pack BOM:
+  Component C1: Stand-up pouch (doypack) — Structure (out→in): 50 g/m² paper / 25 gsm PE extrusion layer / 0.00035" Al foil / 60um LLDPE sealant; bonded with 3 gsm adhesive at each of the 1 interfaces. Dimensions per face 20.5 x 23.5 cm, bottom gusset: 10.5 cm opened out.
+------------------------------------------------------------
+SKU# CVK-1424 — Meridian Peanut Butter (Net wt 2.5 oz (70 g))
+Pack BOM:
+  C1) Amber glass bottle, 12 oz capacity, weighs 196.1g.
+  C2) PP dispensing pump (all-PP), weighs 11 grams.
+  Component C3: BOPP film label 60 µm; label size 8.5 x 10.5 cm.
+------------------------------------------------------------
+SKU# WTK-2489 — Tidewater Tuna (Net wt 12 oz (340 g))
+Packaging spec:
+  [C1] 3-piece steel can, tinplate, avg wall thickness 0.2mm, total surface 436 cm2.
+  C2 – BOPP film label 2mil; label size 8.25 in W x 1.75 in H.
+------------------------------------------------------------
+Item code CCS-3143: Oakline Gummy Bears, NET WT 8 OZ
+Pack BOM:
+  [C1] Pillow pack (flat, 2 faces) — Laminate: BOPET 12 mic/metallized PET 92 ga (~35 nm Al)/3 mil PE; adhesive laminated, 2 x 1.8 gsm PU adhesive. Dimensions per face 6.5" x 7".
+  C2 – Folding carton, 300g/m2 folding boxboard (FBB); flat blank 43.5 x 17.5 cm.
+------------------------------------------------------------
+SKU: SMR-6517 | Tidewater Ground Espresso | 16 fl oz
+Pack BOM:
+  C1 – Side-gusset bag. Face size 5.5 x 10.75 in, side gussets: 3.25 in opened out. Spec: 90 gsm natural kraft / 15 g/m² LDPE coating.
+  C2 – One-way degassing valve (PE), weighs 1.5g.
+------------------------------------------------------------
+Item code DWT-9857: Tidewater Ketchup Packet, Net wt 2.5 oz (70 g)
+Packaging components:
+  C1 – Single-serve sachet. Face size 2.75in × 2.5in. Build (outside first): PET 23 µ/PE 2.5mil; adhesive laminated, 1 x 2.2 gsm PU adhesive.
+------------------------------------------------------------
+SKU: RTN-2531 | Tidewater Mixed Salad | 250 g
+Packaging spec:
+  [C1] APET thermoformed tray, APET, avg wall thickness 20 mils, total surface 255 cm2.
+  C2) Overwrap film, BOPP 20µm; cut sheet 287 mm W x 306 mm H.
+------------------------------------------------------------
+SKU# CBC-7517 — Sunward Ketchup Packet (NET WT 8 OZ)
+Packaging spec:
+  [C1] Sachet, 4-side seal. Face size (W x H) 77 x 131 mm. Spec: 60g/m2 bleached kraft paper/18 g/m2 PE extrusion layer/8 aluminium foil/2 mils LLDPE; adhesive laminated, 1 x 2 gsm PU adhesive. [thickness unit missing on supplier sheet]

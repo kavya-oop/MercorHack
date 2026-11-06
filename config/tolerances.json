@@ -1,0 +1,15 @@
+{
+  "_doc": "Tolerances used by the checker to widen the physically plausible mass range. These are ENGINEERING ASSUMPTIONS chosen for this demo, not sourced standards. Changing them trades false positives against false negatives.",
+  "dimension_rel": 0.02,
+  "film_thickness_rel": 0.10,
+  "grammage_rel": 0.05,
+  "coat_weight_rel": 0.25,
+  "stated_weight_rel": 0.10,
+  "_stated_weight_doc": "Stated part weights carry no physical uncertainty, so this band is a REPORTING MATERIALITY choice. Set equal to ground_truth_weight_rel so the checker does not flag deviations the evaluation itself counts as correct. (An earlier 3% setting produced 57 false positives on the stress test for exactly that reason.)",
+  "metallization_nm_min": 10,
+  "metallization_nm_max": 100,
+  "_metallization_doc": "Vacuum-metallized Al layers are nanometre-scale; 10-100 nm is a deliberately wide UNSOURCED engineering bound. Mass contribution is <0.3 g/m2 even at the top, so results are insensitive to it.",
+  "unit_error_match_rel": 0.12,
+  "ground_truth_weight_rel": 0.10,
+  "_ground_truth_doc": "Evaluation labels an AI weight 'correct' if within +/-10% of ground-truth mass. This is an evaluation choice, separate from checker tolerances."
+}

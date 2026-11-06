@@ -1,0 +1,290 @@
+{
+ "log": [
+  {
+   "sku": "GPL-8341",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "GPL-8341",
+   "component_id": "C2",
+   "injected": null
+  },
+  {
+   "sku": "GPL-8341",
+   "component_id": "C3",
+   "injected": null
+  },
+  {
+   "sku": "TAA-6256",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "TAA-6256",
+   "component_id": "C2",
+   "injected": "missing"
+  },
+  {
+   "sku": "AAM-9182",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "AAM-9182",
+   "component_id": "C2",
+   "injected": "missing"
+  },
+  {
+   "sku": "CWM-5081",
+   "component_id": "C1",
+   "injected": "duplicate"
+  },
+  {
+   "sku": "CWM-5081",
+   "component_id": "C2",
+   "injected": "oz_g"
+  },
+  {
+   "sku": "TPH-4827",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "TPH-4827",
+   "component_id": "C2",
+   "injected": null
+  },
+  {
+   "sku": "VRD-7746",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "SKT-4550",
+   "component_id": "C1",
+   "injected": "weight_subtle"
+  },
+  {
+   "sku": "TPV-3725",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "TPV-3725",
+   "component_id": "C2",
+   "injected": "kg_g"
+  },
+  {
+   "sku": "VBL-6744",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "VBL-6744",
+   "component_id": "C2",
+   "injected": null
+  },
+  {
+   "sku": "VBL-6744",
+   "component_id": "C3",
+   "injected": null
+  },
+  {
+   "sku": "MFN-4124",
+   "component_id": "C1",
+   "injected": "oz_g"
+  },
+  {
+   "sku": "MFN-4124",
+   "component_id": "C2",
+   "injected": "weight_gross"
+  },
+  {
+   "sku": "ART-7302",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "ART-7302",
+   "component_id": "C2",
+   "injected": null
+  },
+  {
+   "sku": "ART-7302",
+   "component_id": "C3",
+   "injected": null
+  },
+  {
+   "sku": "AJN-6386",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "AJN-6386",
+   "component_id": "C2",
+   "injected": null
+  },
+  {
+   "sku": "DWA-7942",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "DWA-7942",
+   "component_id": "C2",
+   "injected": "invalid_category"
+  },
+  {
+   "sku": "VRA-6487",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "VRA-6487",
+   "component_id": "C2",
+   "injected": null
+  },
+  {
+   "sku": "VRA-6487",
+   "component_id": "C3",
+   "injected": null
+  },
+  {
+   "sku": "MDP-3251",
+   "component_id": "C1",
+   "injected": "weight_gross"
+  },
+  {
+   "sku": "MDP-3251",
+   "component_id": "C2",
+   "injected": "wrong_category"
+  },
+  {
+   "sku": "MDP-3251",
+   "component_id": "C3",
+   "injected": null
+  },
+  {
+   "sku": "KDW-3540",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "KDW-3540",
+   "component_id": "C2",
+   "injected": "wrong_category"
+  },
+  {
+   "sku": "KDW-3540",
+   "component_id": "C3",
+   "injected": null
+  },
+  {
+   "sku": "GNE-9701",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "RAF-4125",
+   "component_id": "C1",
+   "injected": "weight_gross"
+  },
+  {
+   "sku": "RAF-4125",
+   "component_id": "C2",
+   "injected": "extra"
+  },
+  {
+   "sku": "RAF-4125",
+   "component_id": "C3",
+   "injected": "weight_subtle"
+  },
+  {
+   "sku": "TNN-6538",
+   "component_id": "C1",
+   "injected": "wrong_category"
+  },
+  {
+   "sku": "TNN-6538",
+   "component_id": "C2",
+   "injected": null
+  },
+  {
+   "sku": "PVN-3028",
+   "component_id": "C1",
+   "injected": "wrong_category"
+  },
+  {
+   "sku": "WNL-2246",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "WNL-2246",
+   "component_id": "C2",
+   "injected": "extra"
+  },
+  {
+   "sku": "AAW-9946",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "AAW-9946",
+   "component_id": "C2",
+   "injected": "weight_gross"
+  },
+  {
+   "sku": "WSH-9778",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "WSH-9778",
+   "component_id": "C2",
+   "injected": "duplicate"
+  },
+  {
+   "sku": "KKG-8619",
+   "component_id": "C1",
+   "injected": "drop_layer"
+  },
+  {
+   "sku": "TKA-2247",
+   "component_id": "C1",
+   "injected": "oz_g"
+  },
+  {
+   "sku": "TKA-2247",
+   "component_id": "C2",
+   "injected": null
+  },
+  {
+   "sku": "SCJ-2248",
+   "component_id": "C1",
+   "injected": "duplicate"
+  },
+  {
+   "sku": "SCJ-2248",
+   "component_id": "C2",
+   "injected": "wrong_category"
+  },
+  {
+   "sku": "WRT-4034",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "VDJ-7539",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "VDJ-7539",
+   "component_id": "C2",
+   "injected": null
+  }
+ ],
+ "totals_error_injected_in": null
+}

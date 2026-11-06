@@ -1,0 +1,22 @@
+{
+  "_WARNING": "PLACEHOLDER simplified category list for demo purposes. These are NOT the official Circular Action Alliance (CAA) or any state's material categories. Swap this file for the official, state-specific list before any real use.",
+  "significance_threshold_mass_fraction": 0.05,
+  "categories": [
+    "PET rigid", "HDPE rigid", "PP rigid", "PS rigid", "PVC rigid",
+    "PE flexible", "PP flexible", "PET flexible",
+    "Multi-material flexible laminate", "Multi-material rigid",
+    "Paper/paperboard", "Paper-based multi-material",
+    "Aluminum", "Steel", "Glass"
+  ],
+  "_rules_doc": "Category = f(format, significant material families). A family is significant if it is >= significance_threshold of the component mass. Metallization and adhesives/coatings below threshold are ignored. These rules are a PLACEHOLDER invented for this demo.",
+  "mono_rules": {
+    "rigid":    {"PET": "PET rigid", "PE": "HDPE rigid", "PP": "PP rigid", "PS": "PS rigid", "PVC": "PVC rigid", "ALUMINUM": "Aluminum", "STEEL": "Steel", "GLASS": "Glass", "PAPER": "Paper/paperboard"},
+    "flexible": {"PE": "PE flexible", "PP": "PP flexible", "PET": "PET flexible", "ALUMINUM": "Aluminum", "PAPER": "Paper/paperboard"},
+    "paper":    {"PAPER": "Paper/paperboard"}
+  },
+  "multi_rules": {
+    "paper_dominant": "Paper-based multi-material",
+    "flexible": "Multi-material flexible laminate",
+    "rigid": "Multi-material rigid"
+  }
+}

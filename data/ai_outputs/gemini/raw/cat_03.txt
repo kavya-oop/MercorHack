@@ -1,0 +1,5 @@
+{
+  "items": [],
+  "totals_by_category": {},
+  "total_weight_g": 0.0
+}

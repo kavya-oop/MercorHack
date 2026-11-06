@@ -1,0 +1,14 @@
+material,family,density_min_g_cm3,density_nominal_g_cm3,density_max_g_cm3,source,verification_status,notes
+PET,PET,1.370,1.390,1.455,"Wikipedia 'Polyethylene terephthalate' infobox: 1.370 g/cm3 amorphous; 1.455 single crystal; 1.38 at 20C",verified_in_session,"User's suggested lower bound 1.33 NOT supported by this source; using 1.370. Nominal 1.39 is a typical BOPET film value (engineering estimate)."
+PP,PP,0.895,0.905,0.930,"Wikipedia 'Polypropylene': 'The density of PP is between 0.895 and 0.93 g/cm3'",verified_in_session,"Wider than user's suggested 0.90-0.91."
+LDPE,PE,0.910,0.920,0.940,"Wikipedia 'Polyethylene': LDPE defined by density range 0.910-0.940 g/cm3",verified_in_session,
+LLDPE,PE,0.915,0.920,0.925,"Wikipedia 'Polyethylene': LLDPE defined by density range 0.915-0.925 g/cm3",verified_in_session,
+PE,PE,0.910,0.920,0.970,"Envelope of LDPE/LLDPE/MDPE/HDPE rows (used when spec says only 'PE' or 'polyethylene')",derived,"Wide because grade unspecified."
+HDPE,PE,0.941,0.955,0.970,"Wikipedia 'Polyethylene': HDPE defined by density >= 0.941 g/cm3",partially_verified,"Upper bound 0.97 is the user's starting value; NOT confirmed in session."
+PS,PS,0.960,1.040,1.050,"Wikipedia 'Polystyrene' infobox: solid PS 0.96-1.05 g/cm3",verified_in_session,"User suggested 1.04-1.05; source range is wider. Nominal 1.04 is an engineering estimate."
+PVC,PVC,1.300,1.380,1.450,"Wikipedia 'Polyvinyl chloride' properties table: rigid PVC 1.3-1.45 g/cm3",verified_in_session,Rigid PVC only.
+PA6,PA,1.084,1.130,1.140,"Wikipedia 'Nylon 6': infobox 1.084 g/mL (marked citation needed); body text 1.14 g/cm3",FLAGGED_conflicting,"Sources conflict; range spans both values. Please confirm with a resin datasheet."
+EVOH,EVOH,1.140,1.190,1.210,"Kuraray EVAL product table (kuraray.com/products/eval): 1.21 (27 mol% ethylene), 1.19 (32 mol%), 1.14 (44 mol%)",verified_in_session,"Third-party datasheet listings show 1.13-1.18 for some grades."
+ALUMINUM,ALUMINUM,2.690,2.700,2.710,"Wikipedia 'Aluminium': 2.699 g/cm3 at 20C; body text 2.70",verified_in_session,"Pure Al. +/-0.01 band is an engineering allowance for foil alloys (8079/1235), not sourced."
+STEEL,STEEL,7.750,7.850,8.050,"Wikipedia 'Steel': usually 7.75-8.05 g/cm3",verified_in_session,"Tinplate tin coating mass ignored (assumption)."
+GLASS,GLASS,2.500,2.520,2.530,"Wikipedia 'Soda-lime glass' table: container glass 2.52, flat glass 2.53 g/cm3 at 20C",partially_verified,"Lower bound 2.50 is the user's starting value; source gives 2.52-2.53."

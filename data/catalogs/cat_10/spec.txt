@@ -1,0 +1,164 @@
+PACKAGING SPECIFICATION CATALOG cat_10
+(SYNTHETIC test data — not real products)
+
+SKU: JPW-3079 | Northfield Peanut Butter | Net 500 mL
+Packaging components:
+  C1) Flint glass jar, 375 mL brimful; part weight 377.7 grams.
+  Component C2: PP screw cap 28 mm, weighs 2.4g.
+  C3 – Clear OPP wrap label, 50 mic; label size 20.5cm × 3.5cm.
+------------------------------------------------------------
+Item code VJP-9501: Bluepeak Drink Mix Stick, Net wt 2.5 oz (70 g)
+Pack BOM:
+  [C1] Single-serve sachet. Face size 6cm × 7.5cm. Structure (out→in): 23 micron OPET // 90µm polyethylene; adhesive laminated, 1 x 1.8 gsm PU adhesive.
+------------------------------------------------------------
+SKU# LML-7481 — Sunward Ground Espresso (250 g)
+Packaging spec:
+  C1 – Side-gusset bag — Construction: 70g/m2 bleached kraft paper/18g/m2 PE extrusion layer/9 µ aluminium foil/2.5 mil LLDPE sealant; adhesive laminated, 1 x 3 gsm PU adhesive. Dimensions per face (W x H) 131 x 206 mm, side gussets: 60 mm opened out.
+  Component C2: One-way degassing valve (PE), weighs 0.04 oz.
+------------------------------------------------------------
+SKU# WGH-8026 — Kestrel Whole Bean Coffee (Net wt 2.5 oz (70 g))
+Pack BOM:
+  C1) Side-gusset bag — Build (outside first): 50 lb/3000 ft² kraft paper // 15g/m2 LDPE coating. Dimensions per face 94 mm W x 302 mm H; side gussets depth 73 mm unfolded.
+  Component C2: One-way degassing valve (PE), weighs 1.1 g.
+------------------------------------------------------------
+Item code BTE-7960: Bluepeak Blueberries, NET WT 8 OZ
+Pack BOM:
+  [C1] PP thermoformed tub, PP, avg wall thickness 0.5 mm, total surface 43.9 in².
+  C2) Overwrap film, LLDPE stretch film 0.6mil; cut sheet 410 x 397 mm.
+------------------------------------------------------------
+SKU# PME-8426 — Sunward Hand Soap (Net wt 1 lb)
+Packaging spec:
+  C1) rPET bottle, blow-moulded, PET, avg wall thickness 0.25 mm, total surface 433 sq cm.
+  Component C2: HDPE flip-top closure, weighs 2.8 grams.
+  C3) Folding carton, 400g/m2 SBS board; flat blank 268mm × 252mm.
+  Component C4: BOPP film label 50 µ; label size 102mm × 64mm.
+------------------------------------------------------------
+SKU# NVJ-2314 — Kestrel Cottage Cheese (Net wt 12 oz (340 g))
+Packaging spec:
+  C1 – PS yoghurt cup. Unit wt: 8.7 g.
+  [C2] Die-cut lid, 38 µm aluminium foil + 2 gsm heat-seal lacquer; lid blank 4.25in × 4.25in.
+------------------------------------------------------------
+Item code KNN-8212: Oakline Ketchup Packet, 250 g
+Pack BOM:
+  [C1] Sachet, 4-side seal. Face size 3in × 5in. Construction: 60 g/m² bleached kraft paper / 18 g/m² LDPE extrusion coat / 8 µm aluminium foil / 50 micron LLDPE. Solventless adhesive 1.5 g/m² per interface.
+------------------------------------------------------------
+SKU: VEV-5748 | Oakline Mixed Salad | Net wt 1 lb
+Packaging components:
+  C1) PP thermoformed tub, PP, avg wall thickness 0.5 mm, total surface 398 cm2.
+  C2) LDPE wrap, gauge 15 µm; cut sheet (W x H) 340 x 530 mm.
+------------------------------------------------------------
+SKU: VEW-8126 | Meridian Iced Tea | 250 g
+Pack BOM:
+  C1) rPET bottle, blow-moulded; surface area 293 cm², average wall 300 mic PET.
+  C2 – Steel lug cap 63 mm. Unit wt: 8.6g.
+  Component C3: BOPP film label 50 mic; label size 133mm × 116mm.
+------------------------------------------------------------
+SKU: STM-9298 | Tidewater Hand Soap | 16 fl oz
+Packaging components:
+  [C1] EBM HDPE bottle, HDPE, avg wall thickness 30 mil, total surface 52310 mm².
+  [C2] Steel lug cap 63 mm, weighs 9.3 g.
+------------------------------------------------------------
+SKU: DFL-5476 | Meridian Body Lotion | Net wt 2.5 oz (70 g)
+Packaging components:
+  [C1] PET bottle; surface area 34480 mm², average wall 300 µm PET.
+  C2 – HDPE flip-top closure; part weight 0.14 oz.
+  C3 – Folding carton, 250 gsm folding boxboard (FBB), one side LDPE extrusion coat 25g/m2; flat blank 21.5 x 21 cm.
+------------------------------------------------------------
+SKU: ERS-3385 | Tidewater Mint Drops | Net wt 2.5 oz (70 g)
+Packaging spec:
+  C1 – 3-side-seal flat pouch — Structure (out→in): LLDPE 25um / metallised PE 2 mils; adhesive laminated, 1 x 1.8 gsm PU adhesive. Dimensions per face (W x H) 172 x 207 mm.
+  Component C2: Folding carton, 400 gsm recycled CCNB board, aqueous varnish 4 gsm; flat blank (W x H) 488 x 267 mm.
+------------------------------------------------------------
+Item code LBN-6693: Kestrel Tuna, Net wt 1 lb
+Packaging spec:
+  C1) 3-piece steel can; surface area 63.6 sq in, average wall 0.22mm tinplate.
+  [C2] Wrap-around paper label, 70 uncoated; label size 217 x 37 mm. [thickness unit missing on supplier sheet]
+------------------------------------------------------------
+Item code AFT-5356: Meridian Trail Mix, Net wt 2.5 oz (70 g)
+Packaging spec:
+  Component C1: SUP with bottom gusset. Face size (W x H) 14 x 22 cm; bottom gusset depth 7 cm unfolded. Build (outside first): 30um LLDPE / metallized LLDPE 2.5 mil (OD 2.8); bonded with 1.5 gsm adhesive at each of the 1 interfaces.
+------------------------------------------------------------
+SKU# PHN-8691 — Harvest & Co Greek Yogurt (16 fl oz)
+Packaging spec:
+  [C1] Injection-moulded PP tub. Unit wt: 0.89 oz.
+  Component C2: Peelable lidding film, 92 PET // PE 90 mic. Solventless adhesive 1.8 g/m² per interface; lid blank 9.5cm × 6cm. [thickness unit missing on supplier sheet]
+  C3 – Steel lug cap 63 mm. Unit wt: 8.1 grams.
+------------------------------------------------------------
+SKU: GWS-9314 | Northfield Mint Drops | Net wt 2.5 oz (70 g)
+Packaging spec:
+  C1) Pillow pack (flat, 2 faces). Face size 131 x 176 mm. Laminate: BOPP 0.7 / VM BOPP 70ga (~40 nm Al). Solventless adhesive 2.5 g/m² per interface. [thickness unit missing on supplier sheet]
+  Component C2: Folding carton, 230g/m2 folding boxboard (FBB), aqueous varnish 4 gsm; flat blank 531 x 495 mm.
+------------------------------------------------------------
+Item code MHL-3806: Tidewater Coconut Milk, Net wt 1 lb
+Packaging spec:
+  C1 – Aluminium beverage can (body + end), aluminium, avg wall thickness 100 µ, total surface 53.1 in2.
+  C2 – Front label, coated paper 70 gsm; label size 23.5 x 10.5 cm.
+------------------------------------------------------------
+Item code GHW-8552: Tidewater Whole Bean Coffee, Net wt 12 oz (340 g)
+Packaging components:
+  C1) Side-gusset bag. Face size (W x H) 121 x 255 mm, side gussets: 88 mm opened out. Structure (out→in): 70 g/m2 kraft paper / 15 gsm LDPE coating.
+  Component C2: One-way degassing valve (PE). Unit wt: 1.1 grams.
+------------------------------------------------------------
+SKU: DWA-7496 | Oakline Gummy Bears | 16 fl oz
+Packaging spec:
+  Component C1: 3-side-seal flat pouch — Build (outside first): 0.7 mils OPP / 18um met-OPP (~50 nm Al); adhesive laminated, 1 x 3 gsm PU adhesive. Dimensions per face 168mm × 234mm.
+  C2 – Folding carton, 350 g/m² CUK board; flat blank 226mm × 252mm.
+------------------------------------------------------------
+SKU# PFD-8831 — Harvest & Co Tuna (16 fl oz)
+Pack BOM:
+  Component C1: Aluminium beverage can (body + end); surface area 277 cm2, average wall 100 µm aluminium.
+  C2) Wrap-around paper label, 60 lb basis wt (3000 sq ft) uncoated; label size 7.25" x 4.75".
+------------------------------------------------------------
+SKU: GGN-2412 | Northfield Peanut Butter | Net 500 mL
+Packaging components:
+  Component C1: Amber glass bottle, 375 mL brimful. Unit wt: 300.3 g.
+  C2 – Steel lug cap 63 mm; part weight 11.9g.
+  Component C3: Wrap-around paper label, 80 g/m2 uncoated; label size 25 cm W x 3 cm H.
+------------------------------------------------------------
+Item code KJV-2680: Sunward Gummy Bears, Net wt 2.5 oz (70 g)
+Pack BOM:
+  C1) Flat pouch — Structure (out→in): 70 gauge BOPP/25um metallized BOPP (~35 nm Al); bonded with 3 gsm adhesive at each of the 1 interfaces. Dimensions per face 179 x 256 mm.
+------------------------------------------------------------
+SKU: WMS-6711 | Kestrel Muesli | 16 fl oz
+Packaging spec:
+  [C1] Folding carton, 300 gsm SBS board; flat blank 58.5cm × 49.5cm.
+  C2) Bag-in-box liner, flat — Spec: 25 µ MDO-PE/90um metallised PE (~40 nm Al); adhesive laminated, 1 x 2.5 gsm PU adhesive. Dimensions per face 214 mm W x 305 mm H.
+------------------------------------------------------------
+SKU# AHW-1464 — Kestrel Mixed Salad (Net wt 1 lb)
+Pack BOM:
+  C1) PP thermoformed tub; surface area 277 sq cm, average wall 0.5mm PP.
+  C2) LLDPE stretch film wrap, gauge 20 micron; cut sheet (W x H) 342 x 420 mm.
+  Component C3: BOPP film label 60 µ; label size 3.5 x 4 in.
+------------------------------------------------------------
+SKU: KKL-7859 | Harvest & Co Whole Bean Coffee | NET WT 8 OZ
+Packaging spec:
+  Component C1: Side-gusset bag — Spec: 70 gsm kraft paper / 18 g/m2 PE extrusion coat. Dimensions per face 135 x 325 mm; side gussets depth 68 mm unfolded.
+  C2) One-way degassing valve (PE); part weight 1.1 grams.
+------------------------------------------------------------
+SKU: KSF-9084 | Kestrel Whole Bean Coffee | Net 500 mL
+Pack BOM:
+  [C1] Side-gusset bag. Face size 5in × 10.75in; side gussets depth 2.75 in unfolded. Structure (out→in): 80 gsm MG kraft/12g/m2 LDPE extrusion coat/0.00035" Al foil/90 µm LLDPE sealant; adhesive laminated, 1 x 2.2 gsm PU adhesive.
+  Component C2: One-way degassing valve (PE); part weight 1.2g.
+------------------------------------------------------------
+Item code NRS-5777: Kestrel Granola Bites, Net wt 2.5 oz (70 g)
+Pack BOM:
+  [C1] SUP with bottom gusset. Face size 4.25 in W x 7.5 in H, bottom gusset: 4.25" opened out. Construction: BOPA 60 ga // LLDPE 3 mils. Solventless adhesive 1.8 g/m² per interface.
+------------------------------------------------------------
+SKU: SHK-4261 | Oakline Hand Soap | 250 g
+Packaging spec:
+  Component C1: rPET bottle, blow-moulded; surface area 57520 mm², average wall 0.25mm PET.
+  C2 – Aluminium ROPP closure; part weight 0.08 oz.
+  Component C3: Folding carton, 300 g/m2 SBS board; flat blank 20.75" x 13.5".
+------------------------------------------------------------
+SKU# ADS-1921 — Northfield Dark Chocolate Squares (Net wt 2.5 oz (70 g))
+Packaging components:
+  [C1] Pillow pack (flat, 2 faces). Face size 5.75in × 8.25in. Structure (out→in): 23µm OPET/polyethylene 3 mils; bonded with 3 gsm adhesive at each of the 1 interfaces.
+  C2 – Folding carton, 350g/m2 recycled CCNB board, aqueous varnish 2 gsm; flat blank 21.25in × 17.75in.
+------------------------------------------------------------
+SKU: NTP-3789 | Bluepeak Dark Chocolate Squares | 16 fl oz
+Packaging spec:
+  [C1] Pillow pack (flat, 2 faces). Face size 177mm × 252mm. Construction: LLDPE 40 µm/75µm metallised PE. Solventless adhesive 3 g/m² per interface.
+------------------------------------------------------------
+Item code NVS-9669: Northfield Ketchup Packet, Net 500 mL
+Pack BOM:
+  C1 – Single-serve sachet. Face size 2" x 3.5". Spec: 23um PET / PE 100um; bonded with 1.5 gsm adhesive at each of the 1 interfaces.

@@ -1,0 +1,768 @@
+{
+  "items": [
+    {
+      "sku": "NLP-3805",
+      "component_id": "C1",
+      "component": "PET bottle",
+      "layers": [
+        {"material": "PET", "form": "wall", "thickness_um": 250.0, "grammage_gsm": null}
+      ],
+      "category": "PET rigid",
+      "weight_g": 12.865
+    },
+    {
+      "sku": "NLP-3805",
+      "component_id": "C2",
+      "component": "HDPE closure",
+      "layers": [
+        {"material": "HDPE", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "HDPE rigid",
+      "weight_g": 3.4
+    },
+    {
+      "sku": "NLP-3805",
+      "component_id": "C3",
+      "component": "BOPP film label",
+      "layers": [
+        {"material": "BOPP", "form": "film", "thickness_um": 40.0, "grammage_gsm": null}
+      ],
+      "category": "PP flexible",
+      "weight_g": 1.932
+    },
+    {
+      "sku": "APR-3323",
+      "component_id": "C1",
+      "component": "Flint glass jar",
+      "layers": [
+        {"material": "Glass", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "Glass",
+      "weight_g": 219.3
+    },
+    {
+      "sku": "APR-3323",
+      "component_id": "C2",
+      "component": "Steel lug cap",
+      "layers": [
+        {"material": "Steel", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "Steel",
+      "weight_g": 11.056
+    },
+    {
+      "sku": "APR-3323",
+      "component_id": "C3",
+      "component": "Front label",
+      "layers": [
+        {"material": "Coated paper", "form": "paper", "thickness_um": null, "grammage_gsm": 81.36}
+      ],
+      "category": "Paper/paperboard",
+      "weight_g": 1.501
+    },
+    {
+      "sku": "JNG-6363",
+      "component_id": "C1",
+      "component": "HIPS tray",
+      "layers": [
+        {"material": "HIPS", "form": "wall", "thickness_um": 635.0, "grammage_gsm": null}
+      ],
+      "category": "PS rigid",
+      "weight_g": 24.366
+    },
+    {
+      "sku": "JNG-6363",
+      "component_id": "C2",
+      "component": "LLDPE stretch film wrap",
+      "layers": [
+        {"material": "LLDPE", "form": "film", "thickness_um": 20.0, "grammage_gsm": null}
+      ],
+      "category": "PE flexible",
+      "weight_g": 5.476
+    },
+    {
+      "sku": "JNG-6363",
+      "component_id": "C3",
+      "component": "Front label",
+      "layers": [
+        {"material": "Coated paper", "form": "paper", "thickness_um": null, "grammage_gsm": 70.0}
+      ],
+      "category": "Paper/paperboard",
+      "weight_g": 0.564
+    },
+    {
+      "sku": "GFD-6722",
+      "component_id": "C1",
+      "component": "PS yoghurt cup",
+      "layers": [
+        {"material": "PS", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "PS rigid",
+      "weight_g": 7.9
+    },
+    {
+      "sku": "GFD-6722",
+      "component_id": "C2",
+      "component": "Die-cut lid",
+      "layers": [
+        {"material": "Aluminum", "form": "foil", "thickness_um": 30.0, "grammage_gsm": null},
+        {"material": "Lacquer", "form": "coating", "thickness_um": null, "grammage_gsm": 2.5}
+      ],
+      "category": "Aluminum",
+      "weight_g": 0.842
+    },
+    {
+      "sku": "DEB-3669",
+      "component_id": "C1",
+      "component": "Flint glass jar",
+      "layers": [
+        {"material": "Glass", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "Glass",
+      "weight_g": 234.8
+    },
+    {
+      "sku": "DEB-3669",
+      "component_id": "C2",
+      "component": "PP dispensing pump",
+      "layers": [
+        {"material": "PP", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "PP rigid",
+      "weight_g": 10.9
+    },
+    {
+      "sku": "DEB-3669",
+      "component_id": "C3",
+      "component": "Front label",
+      "layers": [
+        {"material": "Coated paper", "form": "paper", "thickness_um": null, "grammage_gsm": 60.0}
+      ],
+      "category": "Paper/paperboard",
+      "weight_g": 0.531
+    },
+    {
+      "sku": "NBD-2685",
+      "component_id": "C1",
+      "component": "PS yoghurt cup",
+      "layers": [
+        {"material": "PS", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "PS rigid",
+      "weight_g": 5.388
+    },
+    {
+      "sku": "NBD-2685",
+      "component_id": "C2",
+      "component": "Peelable lidding film",
+      "layers": [
+        {"material": "OPET", "form": "film", "thickness_um": 12.19, "grammage_gsm": null},
+        {"material": "Adhesive", "form": "adhesive", "thickness_um": null, "grammage_gsm": 2.2},
+        {"material": "PE", "form": "film", "thickness_um": 90.0, "grammage_gsm": null}
+      ],
+      "category": "Multi-material flexible laminate",
+      "weight_g": 0.551
+    },
+    {
+      "sku": "LDB-3760",
+      "component_id": "C1",
+      "component": "Quad-seal side gusset bag",
+      "layers": [
+        {"material": "Bleached kraft paper", "form": "paper", "thickness_um": null, "grammage_gsm": 70.0},
+        {"material": "LDPE", "form": "coating", "thickness_um": null, "grammage_gsm": 25.0},
+        {"material": "Aluminum", "form": "foil", "thickness_um": 7.0, "grammage_gsm": null},
+        {"material": "Adhesive", "form": "adhesive", "thickness_um": null, "grammage_gsm": 3.0},
+        {"material": "LLDPE", "form": "film", "thickness_um": 76.2, "grammage_gsm": null}
+      ],
+      "category": "Paper-based multi-material",
+      "weight_g": 15.352
+    },
+    {
+      "sku": "LDB-3760",
+      "component_id": "C2",
+      "component": "One-way degassing valve",
+      "layers": [
+        {"material": "PE", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "PE flexible",
+      "weight_g": 1.417
+    },
+    {
+      "sku": "SWM-9574",
+      "component_id": "C1",
+      "component": "Single-serve sachet",
+      "layers": [
+        {"material": "Paper", "form": "paper", "thickness_um": null, "grammage_gsm": 80.0},
+        {"material": "LDPE", "form": "coating", "thickness_um": null, "grammage_gsm": 12.0},
+        {"material": "Aluminum", "form": "foil", "thickness_um": 7.0, "grammage_gsm": null},
+        {"material": "Adhesive", "form": "adhesive", "thickness_um": null, "grammage_gsm": 3.0},
+        {"material": "LLDPE", "form": "film", "thickness_um": 63.5, "grammage_gsm": null}
+      ],
+      "category": "Paper-based multi-material",
+      "weight_g": 1.579
+    },
+    {
+      "sku": "RAT-8355",
+      "component_id": "C1",
+      "component": "Aluminium beverage can",
+      "layers": [
+        {"material": "Aluminum", "form": "wall", "thickness_um": 100.0, "grammage_gsm": null}
+      ],
+      "category": "Aluminum",
+      "weight_g": 9.37
+    },
+    {
+      "sku": "RAT-8355",
+      "component_id": "C2",
+      "component": "Wrap-around paper label",
+      "layers": [
+        {"material": "Paper", "form": "paper", "thickness_um": null, "grammage_gsm": 70.0}
+      ],
+      "category": "Paper/paperboard",
+      "weight_g": 0.874
+    },
+    {
+      "sku": "CFV-1641",
+      "component_id": "C1",
+      "component": "Injection-moulded PP tub",
+      "layers": [
+        {"material": "PP", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "PP rigid",
+      "weight_g": 24.381
+    },
+    {
+      "sku": "CFV-1641",
+      "component_id": "C2",
+      "component": "Peelable lidding film",
+      "layers": [
+        {"material": "PET", "form": "film", "thickness_um": 12.19, "grammage_gsm": null},
+        {"material": "Adhesive", "form": "adhesive", "thickness_um": null, "grammage_gsm": 1.8},
+        {"material": "Polyethylene", "form": "film", "thickness_um": 76.2, "grammage_gsm": null}
+      ],
+      "category": "Multi-material flexible laminate",
+      "weight_g": 0.69
+    },
+    {
+      "sku": "MHT-4422",
+      "component_id": "C1",
+      "component": "Folding carton",
+      "layers": [
+        {"material": "CCNB board", "form": "paper", "thickness_um": null, "grammage_gsm": 230.0},
+        {"material": "Aqueous varnish", "form": "coating", "thickness_um": null, "grammage_gsm": 3.0}
+      ],
+      "category": "Paper/paperboard",
+      "weight_g": 62.909
+    },
+    {
+      "sku": "MHT-4422",
+      "component_id": "C2",
+      "component": "Inner liner bag",
+      "layers": [
+        {"material": "Mono-PE", "form": "film", "thickness_um": 50.8, "grammage_gsm": null}
+      ],
+      "category": "PE flexible",
+      "weight_g": 6.671
+    },
+    {
+      "sku": "RLL-1403",
+      "component_id": "C1",
+      "component": "PS yoghurt cup",
+      "layers": [
+        {"material": "PS", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "PS rigid",
+      "weight_g": 5.953
+    },
+    {
+      "sku": "RLL-1403",
+      "component_id": "C2",
+      "component": "Peelable lidding film",
+      "layers": [
+        {"material": "PET", "form": "film", "thickness_um": 23.37, "grammage_gsm": null},
+        {"material": "PU adhesive", "form": "adhesive", "thickness_um": null, "grammage_gsm": 2.5},
+        {"material": "Polyethylene", "form": "film", "thickness_um": 76.2, "grammage_gsm": null}
+      ],
+      "category": "Multi-material flexible laminate",
+      "weight_g": 0.584
+    },
+    {
+      "sku": "RGL-2826",
+      "component_id": "C1",
+      "component": "rPET bottle",
+      "layers": [
+        {"material": "PET", "form": "wall", "thickness_um": 300.0, "grammage_gsm": null}
+      ],
+      "category": "PET rigid",
+      "weight_g": 19.894
+    },
+    {
+      "sku": "RGL-2826",
+      "component_id": "C2",
+      "component": "Aluminium ROPP closure",
+      "layers": [
+        {"material": "Aluminum", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "Aluminum",
+      "weight_g": 1.7
+    },
+    {
+      "sku": "RGL-2826",
+      "component_id": "C3",
+      "component": "Folding carton",
+      "layers": [
+        {"material": "CUK board", "form": "paper", "thickness_um": null, "grammage_gsm": 250.0}
+      ],
+      "category": "Paper/paperboard",
+      "weight_g": 43.4
+    },
+    {
+      "sku": "AMB-5626",
+      "component_id": "C1",
+      "component": "Stand-up pouch",
+      "layers": [
+        {"material": "BOPA", "form": "film", "thickness_um": 15.24, "grammage_gsm": null},
+        {"material": "Adhesive", "form": "adhesive", "thickness_um": null, "grammage_gsm": 2.2},
+        {"material": "LLDPE", "form": "film", "thickness_um": 100.0, "grammage_gsm": null}
+      ],
+      "category": "Multi-material flexible laminate",
+      "weight_g": 13.931
+    },
+    {
+      "sku": "BGS-6880",
+      "component_id": "C1",
+      "component": "Stand-up pouch",
+      "layers": [
+        {"material": "PE", "form": "film", "thickness_um": 60.0, "grammage_gsm": null}
+      ],
+      "category": "PE flexible",
+      "weight_g": 5.953
+    },
+    {
+      "sku": "DEN-7504",
+      "component_id": "C1",
+      "component": "Single-serve sachet",
+      "layers": [
+        {"material": "OPET", "form": "film", "thickness_um": 23.37, "grammage_gsm": null},
+        {"material": "Adhesive", "form": "adhesive", "thickness_um": null, "grammage_gsm": 1.5},
+        {"material": "PE", "form": "film", "thickness_um": 90.0, "grammage_gsm": null}
+      ],
+      "category": "Multi-material flexible laminate",
+      "weight_g": 1.637
+    },
+    {
+      "sku": "MLE-9055",
+      "component_id": "C1",
+      "component": "Side-gusset bag",
+      "layers": [
+        {"material": "Bleached kraft paper", "form": "paper", "thickness_um": null, "grammage_gsm": 80.0},
+        {"material": "PE", "form": "coating", "thickness_um": null, "grammage_gsm": 20.0},
+        {"material": "Aluminum foil", "form": "foil", "thickness_um": 6.35, "grammage_gsm": null},
+        {"material": "PU adhesive", "form": "adhesive", "thickness_um": null, "grammage_gsm": 3.0},
+        {"material": "LLDPE", "form": "film", "thickness_um": 50.8, "grammage_gsm": null}
+      ],
+      "category": "Paper-based multi-material",
+      "weight_g": 12.015
+    },
+    {
+      "sku": "MLE-9055",
+      "component_id": "C2",
+      "component": "One-way degassing valve",
+      "layers": [
+        {"material": "PE", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "PE flexible",
+      "weight_g": 1.2
+    },
+    {
+      "sku": "GVB-9560",
+      "component_id": "C1",
+      "component": "Flint glass jar",
+      "layers": [
+        {"material": "Glass", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "Glass",
+      "weight_g": 268.98
+    },
+    {
+      "sku": "GVB-9560",
+      "component_id": "C2",
+      "component": "PP screw cap",
+      "layers": [
+        {"material": "PP", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "PP rigid",
+      "weight_g": 2.5
+    },
+    {
+      "sku": "GVB-9560",
+      "component_id": "C3",
+      "component": "Front label",
+      "layers": [
+        {"material": "Coated paper", "form": "paper", "thickness_um": null, "grammage_gsm": 60.0}
+      ],
+      "category": "Paper/paperboard",
+      "weight_g": 0.884
+    },
+    {
+      "sku": "PWH-7507",
+      "component_id": "C1",
+      "component": "Single-serve sachet",
+      "layers": [
+        {"material": "BOPET", "form": "film", "thickness_um": 23.37, "grammage_gsm": null},
+        {"material": "VMPET", "form": "metallization", "thickness_um": 23.0, "grammage_gsm": null},
+        {"material": "Polyethylene", "form": "film", "thickness_um": 75.0, "grammage_gsm": null},
+        {"material": "PU adhesive", "form": "adhesive", "thickness_um": null, "grammage_gsm": 3.6}
+      ],
+      "category": "Multi-material flexible laminate",
+      "weight_g": 0.963
+    },
+    {
+      "sku": "JEK-6828",
+      "component_id": "C1",
+      "component": "Single-serve sachet",
+      "layers": [
+        {"material": "Polyester", "form": "film", "thickness_um": 23.0, "grammage_gsm": null},
+        {"material": "AL foil", "form": "foil", "thickness_um": 6.35, "grammage_gsm": null},
+        {"material": "LLDPE", "form": "film", "thickness_um": 90.0, "grammage_gsm": null},
+        {"material": "Adhesive", "form": "adhesive", "thickness_um": null, "grammage_gsm": 3.6}
+      ],
+      "category": "Multi-material flexible laminate",
+      "weight_g": 1.258
+    },
+    {
+      "sku": "WDL-8346",
+      "component_id": "C1",
+      "component": "Pillow pack",
+      "layers": [
+        {"material": "MDO-PE", "form": "film", "thickness_um": 30.0, "grammage_gsm": null},
+        {"material": "Metallised PE", "form": "film", "thickness_um": 75.0, "grammage_gsm": null},
+        {"material": "Al", "form": "metallization", "thickness_um": 0.035, "grammage_gsm": null},
+        {"material": "PU adhesive", "form": "adhesive", "thickness_um": null, "grammage_gsm": 2.5}
+      ],
+      "category": "PE flexible",
+      "weight_g": 6.843
+    },
+    {
+      "sku": "WDL-8346",
+      "component_id": "C2",
+      "component": "Folding carton",
+      "layers": [
+        {"material": "FBB", "form": "paper", "thickness_um": null, "grammage_gsm": 400.0},
+        {"material": "Aqueous varnish", "form": "coating", "thickness_um": null, "grammage_gsm": 2.0}
+      ],
+      "category": "Paper/paperboard",
+      "weight_g": 34.697
+    },
+    {
+      "sku": "BHA-4875",
+      "component_id": "C1",
+      "component": "Amber glass bottle",
+      "layers": [
+        {"material": "Glass", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "Glass",
+      "weight_g": 386.11
+    },
+    {
+      "sku": "BHA-4875",
+      "component_id": "C2",
+      "component": "PP screw cap",
+      "layers": [
+        {"material": "PP", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "PP rigid",
+      "weight_g": 2.1
+    },
+    {
+      "sku": "BHA-4875",
+      "component_id": "C3",
+      "component": "Wrap-around paper label",
+      "layers": [
+        {"material": "Uncoated paper", "form": "paper", "thickness_um": null, "grammage_gsm": 97.63}
+      ],
+      "category": "Paper/paperboard",
+      "weight_g": 1.951
+    },
+    {
+      "sku": "RRW-6054",
+      "component_id": "C1",
+      "component": "Injection-moulded PP tub",
+      "layers": [
+        {"material": "PP", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "PP rigid",
+      "weight_g": 19.6
+    },
+    {
+      "sku": "RRW-6054",
+      "component_id": "C2",
+      "component": "Die-cut lid",
+      "layers": [
+        {"material": "Aluminum", "form": "foil", "thickness_um": 30.0, "grammage_gsm": null},
+        {"material": "Heat-seal lacquer", "form": "coating", "thickness_um": null, "grammage_gsm": 2.0}
+      ],
+      "category": "Aluminum",
+      "weight_g": 0.732
+    },
+    {
+      "sku": "NJF-9152",
+      "component_id": "C1",
+      "component": "PP thermoformed tub",
+      "layers": [
+        {"material": "PP", "form": "wall", "thickness_um": 500.0, "grammage_gsm": null}
+      ],
+      "category": "PP rigid",
+      "weight_g": 11.332
+    },
+    {
+      "sku": "NJF-9152",
+      "component_id": "C2",
+      "component": "LLDPE stretch film wrap",
+      "layers": [
+        {"material": "LLDPE", "form": "film", "thickness_um": 30.48, "grammage_gsm": null}
+      ],
+      "category": "PE flexible",
+      "weight_g": 6.134
+    },
+    {
+      "sku": "WFF-9547",
+      "component_id": "C1",
+      "component": "rPET bottle",
+      "layers": [
+        {"material": "PET", "form": "wall", "thickness_um": 300.0, "grammage_gsm": null}
+      ],
+      "category": "PET rigid",
+      "weight_g": 17.805
+    },
+    {
+      "sku": "WFF-9547",
+      "component_id": "C2",
+      "component": "PP dispensing pump",
+      "layers": [
+        {"material": "PP", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "PP rigid",
+      "weight_g": 13.3
+    },
+    {
+      "sku": "WFF-9547",
+      "component_id": "C3",
+      "component": "Clear OPP wrap label",
+      "layers": [
+        {"material": "OPP", "form": "film", "thickness_um": 50.0, "grammage_gsm": null}
+      ],
+      "category": "PP flexible",
+      "weight_g": 1.111
+    },
+    {
+      "sku": "SSR-2184",
+      "component_id": "C1",
+      "component": "Sachet",
+      "layers": [
+        {"material": "Paper", "form": "paper", "thickness_um": null, "grammage_gsm": 65.1},
+        {"material": "PE", "form": "coating", "thickness_um": null, "grammage_gsm": 12.0},
+        {"material": "Aluminum", "form": "foil", "thickness_um": 6.35, "grammage_gsm": null},
+        {"material": "PU adhesive", "form": "adhesive", "thickness_um": null, "grammage_gsm": 1.5},
+        {"material": "LLDPE", "form": "film", "thickness_um": 63.5, "grammage_gsm": null}
+      ],
+      "category": "Paper-based multi-material",
+      "weight_g": 1.761
+    },
+    {
+      "sku": "SHL-3257",
+      "component_id": "C1",
+      "component": "Folding carton",
+      "layers": [
+        {"material": "CCNB board", "form": "paper", "thickness_um": null, "grammage_gsm": 300.0}
+      ],
+      "category": "Paper/paperboard",
+      "weight_g": 63.856
+    },
+    {
+      "sku": "SHL-3257",
+      "component_id": "C2",
+      "component": "Inner liner bag",
+      "layers": [
+        {"material": "PE", "form": "film", "thickness_um": 76.2, "grammage_gsm": null}
+      ],
+      "category": "PE flexible",
+      "weight_g": 10.655
+    },
+    {
+      "sku": "GTB-4489",
+      "component_id": "C1",
+      "component": "Aluminium beverage can",
+      "layers": [
+        {"material": "Aluminum", "form": "wall", "thickness_um": 100.0, "grammage_gsm": null}
+      ],
+      "category": "Aluminum",
+      "weight_g": 8.441
+    },
+    {
+      "sku": "GTB-4489",
+      "component_id": "C2",
+      "component": "BOPP film label",
+      "layers": [
+        {"material": "BOPP", "form": "film", "thickness_um": 60.0, "grammage_gsm": null}
+      ],
+      "category": "PP flexible",
+      "weight_g": 0.279
+    },
+    {
+      "sku": "DCC-1152",
+      "component_id": "C1",
+      "component": "Pillow pack",
+      "layers": [
+        {"material": "OPP", "form": "film", "thickness_um": 17.78, "grammage_gsm": null},
+        {"material": "met-OPP", "form": "film", "thickness_um": 17.78, "grammage_gsm": null},
+        {"material": "Adhesive", "form": "adhesive", "thickness_um": null, "grammage_gsm": 3.0}
+      ],
+      "category": "Multi-material flexible laminate",
+      "weight_g": 1.48
+    },
+    {
+      "sku": "CMV-9006",
+      "component_id": "C1",
+      "component": "HIPS tray",
+      "layers": [
+        {"material": "HIPS", "form": "wall", "thickness_um": 600.0, "grammage_gsm": null}
+      ],
+      "category": "PS rigid",
+      "weight_g": 26.88
+    },
+    {
+      "sku": "CMV-9006",
+      "component_id": "C2",
+      "component": "Overwrap film",
+      "layers": [
+        {"material": "BOPP", "form": "film", "thickness_um": 20.0, "grammage_gsm": null}
+      ],
+      "category": "PP flexible",
+      "weight_g": 4.041
+    },
+    {
+      "sku": "FNP-2500",
+      "component_id": "C1",
+      "component": "Side-gusset bag",
+      "layers": [
+        {"material": "Paper", "form": "paper", "thickness_um": null, "grammage_gsm": 60.0},
+        {"material": "LDPE", "form": "coating", "thickness_um": null, "grammage_gsm": 15.0},
+        {"material": "Al foil", "form": "foil", "thickness_um": 8.89, "grammage_gsm": null},
+        {"material": "LLDPE", "form": "film", "thickness_um": 60.0, "grammage_gsm": null},
+        {"material": "PU adhesive", "form": "adhesive", "thickness_um": null, "grammage_gsm": 1.5}
+      ],
+      "category": "Paper-based multi-material",
+      "weight_g": 9.924
+    },
+    {
+      "sku": "FNP-2500",
+      "component_id": "C2",
+      "component": "One-way degassing valve",
+      "layers": [
+        {"material": "PE", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "PE flexible",
+      "weight_g": 1.417
+    },
+    {
+      "sku": "TEG-6566",
+      "component_id": "C1",
+      "component": "Quad-seal side gusset bag",
+      "layers": [
+        {"material": "Kraft paper", "form": "paper", "thickness_um": null, "grammage_gsm": 70.0},
+        {"material": "PE", "form": "coating", "thickness_um": null, "grammage_gsm": 15.0}
+      ],
+      "category": "Paper/paperboard",
+      "weight_g": 8.169
+    },
+    {
+      "sku": "TEG-6566",
+      "component_id": "C2",
+      "component": "One-way degassing valve",
+      "layers": [
+        {"material": "PE", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "PE flexible",
+      "weight_g": 1.1
+    },
+    {
+      "sku": "JRR-2442",
+      "component_id": "C1",
+      "component": "PP thermoformed tub",
+      "layers": [
+        {"material": "PP", "form": "wall", "thickness_um": 508.0, "grammage_gsm": null}
+      ],
+      "category": "PP rigid",
+      "weight_g": 18.784
+    },
+    {
+      "sku": "JRR-2442",
+      "component_id": "C2",
+      "component": "Overwrap film",
+      "layers": [
+        {"material": "LDPE", "form": "film", "thickness_um": 15.24, "grammage_gsm": null}
+      ],
+      "category": "PE flexible",
+      "weight_g": 2.47
+    },
+    {
+      "sku": "JRR-2442",
+      "component_id": "C3",
+      "component": "Wrap-around paper label",
+      "layers": [
+        {"material": "Uncoated paper", "form": "paper", "thickness_um": null, "grammage_gsm": 70.0}
+      ],
+      "category": "Paper/paperboard",
+      "weight_g": 0.588
+    },
+    {
+      "sku": "SET-2292",
+      "component_id": "C1",
+      "component": "Stand-up pouch",
+      "layers": [
+        {"material": "Natural kraft", "form": "paper", "thickness_um": null, "grammage_gsm": 90.0},
+        {"material": "PE", "form": "coating", "thickness_um": null, "grammage_gsm": 15.0}
+      ],
+      "category": "Paper/paperboard",
+      "weight_g": 9.94
+    },
+    {
+      "sku": "PVF-2330",
+      "component_id": "C1",
+      "component": "PS yoghurt cup",
+      "layers": [
+        {"material": "PS", "form": "wall", "thickness_um": null, "grammage_gsm": null}
+      ],
+      "category": "PS rigid",
+      "weight_g": 8.0
+    },
+    {
+      "sku": "PVF-2330",
+      "component_id": "C2",
+      "component": "Peelable lidding film",
+      "layers": [
+        {"material": "PET", "form": "film", "thickness_um": 12.19, "grammage_gsm": null},
+        {"material": "PU adhesive", "form": "adhesive", "thickness_um": null, "grammage_gsm": 2.0},
+        {"material": "PE", "form": "film", "thickness_um": 63.5, "grammage_gsm": null}
+      ],
+      "category": "Multi-material flexible laminate",
+      "weight_g": 1.109
+    }
+  ],
+  "totals_by_category": {
+    "PET rigid": 50.564,
+    "HDPE rigid": 3.4,
+    "PP flexible": 7.423,
+    "Glass": 840.19,
+    "Steel": 11.056,
+    "Paper/paperboard": 196.486,
+    "PS rigid": 55.207,
+    "PE flexible": 39.171,
+    "Aluminum": 18.543,
+    "Multi-material flexible laminate": 20.375,
+    "Paper-based multi-material": 49.631,
+    "PP rigid": 58.765
+  },
+  "total_weight_g": 1150.411
+}

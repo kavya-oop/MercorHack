@@ -1,0 +1,18 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "provider": "gemini",
+  "seconds": 19.6,
+  "usage": {
+    "promptTokenCount": 4259,
+    "candidatesTokenCount": 10078,
+    "totalTokenCount": 14337,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 4259
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "prompt_chars": 12760
+}

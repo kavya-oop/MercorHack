@@ -1,0 +1,185 @@
+{
+ "log": [
+  {
+   "sku": "VAE-8149",
+   "component_id": "C1",
+   "injected": "oz_g"
+  },
+  {
+   "sku": "CJW-8442",
+   "component_id": "C1",
+   "injected": "oz_g"
+  },
+  {
+   "sku": "CJW-8442",
+   "component_id": "C2",
+   "injected": null
+  },
+  {
+   "sku": "CJW-8442",
+   "component_id": "C3",
+   "injected": "missing"
+  },
+  {
+   "sku": "TRG-2590",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "VCT-8531",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "VCT-8531",
+   "component_id": "C2",
+   "injected": "missing"
+  },
+  {
+   "sku": "VCT-8531",
+   "component_id": "C3",
+   "injected": "extra"
+  },
+  {
+   "sku": "FPB-7016",
+   "component_id": "C1",
+   "injected": "kg_g"
+  },
+  {
+   "sku": "AJR-1071",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "AJR-1071",
+   "component_id": "C2",
+   "injected": null
+  },
+  {
+   "sku": "AJR-1071",
+   "component_id": "C3",
+   "injected": "kg_g"
+  },
+  {
+   "sku": "TRD-4641",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "TRD-4641",
+   "component_id": "C2",
+   "injected": null
+  },
+  {
+   "sku": "TRD-4641",
+   "component_id": "C3",
+   "injected": null
+  },
+  {
+   "sku": "WTE-3830",
+   "component_id": "C1",
+   "injected": "weight_gross"
+  },
+  {
+   "sku": "WTE-3830",
+   "component_id": "C2",
+   "injected": null
+  },
+  {
+   "sku": "ASJ-4895",
+   "component_id": "C1",
+   "injected": "kg_g"
+  },
+  {
+   "sku": "ASJ-4895",
+   "component_id": "C2",
+   "injected": "invalid_category"
+  },
+  {
+   "sku": "PDR-6437",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "RSH-8574",
+   "component_id": "C1",
+   "injected": "extra"
+  },
+  {
+   "sku": "RSH-8574",
+   "component_id": "C2",
+   "injected": null
+  },
+  {
+   "sku": "RSH-8574",
+   "component_id": "C3",
+   "injected": null
+  },
+  {
+   "sku": "DDL-5350",
+   "component_id": "C1",
+   "injected": "met_as_foil"
+  },
+  {
+   "sku": "RTM-1800",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "RTM-1800",
+   "component_id": "C2",
+   "injected": null
+  },
+  {
+   "sku": "RTM-1800",
+   "component_id": "C3",
+   "injected": null
+  },
+  {
+   "sku": "ENV-7253",
+   "component_id": "C1",
+   "injected": "missing"
+  },
+  {
+   "sku": "ENV-7253",
+   "component_id": "C2",
+   "injected": "duplicate"
+  },
+  {
+   "sku": "EWM-7309",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "EWM-7309",
+   "component_id": "C2",
+   "injected": "wrong_category"
+  },
+  {
+   "sku": "EWM-7309",
+   "component_id": "C3",
+   "injected": null
+  },
+  {
+   "sku": "BAH-1060",
+   "component_id": "C1",
+   "injected": null
+  },
+  {
+   "sku": "BAH-1060",
+   "component_id": "C2",
+   "injected": null
+  },
+  {
+   "sku": "TTW-3905",
+   "component_id": "C1",
+   "injected": "wrong_category"
+  },
+  {
+   "sku": "ASP-6620",
+   "component_id": "C1",
+   "injected": null
+  }
+ ],
+ "totals_error_injected_in": null
+}

@@ -1,0 +1,92 @@
+PACKAGING SPECIFICATION CATALOG cat_01
+(SYNTHETIC test data — not real products)
+
+SKU# VAE-8149 — Oakline Kettle Chips (Net wt 12 oz (340 g))
+Packaging components:
+  Component C1: Stand up pouch — Laminate: 90 µ PE. Dimensions per face 18.5 cm W x 28 cm H; bottom gusset depth 9 cm unfolded.
+------------------------------------------------------------
+Item code CJW-8442: Bluepeak Cottage Cheese, NET WT 8 OZ
+Packaging components:
+  C1 – PS yoghurt cup; part weight 0.25 oz.
+  C2) Die-cut lid, 40um aluminium foil + 3 gsm heat-seal lacquer; lid blank 5" x 2.75".
+  C3) Aluminium ROPP closure. Unit wt: 0.06 oz.
+------------------------------------------------------------
+SKU# TRG-2590 — Tidewater Protein Powder Sachet (NET WT 8 OZ)
+Pack BOM:
+  Component C1: Sachet, 4-side seal. Face size 87 mm W x 101 mm H. Spec: PET 23 µ // 92 ga metallized PET // polyethylene 90 µm; bonded with 2.2 gsm adhesive at each of the 2 interfaces.
+------------------------------------------------------------
+Item code VCT-8531: Kestrel Cold Brew, Net wt 1 lb
+Packaging components:
+  C1 – HDPE bottle, HDPE, avg wall thickness 700um, total surface 74600 mm².
+  C2) PP dispensing pump (all-PP). Unit wt: 9.4 grams.
+  Component C3: Clear OPP wrap label, 60 µ; label size 220 x 86 mm.
+------------------------------------------------------------
+SKU: FPB-7016 | Harvest & Co Granola Bites | NET WT 8 OZ
+Pack BOM:
+  C1) SUP with bottom gusset — Laminate: 100 gsm kraft paper / 18g/m2 PE extrusion coat. Dimensions per face 134 mm W x 238 mm H, bottom gusset 51 mm (fully opened).
+------------------------------------------------------------
+Item code AJR-1071: Harvest & Co Electrolyte Drink, Net wt 12 oz (340 g)
+Pack BOM:
+  C1 – PET bottle; surface area 524 cm², average wall 12mil PET.
+  Component C2: Aluminium ROPP closure. Unit wt: 1.3g.
+  Component C3: BOPP film label 50um; label size 67 mm W x 108 mm H.
+------------------------------------------------------------
+Item code TRD-4641: Sunward Sparkling Water, Net wt 12 oz (340 g)
+Pack BOM:
+  C1) PET bottle, PET, avg wall thickness 12mil, total surface 328 cm².
+  C2 – PP dispensing pump (all-PP). Unit wt: 12.3 grams.
+  [C3] Clear OPP wrap label, 60; label size 87mm × 91mm. [thickness unit missing on supplier sheet]
+------------------------------------------------------------
+SKU: WTE-3830 | Meridian Hand Soap | Net wt 2.5 oz (70 g)
+Pack BOM:
+  [C1] Co-ex barrier bottle, HDPE 368 µm / EVOH 64 µm / HDPE 368 µm; surface area 75 sq in.
+  C2) Aluminium ROPP closure; part weight 0.07 oz.
+------------------------------------------------------------
+Item code ASJ-4895: Bluepeak Ground Espresso, Net wt 1 lb
+Packaging spec:
+  Component C1: Quad-seal side gusset bag. Face size 95 mm W x 209 mm H, side gussets 85 mm (fully opened). Layers: 50 g/m² MG kraft / 20 gsm PE extrusion layer / 9um Al foil / 60 micron LLDPE sealant. Solventless adhesive 1.8 g/m² per interface.
+  Component C2: One-way degassing valve (PE), weighs 0.03 oz.
+------------------------------------------------------------
+Item code PDR-6437: Bluepeak Trail Mix, 16 fl oz
+Packaging components:
+  C1) Stand-up pouch (doypack). Face size (W x H) 130 x 204 mm, bottom gusset: 71 mm opened out. Build (outside first): PE 75 µ.
+------------------------------------------------------------
+SKU# RSH-8574 — Oakline Electrolyte Drink (Net 500 mL)
+Pack BOM:
+  C1) Co-ex barrier bottle, HDPE 392 µm / EVOH 16 µm / HDPE 392 µm; surface area 74790 mm².
+  Component C2: HDPE flip-top closure. Unit wt: 0.17 oz.
+  Component C3: Front label, coated paper 60 gsm; label size 24 x 7 cm.
+------------------------------------------------------------
+SKU: DDL-5350 | Bluepeak Dark Chocolate Squares | Net 500 mL
+Packaging spec:
+  Component C1: 3-side-seal flat pouch. Face size 7" x 10". Structure (out→in): LLDPE 40 mic // 50 µ met-PE. Solventless adhesive 1.5 g/m² per interface.
+------------------------------------------------------------
+Item code RTM-1800: Harvest & Co Shampoo, Net wt 2.5 oz (70 g)
+Pack BOM:
+  [C1] rPET bottle, blow-moulded; surface area 575 cm2, average wall 300um PET.
+  C2 – HDPE flip-top closure. Unit wt: 0.16 oz.
+  C3 – Folding carton, 250 gsm SBS board, one side LDPE extrusion coat 25 gsm; flat blank 438mm × 338mm.
+------------------------------------------------------------
+Item code ENV-7253: Tidewater Diced Tomatoes, Net wt 2.5 oz (70 g)
+Pack BOM:
+  C1) Tinplate food can (body + 2 ends), tinplate, avg wall thickness 0.2 mm, total surface 381 cm2.
+  Component C2: Front label, coated paper 60# (3000 ft² ream); label size 77 x 37 mm.
+------------------------------------------------------------
+Item code EWM-7309: Meridian Iced Tea, Net 500 mL
+Packaging components:
+  C1) Co-ex barrier bottle, HDPE 322 µm / EVOH 56 µm / HDPE 322 µm; surface area 72850 mm².
+  [C2] Aluminium ROPP closure; part weight 0.07 oz.
+  C3 – Front label, coated paper 70 gsm; label size (W x H) 213 x 40 mm.
+------------------------------------------------------------
+SKU: BAH-1060 | Meridian Black Beans | NET WT 8 OZ
+Packaging spec:
+  Component C1: Tinplate food can (body + 2 ends), tinplate, avg wall thickness 0.18 mm, total surface 72.7 in².
+  C2) Clear OPP wrap label, 50um; label size 214mm × 81mm.
+------------------------------------------------------------
+Item code TTW-3905: Kestrel Drink Mix Stick, Net wt 1 lb
+Packaging spec:
+  C1) Sachet, 4-side seal. Face size 7 cm W x 11.5 cm H. Laminate: 80g/m2 paper // 12g/m2 LDPE extrusion coat // aluminium foil 0.00035 in // LLDPE sealant 75 µm; adhesive laminated, 1 x 2 gsm PU adhesive.
+------------------------------------------------------------
+Item code ASP-6620: Meridian Ketchup Packet, 16 fl oz
+Pack BOM:
+  C1) Single-serve sachet — Spec: 50 gsm paper / 15g/m2 LDPE extrusion coat / 0.00035 in aluminium foil / LLDPE 90 µm; adhesive laminated, 1 x 2.5 gsm PU adhesive. Dimensions per face (W x H) 44 x 102 mm.

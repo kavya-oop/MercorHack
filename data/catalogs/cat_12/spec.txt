@@ -1,0 +1,214 @@
+PACKAGING SPECIFICATION CATALOG cat_12
+(SYNTHETIC test data — not real products)
+
+SKU# WKA-7558 — Oakline Cottage Cheese (250 g)
+Packaging components:
+  C1) Injection-moulded PP tub, weighs 14.5 grams.
+  [C2] Peelable lidding film, 12um OPET/75 µm PE; bonded with 2.5 gsm adhesive at each of the 1 interfaces; lid blank 103 x 64 mm.
+------------------------------------------------------------
+Item code SSJ-5345: Bluepeak Whole Bean Coffee, 16 fl oz
+Pack BOM:
+  C1 – Quad-seal side gusset bag. Face size 5.25" x 9.75"; side gussets depth 2" unfolded. Structure (out→in): 70g/m2 kraft paper / 20 gsm LDPE coating.
+  Component C2: One-way degassing valve (PE); part weight 0.05 oz.
+------------------------------------------------------------
+SKU# PVD-5148 — Kestrel Veggie Crisps (Net wt 1 lb)
+Pack BOM:
+  Component C1: Stand-up pouch (doypack) — Spec: OPET 92ga/polyethylene 75um; bonded with 2 gsm adhesive at each of the 1 interfaces. Dimensions per face 217mm × 273mm, bottom gusset: 77 mm opened out.
+------------------------------------------------------------
+SKU# VDD-4410 — Kestrel Electrolyte Drink (Net wt 12 oz (340 g))
+Packaging spec:
+  C1 – Co-ex barrier bottle, HDPE 360 µm / EVOH 80 µm / HDPE 360 µm; surface area 793 cm2.
+  [C2] PP screw cap 28 mm, weighs 1.8 g.
+  [C3] Wrap-around paper label, 60# (3000 ft² ream) uncoated; label size 127mm × 72mm.
+------------------------------------------------------------
+Item code WWT-9770: Bluepeak Dark Chocolate Squares, Net wt 12 oz (340 g)
+Packaging components:
+  C1) Flat pouch. Face size 165 x 187 mm. Structure (out→in): 92ga PET/metallised PET 92ga (OD 2.4)/polyethylene 90 µm; adhesive laminated, 2 x 2 gsm PU adhesive.
+------------------------------------------------------------
+SKU# BNM-3889 — Harvest & Co Blueberries (Net wt 12 oz (340 g))
+Packaging spec:
+  Component C1: PVC blister cavity tray, PVC, avg wall thickness 10mil, total surface 87 cm².
+  C2 – Overwrap film, LDPE 12 µm; cut sheet 285 mm W x 453 mm H.
+  C3) BOPP film label 50 micron; label size 156 x 72 mm.
+------------------------------------------------------------
+SKU# CTJ-5308 — Northfield Corn Puffs (Net 500 mL)
+Packaging spec:
+  [C1] Folding carton, 400 gsm recycled CCNB board, aqueous varnish 3 gsm; flat blank 303mm × 393mm.
+  Component C2: Bag-in-box liner, flat. Face size 252 x 347 mm. Build (outside first): 75 µm mono-PE.
+------------------------------------------------------------
+Item code DFF-4068: Harvest & Co Mint Drops, Net wt 1 lb
+Packaging spec:
+  Component C1: Pillow pack (flat, 2 faces) — Layers: 30um MDO-PE / 90 µm met-PE; bonded with 2.5 gsm adhesive at each of the 1 interfaces. Dimensions per face 169 x 124 mm.
+  Component C2: Folding carton, 250 g/m² SBS board; flat blank 246 mm W x 213 mm H.
+------------------------------------------------------------
+SKU# TVD-9915 — Oakline Marinara (Net wt 1 lb)
+Packaging components:
+  C1) Flint glass jar, 250 mL brimful. Unit wt: 0.222 kg.
+  Component C2: Steel lug cap 63 mm; part weight 9 grams.
+  Component C3: Clear OPP wrap label, 40 micron; label size 237 mm W x 113 mm H.
+------------------------------------------------------------
+SKU: JVA-4285 | Bluepeak Diced Tomatoes | 250 g
+Pack BOM:
+  C1 – Tinplate food can (body + 2 ends); surface area 384 sq cm, average wall 0.22mm tinplate.
+  C2) Wrap-around paper label, 50# (3000 ft² ream) uncoated; label size 83 x 45 mm.
+------------------------------------------------------------
+SKU# TCH-5549 — Meridian Ground Espresso (Net wt 1 lb)
+Pack BOM:
+  C1 – Quad-seal side gusset bag — Structure (out→in): 70g/m2 bleached kraft paper/15 g/m² PE extrusion layer/7 µ aluminium foil/LLDPE sealant 2.5 mils; adhesive laminated, 1 x 3 gsm PU adhesive. Dimensions per face (W x H) 4 x 9.75 in, side gussets 2.5" (fully opened).
+  Component C2: One-way degassing valve (PE), weighs 1.4 g.
+------------------------------------------------------------
+Item code FTH-8271: Bluepeak Hummus, Net wt 2.5 oz (70 g)
+Pack BOM:
+  C1) PS yoghurt cup. Unit wt: 0.29 oz.
+  [C2] Die-cut lid, 38um aluminium foil + 2 gsm heat-seal lacquer; lid blank 100 x 117 mm.
+------------------------------------------------------------
+Item code NLL-2899: Northfield Hummus, NET WT 8 OZ
+Packaging components:
+  [C1] Injection-moulded PP tub, weighs 0.47 oz.
+  [C2] Die-cut lid, 1.5 mil aluminium foil + 8 gsm heat-seal lacquer; lid blank 87 mm W x 116 mm H.
+  Component C3: PP dispensing pump (all-PP); part weight 0.36 oz.
+------------------------------------------------------------
+SKU: MNS-5195 | Harvest & Co Corn Puffs | Net wt 2.5 oz (70 g)
+Packaging components:
+  C1) Folding carton, 400 g/m2 folding boxboard (FBB), aqueous varnish 3; flat blank (W x H) 36 x 47.5 cm. [thickness unit missing on supplier sheet]
+  [C2] Bag-in-box liner, flat. Face size 25.5 x 25.5 cm. Layers: 30 µm MDO-PE // 60um met-PE (~50 nm Al); adhesive laminated, 1 x 1.8 gsm PU adhesive.
+------------------------------------------------------------
+Item code CEC-7617: Tidewater Cold Brew, 16 fl oz
+Pack BOM:
+  C1) rPET bottle, blow-moulded; surface area 79.6 sq in, average wall 12 mil PET.
+  C2 – Steel lug cap 63 mm, weighs 0.4 oz.
+  C3) Front label, coated paper 60 gsm; label size 56 mm W x 53 mm H.
+------------------------------------------------------------
+Item code CTK-5743: Oakline Salsa Verde, 16 fl oz
+Packaging components:
+  Component C1: Flint glass jar, 250 mL brimful, weighs 0.156 kg.
+  [C2] PP dispensing pump (all-PP); part weight 11g.
+  C3) Front label, coated paper 60g/m2; label size (W x H) 118 x 54 mm.
+------------------------------------------------------------
+SKU: GKF-8584 | Bluepeak Blueberries | 250 g
+Pack BOM:
+  [C1] PVC blister cavity tray, PVC, avg wall thickness 10 mil, total surface 166 cm2.
+  C2) LLDPE stretch film wrap, gauge 0.8; cut sheet 464 mm W x 365 mm H. [thickness unit missing on supplier sheet]
+  Component C3: Clear OPP wrap label, 2 mil; label size (W x H) 18 x 3.5 cm.
+------------------------------------------------------------
+Item code GMB-5434: Northfield Tuna, 16 fl oz
+Packaging spec:
+  C1 – Aluminium beverage can (body + end); surface area 49.2 sq in, average wall 0.1mm aluminium.
+  [C2] Wrap-around paper label, 70 gsm uncoated; label size 4" W x 4.5" H.
+------------------------------------------------------------
+Item code SFS-4959: Kestrel Gummy Bears, NET WT 8 OZ
+Pack BOM:
+  C1) Flat pouch — Laminate: PET 48 gauge // PE 60um; bonded with 2 gsm adhesive at each of the 1 interfaces. Dimensions per face 143 x 246 mm.
+  [C2] Folding carton, 350 gsm SBS board; flat blank 24 x 46 cm.
+------------------------------------------------------------
+Item code EKH-3125: Sunward Electrolyte Drink, 250 g
+Packaging spec:
+  [C1] rPET bottle, blow-moulded, PET, avg wall thickness 300 mic, total surface 518 cm2.
+  Component C2: HDPE flip-top closure. Unit wt: 4.4g.
+  Component C3: Wrap-around paper label, 60 lb/3000 ft² uncoated; label size (W x H) 172 x 64 mm.
+------------------------------------------------------------
+SKU# LNN-9065 — Bluepeak Salsa Verde (NET WT 8 OZ)
+Packaging components:
+  [C1] Flint glass jar, 250 mL brimful, weighs 172.6g.
+  [C2] Aluminium ROPP closure. Unit wt: 1.6g.
+  [C3] BOPP film label 40 µ; label size 23 x 5 cm.
+------------------------------------------------------------
+SKU# GBT-2400 — Meridian Cottage Cheese (NET WT 8 OZ)
+Packaging spec:
+  C1 – PS yoghurt cup. Unit wt: 0.2 oz.
+  C2 – Peelable lidding film, 48ga PET / 3 mil polyethylene; bonded with 2.2 gsm adhesive at each of the 1 interfaces; lid blank 127 mm W x 111 mm H.
+  Component C3: PP screw cap 28 mm. Unit wt: 0.12 oz.
+------------------------------------------------------------
+Item code LSM-1852: Sunward Ground Espresso, 250 g
+Packaging components:
+  C1 – Quad-seal side gusset bag — Laminate: PET 48ga / AL foil 6.35 mic / mLLDPE 75 mic; adhesive laminated, 2 x 1.5 gsm PU adhesive. Dimensions per face (W x H) 9.5 x 28 cm, side gussets 8.5 cm (fully opened).
+  Component C2: One-way degassing valve (PE), weighs 1.1 g.
+------------------------------------------------------------
+SKU# MJC-1255 — Tidewater Salsa Verde (Net wt 1 lb)
+Packaging spec:
+  [C1] Flint glass jar, 375 mL brimful. Unit wt: 204.6 g.
+  C2 – Aluminium ROPP closure. Unit wt: 0.09 oz.
+  [C3] Front label, coated paper 60# (3000 ft² ream); label size 25 cm W x 3.5 cm H.
+------------------------------------------------------------
+SKU: WJR-2026 | Harvest & Co Mint Drops | Net wt 12 oz (340 g)
+Pack BOM:
+  Component C1: 3-side-seal flat pouch — Layers: OPP 70ga // 70ga metallized BOPP (OD 2.8). Solventless adhesive 3 g/m² per interface. Dimensions per face (W x H) 181 x 245 mm.
+  Component C2: Folding carton, 230 gsm folding boxboard (FBB); flat blank 401mm × 288mm.
+------------------------------------------------------------
+Item code HTJ-1157: Kestrel Protein Powder Sachet, 250 g
+Pack BOM:
+  C1) Sachet, 4-side seal — Layers: 12 µm PET/metallised PET 92 ga/PE 2.5mil; bonded with 1.5 gsm adhesive at each of the 2 interfaces. Dimensions per face (W x H) 56 x 101 mm.
+------------------------------------------------------------
+SKU# LMS-9740 — Tidewater Greek Yogurt (NET WT 8 OZ)
+Packaging components:
+  Component C1: Injection-moulded PP tub; part weight 0.46 oz.
+  Component C2: Peelable lidding film, OPET 23um / 2.5mil PE. Solventless adhesive 2 g/m² per interface; lid blank 122 mm W x 116 mm H.
+------------------------------------------------------------
+Item code PCF-1107: Tidewater Peanut Butter, 250 g
+Packaging spec:
+  [C1] Amber glass bottle, 8 oz capacity; part weight 373.2 g.
+  C2 – PP dispensing pump (all-PP), weighs 11.7 g.
+  [C3] Clear OPP wrap label, 50 µ; label size (W x H) 26 x 3.5 cm.
+------------------------------------------------------------
+Item code HHE-2391: Oakline Protein Powder Sachet, Net 500 mL
+Packaging components:
+  C1 – Single-serve sachet. Face size 53 x 119 mm. Construction: OPET 12um // polyethylene 90 mic. Solventless adhesive 1.8 g/m² per interface.
+------------------------------------------------------------
+SKU: BWJ-4182 | Sunward Tuna | Net wt 1 lb
+Packaging spec:
+  [C1] Aluminium beverage can (body + end); surface area 25240 mm², average wall 100 µm aluminium.
+  [C2] Clear OPP wrap label, 40 µ; label size (W x H) 98 x 105 mm.
+------------------------------------------------------------
+Item code VCG-9273: Sunward Iced Tea, NET WT 8 OZ
+Pack BOM:
+  C1) rPET bottle, blow-moulded, PET, avg wall thickness 0.25mm, total surface 376 cm².
+  Component C2: Steel lug cap 63 mm. Unit wt: 0.39 oz.
+  [C3] Front label, coated paper 60# (3000 ft² ream); label size 9.5" W x 2" H.
+------------------------------------------------------------
+Item code PSW-2617: Sunward Tuna, 250 g
+Packaging components:
+  C1) 3-piece steel can; surface area 525 sq cm, average wall 0.18mm tinplate.
+  [C2] Front label, coated paper 60 lb basis wt (3000 sq ft); label size (W x H) 24 x 8 cm.
+------------------------------------------------------------
+Item code MBK-9342: Oakline Electrolyte Drink, 16 fl oz
+Pack BOM:
+  [C1] Co-ex barrier bottle, HDPE 350 µm / EVOH 61 µm / HDPE 350 µm; surface area 119.7 in2.
+  Component C2: PP dispensing pump (all-PP), weighs 11.4g.
+  C3 – Front label, coated paper 80g/m2; label size (W x H) 246 x 50 mm.
+------------------------------------------------------------
+SKU: WVD-8253 | Kestrel Corn Puffs | Net wt 12 oz (340 g)
+Packaging spec:
+  Component C1: Folding carton, 230 recycled CCNB board; flat blank 551 x 430 mm. [thickness unit missing on supplier sheet]
+  [C2] Inner liner bag (flat) — Construction: PE 50µm. Dimensions per face (W x H) 210 x 321 mm.
+------------------------------------------------------------
+SKU# FSR-9131 — Northfield Marinara (Net 500 mL)
+Pack BOM:
+  C1) Amber glass bottle, 12 oz capacity; part weight 8.5 oz.
+  Component C2: PP dispensing pump (all-PP). Unit wt: 9.2g.
+  Component C3: Wrap-around paper label, 50 lb/3000 ft² uncoated; label size 229 mm W x 91 mm H.
+------------------------------------------------------------
+SKU# JPM-5038 — Oakline Salsa Verde (Net wt 12 oz (340 g))
+Packaging spec:
+  Component C1: Flint glass jar, 8 oz capacity; part weight 0.275 kg.
+  C2) Steel lug cap 63 mm; part weight 0.35 oz.
+  C3) Front label, coated paper 80 gsm; label size 199mm × 63mm.
+------------------------------------------------------------
+SKU# ERN-5704 — Northfield Cold Brew (16 fl oz)
+Packaging spec:
+  C1 – PET bottle, PET, avg wall thickness 300 µm, total surface 320 sq cm.
+  Component C2: HDPE flip-top closure, weighs 5.9 grams.
+  [C3] Clear OPP wrap label, 40 mic; label size 56 x 33 mm.
+------------------------------------------------------------
+Item code JKG-9238: Sunward Whole Bean Coffee, Net wt 12 oz (340 g)
+Packaging components:
+  C1 – Side-gusset bag — Spec: 100 g/m2 kraft paper/15 gsm LDPE coating. Dimensions per face 5.25" x 11.75", side gussets 2.25 in (fully opened).
+  C2) One-way degassing valve (PE). Unit wt: 0.04 oz.
+------------------------------------------------------------
+SKU# SRC-1561 — Bluepeak Corn Puffs (16 fl oz)
+Packaging spec:
+  C1) Folding carton, 300 g/m² SBS board, aqueous varnish 4; flat blank 17.75" W x 13.25" H. [thickness unit missing on supplier sheet]
+  C2 – Bag-in-box liner, flat — Laminate: MDO-PE 40µm / 90 µ metallized LLDPE (OD 2.8); adhesive laminated, 1 x 2.5 gsm PU adhesive. Dimensions per face 7in × 12.25in.
+------------------------------------------------------------
+Item code NFE-3059: Oakline Dark Chocolate Squares, Net wt 2.5 oz (70 g)
+Pack BOM:
+  C1 – Flat pouch — Structure (out→in): LLDPE 25um / met-PE 2.5 mils (~50 nm Al); bonded with 2.5 gsm adhesive at each of the 1 interfaces. Dimensions per face 5.75in × 4in.
