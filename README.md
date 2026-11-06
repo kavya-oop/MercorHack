@@ -62,7 +62,7 @@ response mode). The AI never sees `ground_truth.json` or checker code.
 | `epr/spec_parser.py` | **Checker's own parser** of raw spec text → layers, dimensions, mass range, or "uncertain". |
 | `epr/checker.py` | Rules a–g. |
 | `epr/ai_runner.py` | Fresh LLM call per catalog; manual mode. |
-| `epr/evaluate.py` | Ground-truth labelling + checker precision/recall. |
+| `epr/evaluate.py` | Ground-truth labelling + scoring the checker's flags (caught / false alarms / missed). |
 | `epr/inject_errors.py` | Synthetic error-injected reports for stress testing. |
 | `app.py` | Streamlit demo. |
 
@@ -166,8 +166,7 @@ Full reports: `data/results/gemini/evaluation.md` (real model) and
 | AI error rate (all catalogs) | 755 / 1,348 = **56.0 %** |
 | AI error rate (17 catalogs it answered) | 528 / 1,121 = **47.1 %** (478 weight errors, 125 category errors, 8 unit-factor errors) |
 | AI total weight vs. truth (answered catalogs) | between −41 % and +28 %; 16 of 17 under-reported |
-| Checker precision / recall | **99.8 % / 88.4 %** (TP 645, FP 1, FN 85, TN 585) |
-| Recall if inconclusive counted as missed | 85.4 % |
+| Checker on Gemini's errors | **645 caught, 1 false alarm, 85 missed** (585 correct items correctly passed) |
 | Inconclusive | 32 items (25 actually wrong, 7 actually right) |
 | Totals check fired | 17 / 20 catalogs |
 
@@ -175,7 +174,7 @@ Full reports: `data/results/gemini/evaluation.md` (real model) and
   inside the physics tolerance band. This is the tolerance tradeoff in limitation 5.
 - **The 1 false positive** (cat_15 HLM-7463/C2) is a real AI conversion mistake: it converted
   60 lb/3000 ft² paper to 88.8 g/m² (correct: 97.6 g/m²). The weight ends up 9 % low, which counts as
-  "correct" under the ±10 % rule but is outside the ±5 % grammage band. It is scored as an FP anyway.
+  "correct" under the ±10 % rule but is outside the ±5 % grammage band. It is scored as a false alarm anyway.
 - Error rate by hard case (answered + empty catalogs): foil 91 %, gusset 92 %, laminate 89 %, metallized 86 %,
   HDPE/EVOH multilayer 100 %, while stated-weight parts were 25 %. Gemini handles "copy a number"
   well and "compute a laminate" badly.
@@ -192,10 +191,10 @@ It looks like paper but is mostly plastic by mass, and the checker sees that fro
 
 ### Synthetic stress test (injected errors, NOT AI output)
 
-1,449 items, 35 % with one injected error each. Precision **100 %**, recall **96.2 %** (TP 486, FP 0,
-FN 19, inconclusive 41). Every missing / duplicate / extra / unit-factor / category / metallized-vs-foil
+1,449 items, 35 % with one injected error each. **486 errors caught, 0 false alarms, 19 missed**,
+41 inconclusive. Every missing / duplicate / extra / unit-factor / category / metallized-vs-foil
 injection was caught (or marked inconclusive). All 19 misses are deliberately "subtle" 12–18 % weight
-errors. An earlier version had 59 FPs here: 57 from a ±3 % stated-weight band (now ±10 %) and 2 from a
+errors. An earlier version had 59 false alarms here: 57 from a ±3 % stated-weight band (now ±10 %) and 2 from a
 bug where an unparseable foil token made the metallized/foil check say "no foil in spec" (fixed:
 it now falls back to the raw wording).
 
@@ -211,11 +210,11 @@ it now falls back to the raw wording).
    would hit both. Mitigated by 28 tests with hand-computed values, but not eliminated.
 4. **Placeholder categories.** The checker verifies physical plausibility, completeness and internal
    consistency, **not legal correctness** of categories.
-5. **Tolerances drive FP/FN.** Physics ranges are about ±15 % wide (thickness ±10 %, density spread,
+5. **Tolerances drive false alarms vs misses.** Physics ranges are about ±15 % wide (thickness ±10 %, density spread,
    dimensions ±2 %), so AI weight errors of roughly 10–18 % can pass (false negatives). Tighter
    tolerances would catch them but flag correct items when real films are off-gauge. Stated weights
    use ±10 % on purpose (an earlier ±3 % produced 57 false positives on the stress test).
 6. **Rigid parts** are modelled as surface area × average wall thickness, which is a simplification.
-7. **Stress-test numbers are synthetic.** They measure recall per error type on controlled errors; they
+7. **Stress-test numbers are synthetic.** They measure how many of each error type the checker catches on controlled errors; they
    are not a claim about any AI's error rate.
 8. **Coatings/inks/tin layer** masses are only included where the spec gives a coat weight; the tinplate tin layer is ignored.
