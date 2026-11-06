@@ -1,7 +1,7 @@
 """Demo UI:  streamlit run app.py
 
 Left: raw spec text | Middle: AI's report | Right: checker flags.
-Top: evaluation metrics across all catalogs + a 'hero' example for the demo.
+Top: evaluation metrics across all catalogs + an example for the demo.
 """
 import json
 from pathlib import Path
@@ -48,15 +48,13 @@ if source == "injected":
 ev = load(RES / source / "evaluation.json")
 if ev:
     c = ev["confusion"]
-    m = st.columns(3) + st.columns(4)
+    m = st.columns(3) + st.columns(2)
     pct = lambda x: "n/a" if x is None else f"{x:.1%}"
     m[0].metric("AI error rate", pct(ev["ai_error_rate"]), help=f"{ev['ai_wrong']}/{ev['n_line_items']} line items wrong vs ground truth")
-    m[1].metric("Checker precision", pct(ev["precision"]))
-    m[2].metric("Checker recall", pct(ev["recall"]))
-    m[3].metric("True positives", c["TP"])
-    m[4].metric("False positives", c["FP"])
-    m[5].metric("False negatives", c["FN"])
-    m[6].metric("Inconclusive", ev["inconclusive"]["total"],
+    m[1].metric("AI errors caught", c["TP"])
+    m[2].metric("False alarms", c["FP"], help="Checker flagged an item that was actually correct")
+    m[3].metric("Errors missed", c["FN"])
+    m[4].metric("Inconclusive", ev["inconclusive"]["total"],
                 help=f"{ev['inconclusive']['on_wrong_items']} on wrong items, {ev['inconclusive']['on_right_items']} on right items")
     failed = [t["catalog"] for t in ev["totals"]["per_catalog"] if t.get("format_error") or t.get("ai_returned_items") == 0]
     if failed:
@@ -73,8 +71,8 @@ gt = load(ROOT / "data" / "catalogs" / catalog / "ground_truth.json")
 truth = {(s["sku"], c["component_id"]): c for s in gt["skus"] for c in s["components"]} if gt else {}
 
 
-# ------------------------------------------------------------------ hero
-def hero_score(r):
+# ------------------------------------------------------------------ example
+def example_score(r):
     fails = {c["rule"] for c in r["checks"] if c["status"] == "FAIL"}
     p = r.get("parsed") or {}
     s = 0
@@ -93,12 +91,12 @@ def hero_score(r):
     return s
 
 
-# Pinned hero for the 3-minute demo (a REAL Gemini error, chosen after the run). Falls back to scoring.
-HERO_PIN = {"gemini": ("cat_20", "RLC-1031", "C1")}
+# Pinned example for the 3-minute demo (a REAL Gemini error, chosen after the run). Falls back to scoring.
+EXAMPLE_PIN = {"gemini": ("cat_20", "RLC-1031", "C1")}
 
 
-def find_hero():
-    pin = HERO_PIN.get(source)
+def find_example():
+    pin = EXAMPLE_PIN.get(source)
     if pin and (RES / source / f"{pin[0]}.json").exists():
         for r in load(RES / source / f"{pin[0]}.json")["items"]:
             if (r["sku"], r["component_id"]) == pin[1:]:
@@ -106,20 +104,20 @@ def find_hero():
     best = None
     for f in sorted((RES / source).glob("cat_*.json")):
         for r in load(f)["items"]:
-            sc = hero_score(r)
+            sc = example_score(r)
             if sc and (best is None or sc > best[0]):
                 best = (sc, f.stem, r)
     return best
 
 
-hero = find_hero()
-if hero:
-    _, hcat, r = hero
+example = find_example()
+if example:
+    _, hcat, r = example
     ai = r["ai_item"]
     p = r["parsed"]
     fails = [c for c in r["checks"] if c["status"] == "FAIL"]
     rng = p.get("mass_range_g")
-    st.subheader("⭐ Hero example")
+    st.subheader("⭐ Example")
     hc = st.columns([2, 3])
     with hc[0]:
         st.markdown(f"**{hcat} · {r['sku']} / {r['component_id']}**")

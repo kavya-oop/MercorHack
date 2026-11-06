@@ -182,7 +182,7 @@ Full reports: `data/results/gemini/evaluation.md` (real model) and
 - What Gemini did **not** do in this run: drop a foil layer, or swap metallized for foil. Those rules
   are therefore only exercised by the stress test below.
 
-### Demo hero (real Gemini output)
+### Demo example (real Gemini output)
 
 `cat_20 · RLC-1031 / C1`: stand-up pouch, 40 lb kraft paper / 15 g/m² PE / 8 µm Al foil / 100 µm LLDPE,
 138 × 187 mm faces + 51 mm gusset. **Gemini: 4.19 g, "Paper-based multi-material".
