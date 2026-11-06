@@ -43,6 +43,11 @@ generator ──► spec.txt ──────────────► AI (f
 
 `./run_all.sh` runs steps 1–6.
 
+**Deploy (Streamlit Community Cloud):** the demo only reads the committed
+`data/results/` and `data/catalogs/`, so it needs no API key or secrets. At
+[share.streamlit.io](https://share.streamlit.io) → *Create app* → pick this repo,
+the branch, and main file `app.py` (Python 3.13 was tested).
+
 **AI config** (`.env`, git-ignored): `GEMINI_API_KEY`, `EPR_PROVIDER=gemini`,
 `EPR_MODEL=gemini-3.5-flash-lite`. Each catalog is one stateless `generateContent`
 request containing only the task instructions + `spec.txt` (temperature 0, JSON
